@@ -58,44 +58,6 @@
             padding: 20px;
         }
 
-        .summary {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .summary h3 {
-            margin: 0 0 15px 0;
-            color: #333;
-            text-align: center;
-        }
-
-        .stats {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .stat-item {
-            text-align: center;
-            padding: 10px;
-            background: #f8f9fa;
-            border-radius: 5px;
-        }
-
-        .stat-number {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #667eea;
-        }
-
-        .stat-label {
-            color: #666;
-            font-size: 0.9em;
-        }
-
         .date-selector {
             background: white;
             padding: 20px;
@@ -315,24 +277,6 @@
 
         <div class="main-content">
             <div class="sidebar">
-                <div class="summary">
-                    <h3>📊 요약 통계</h3>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">9</div>
-                            <div class="stat-label">총 게임 수</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">3</div>
-                            <div class="stat-label">캡처 날짜</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">27</div>
-                            <div class="stat-label">총 이미지</div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="date-selector">
                     <h3>📅 날짜 선택</h3>
                     <select id="dateSelect" class="date-select" onchange="showDateContent(this.value)">
