@@ -23,32 +23,35 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            background: white;
+            color: #333;
             padding: 30px;
-            text-align: center;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
         }
 
         .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            font-weight: 300;
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #333;
         }
 
         .header p {
-            margin: 10px 0 0 0;
-            opacity: 0.9;
+            margin: 0;
             font-size: 1.1em;
+            color: #666;
         }
 
         .main-content {
             display: flex;
+            flex-direction: row;
             min-height: 600px;
         }
 
         .sidebar {
-            width: 300px;
-            background: #f8f9fa;
+            width: 250px;
+            background: white;
             padding: 20px;
             border-right: 1px solid #e0e0e0;
         }
@@ -56,6 +59,93 @@
         .content-area {
             flex: 1;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .filter-group {
+            width: 100%;
+        }
+
+        .filter-group.date-group {
+            width: 100%;
+        }
+
+        .filter-group.business-group {
+            width: 100%;
+        }
+
+        .filter-label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: #333;
+            font-size: 1em;
+        }
+
+        .date-select,
+        .business-select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        .date-select:focus,
+        .business-select:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .game-options {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-option {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 6px 8px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .filter-option:hover {
+            background-color: #f8f9fa;
+        }
+
+        .filter-option input[type="radio"] {
+            margin-right: 8px;
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+            accent-color: #007bff;
+        }
+
+        .filter-option input[type="radio"]:checked+.filter-label {
+            color: #007bff;
+            font-weight: 600;
+        }
+
+        .filter-label {
+            color: #333;
+            font-size: 0.9em;
+            cursor: pointer;
         }
 
         .date-selector {
@@ -69,24 +159,6 @@
         .date-selector h3 {
             margin: 0 0 15px 0;
             color: #333;
-        }
-
-        .date-select {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #667eea;
-            border-radius: 8px;
-            font-size: 1em;
-            background: white;
-            color: #333;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .date-select:focus {
-            outline: none;
-            border-color: #764ba2;
-            box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
         }
 
         .game-filter {
@@ -256,6 +328,22 @@
                 border-bottom: 1px solid #e0e0e0;
             }
 
+            .filter-section {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            .filter-group {
+                flex: 1;
+                min-width: 200px;
+            }
+
+            .game-options {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
             .app-grid {
                 grid-template-columns: 1fr;
             }
@@ -277,62 +365,34 @@
 
         <div class="main-content">
             <div class="sidebar">
-                <div class="date-selector">
-                    <h3>📅 날짜 선택</h3>
-                    <select id="dateSelect" class="date-select" onchange="showDateContent(this.value)">
-                        <option value="20250823">2025-08-23</option>
-                        <option value="20250822">2025-08-22</option>
-                        <option value="20250821">2025-08-21</option>
-                        <option value="20250813">2025-08-13</option>
-                    </select>
-                </div>
-
-                <div class="game-filter">
-                    <h3>🎮 게임 필터</h3>
-                    <div class="filter-options">
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="all" checked
-                                onchange="filterGames(this.value)">
-                            <span class="filter-label">전체 게임</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="NewMatgo" onchange="filterGames(this.value)">
-                            <span class="filter-label">뉴맞고</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="NewMatgoKakao"
-                                onchange="filterGames(this.value)">
-                            <span class="filter-label">뉴맞고카카오</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="Sudda" onchange="filterGames(this.value)">
-                            <span class="filter-label">섯다</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="SuddaKakao" onchange="filterGames(this.value)">
-                            <span class="filter-label">섯다카카오</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="Original" onchange="filterGames(this.value)">
-                            <span class="filter-label">오리지널</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="Poker" onchange="filterGames(this.value)">
-                            <span class="filter-label">포커</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="PokerKakao" onchange="filterGames(this.value)">
-                            <span class="filter-label">포커카카오</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="ShowdownHoldem"
-                                onchange="filterGames(this.value)">
-                            <span class="filter-label">쇼다운홀덤</span>
-                        </label>
-                        <label class="filter-option">
-                            <input type="radio" name="gameFilter" value="NewVegas" onchange="filterGames(this.value)">
-                            <span class="filter-label">뉴베가스</span>
-                        </label>
+                <div class="filter-section">
+                    <div class="filter-group date-group">
+                        <label class="filter-label">📅 날짜 선택</label>
+                        <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                            <option value="20250823">2025-08-23</option>
+                            <option value="20250822">2025-08-22</option>
+                            <option value="20250821">2025-08-21</option>
+                            <option value="20250813">2025-08-13</option>
+                        </select>
+                    </div>
+                    <div class="filter-group business-group">
+                        <label class="filter-label">🏢 사업실 선택</label>
+                        <select id="businessSelect" class="business-select" onchange="handleBusinessChange()">
+                            <option value="all">전체 사업실</option>
+                            <option value="red">🎴 레드사업실</option>
+                            <option value="blue">🃏 블루사업실</option>
+                            <option value="brown">🎰 브라운사업실</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">🎮 게임 필터</label>
+                        <div class="game-options">
+                            <label class="filter-option">
+                                <input type="radio" name="gameFilter" value="all" checked
+                                    onchange="filterGames(this.value)">
+                                <span class="filter-label">전체</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,7 +487,7 @@
             `;
         }
 
-        function showDateContent(selectedDate) {
+        function showDateContent(selectedDate, selectedBusiness = 'all') {
             const contentArea = document.querySelector('.content-area');
             const prevDate = getPreviousWeekDate(selectedDate);
 
@@ -436,38 +496,119 @@
             const blueGames = games.filter(game => game.business === 'blue');
             const brownGames = games.filter(game => game.business === 'brown');
 
-            // 콘텐츠 생성
-            const content = `
-                ${createBusinessGroup('red', '🔴 레드사업실', '', redGames, selectedDate, prevDate)}
-                ${createBusinessGroup('blue', '🔵 블루사업실', 'blue', blueGames, selectedDate, prevDate)}
-                ${createBusinessGroup('brown', '🟤 브라운사업실', 'brown', brownGames, selectedDate, prevDate)}
-            `;
+            let content = '';
+
+            if (selectedBusiness === 'all') {
+                // 모든 사업실 그룹 표시
+                content = `
+                    ${createBusinessGroup('red', '🎴 레드사업실', '', redGames, selectedDate, prevDate)}
+                    ${createBusinessGroup('blue', '🃏 블루사업실', 'blue', blueGames, selectedDate, prevDate)}
+                    ${createBusinessGroup('brown', '🎰 브라운사업실', 'brown', brownGames, selectedDate, prevDate)}
+                `;
+            } else if (selectedBusiness === 'red') {
+                // 레드사업실만 표시
+                content = createBusinessGroup('red', '🎴 레드사업실', '', redGames, selectedDate, prevDate);
+            } else if (selectedBusiness === 'blue') {
+                // 블루사업실만 표시
+                content = createBusinessGroup('blue', '🃏 블루사업실', 'blue', blueGames, selectedDate, prevDate);
+            } else if (selectedBusiness === 'brown') {
+                // 브라운사업실만 표시
+                content = createBusinessGroup('brown', '🎰 브라운사업실', 'brown', brownGames, selectedDate, prevDate);
+            }
 
             contentArea.innerHTML = content;
         }
 
         function filterGames(selectedGame) {
-            // 모든 게임 카드 가져오기
+            // 모든 게임 카드와 비즈니스 그룹 가져오기
             var gameCards = document.querySelectorAll('.app-card');
+            var businessGroups = document.querySelectorAll('.business-group');
 
-            gameCards.forEach(function (card) {
-                if (selectedGame === 'all') {
-                    // 전체 게임 선택 시 모든 카드 표시
-                    card.style.display = 'block';
-                } else {
-                    // 특정 게임 선택 시 해당 게임만 표시
+            if (selectedGame === 'all') {
+                // 전체 선택 시 현재 표시된 비즈니스 그룹의 모든 게임 카드 표시
+                businessGroups.forEach(function (group) {
+                    if (group.style.display !== 'none') {
+                        const cardsInGroup = group.querySelectorAll('.app-card');
+                        cardsInGroup.forEach(function (card) {
+                            card.style.display = 'block';
+                        });
+                    }
+                });
+            } else {
+                // 특정 게임 선택 시 해당 게임만 표시
+                gameCards.forEach(function (card) {
                     if (card.getAttribute('data-game') === selectedGame) {
                         card.style.display = 'block';
                     } else {
                         card.style.display = 'none';
                     }
-                }
-            });
+                });
+            }
+        }
+
+        function updateGameOptions(selectedBusiness) {
+            const gameOptionsContainer = document.querySelector('.game-options');
+
+            if (selectedBusiness === 'all') {
+                // 전체 사업실 선택 시 "전체" 옵션만 표시
+                const gameOptionsHtml = `
+                    <label class="filter-option">
+                        <input type="radio" name="gameFilter" value="all" checked onchange="filterGames(this.value)">
+                        <span class="filter-label">전체</span>
+                    </label>
+                `;
+                gameOptionsContainer.innerHTML = gameOptionsHtml;
+                filterGames('all');
+            } else {
+                // 특정 사업실 선택 시 해당 사업실의 게임들만 표시 (전체 옵션 포함)
+                const filteredGames = games.filter(game => game.business === selectedBusiness);
+                const gameOptionsHtml = `
+                    <label class="filter-option">
+                        <input type="radio" name="gameFilter" value="all" checked onchange="filterGames(this.value)">
+                        <span class="filter-label">전체</span>
+                    </label>
+                    ${filteredGames.map((game, index) => `
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="${game.name}" onchange="filterGames(this.value)">
+                            <span class="filter-label">${game.displayName}</span>
+                        </label>
+                    `).join('')}
+                `;
+
+                gameOptionsContainer.innerHTML = gameOptionsHtml;
+
+                // 전체 선택으로 기본 설정
+                filterGames('all');
+            }
+        }
+
+        function handleBusinessChange() {
+            const selectedBusiness = document.getElementById('businessSelect').value;
+            const selectedDate = document.getElementById('dateSelect').value;
+
+            // 콘텐츠를 업데이트 (사업실 필터링 포함)
+            showDateContent(selectedDate, selectedBusiness);
+
+            // 게임 옵션 업데이트
+            updateGameOptions(selectedBusiness);
+        }
+
+        function handleDateChange() {
+            const selectedDate = document.getElementById('dateSelect').value;
+            const selectedBusiness = document.getElementById('businessSelect').value;
+
+            // 콘텐츠를 업데이트 (날짜 변경 시 사업실 유지)
+            showDateContent(selectedDate, selectedBusiness);
+
+            // 게임 옵션 업데이트
+            updateGameOptions(selectedBusiness);
         }
 
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
             showDateContent('20250823');
+            updateGameOptions('all');
+            filterGames('all');
         });
     </script>
 </body>
