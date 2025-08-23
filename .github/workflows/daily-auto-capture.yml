@@ -65,3 +65,51 @@ jobs:
         name: capture-logs-${{ github.run_number }}
         path: logs/
         retention-days: 30
+        
+    - name: Send success email notification
+      if: success()
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.gmail.com
+        server_port: 587
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        subject: "✅ AOS Review Auto Capture - 성공"
+        to: shevano7@neowiz.com
+        from: ${{ secrets.EMAIL_USERNAME }}
+        body: |
+          🎉 GitHub Actions 자동 캡처가 성공적으로 완료되었습니다!
+          
+          📅 실행 시간: ${{ github.event.head_commit.timestamp }}
+          🔗 저장소: ${{ github.repository }}
+          📊 실행 번호: ${{ github.run_number }}
+          
+          📁 결과물:
+          - 캡처된 이미지: ${{ github.repository }}/tree/master/${{ github.run_number }}
+          - 웹사이트: https://jaeleehong.github.io/aos_review/
+          
+          모든 게임의 Google Play 리뷰가 정상적으로 캡처되었습니다.
+          
+    - name: Send failure email notification
+      if: failure()
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.gmail.com
+        server_port: 587
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        subject: "❌ AOS Review Auto Capture - 실패"
+        to: shevano7@neowiz.com
+        from: ${{ secrets.EMAIL_USERNAME }}
+        body: |
+          ⚠️ GitHub Actions 자동 캡처가 실패했습니다!
+          
+          📅 실행 시간: ${{ github.event.head_commit.timestamp }}
+          🔗 저장소: ${{ github.repository }}
+          📊 실행 번호: ${{ github.run_number }}
+          
+          🔍 문제 해결:
+          - GitHub Actions 로그 확인: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          - 수동 실행 시도: ${{ github.server_url }}/${{ github.repository }}/actions/workflows/daily-auto-capture.yml
+          
+          즉시 확인이 필요합니다.
