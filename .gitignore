@@ -1,0 +1,135 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일들
+logs/
+*.log
+
+# 캡처된 이미지 파일들 (날짜별 폴더) - GitHub에서 정상 표시를 위해 포함
+# 2025*/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+
+# 앱 아이콘은 포함 (GitHub에서 정상 표시를 위해)
+!앱아이콘/
+!*.webp
+
+# 임시 파일들
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 설정 파일들 (개인 정보 포함 가능)
+config.ini
+settings.json
+.env
+
+# 백업 파일들
+*.bak
+*.backup
+*.old
+
+# 실행 파일들
+*.exe
+*.bat
+*.cmd
+
+# 압축 파일들
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# 기타
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# aos review 폴더 보호 - 모든 파일 유지
+# 현재 디렉토리와 하위 디렉토리의 모든 파일 보호
+!*/
+!*.*
+!*/*
+
+# 특정 파일 타입들 명시적 보호
+!*.html
+!*.py
+!*.bat
+!*.md
+!*.txt
+!*.json
+!*.xml
+!*.css
+!*.js
+!*.ico
+!*.svg
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.bmp
+!*.webp
+!*.pdf
+!*.doc
+!*.docx
+!*.xls
+!*.xlsx
+!*.ppt
+!*.pptx
+
+# 날짜별 폴더 보호 (2025년 폴더들)
+!2025*/
+!2025*/*
+
+# 앱아이콘 폴더 보호
+!앱아이콘/
+!앱아이콘/*
+
+# 히스토리 폴더 보호
+!히스토리/
+!히스토리/*
+
+# 로그 폴더는 제외하되, 폴더 자체는 보호
+logs/
+!logs/
+!logs/*.log

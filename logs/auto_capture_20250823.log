@@ -1,0 +1,905 @@
+2025-08-23 09:05:45,643 - INFO - ==================================================
+2025-08-23 09:05:45,645 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:05:45,646 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:05:45,653 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:05:45,654 - INFO - ==================================================
+2025-08-23 09:05:45,659 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:05:51,760 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:05:51,782 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:05:51,843 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:06:03,086 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgo
+2025-08-23 09:06:13,435 - ERROR - 평점 섹션을 찾을 수 없습니다: NewMatgo - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:06:13,446 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:06:13,447 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:06:20,286 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgoKakao
+2025-08-23 09:06:30,781 - ERROR - 평점 섹션을 찾을 수 없습니다: NewMatgoKakao - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:06:30,795 - INFO - 캡처 진행 중: Original
+2025-08-23 09:06:30,802 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:06:48,409 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Original
+2025-08-23 09:06:58,841 - ERROR - 평점 섹션을 찾을 수 없습니다: Original - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:06:58,849 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:06:58,851 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:07:07,909 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Poker
+2025-08-23 09:07:18,294 - ERROR - 평점 섹션을 찾을 수 없습니다: Poker - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:07:18,298 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:07:18,299 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:07:24,787 - INFO - 리뷰 모두 보기 버튼 클릭 성공: PokerKakao
+2025-08-23 09:07:34,849 - ERROR - 평점 섹션을 찾을 수 없습니다: PokerKakao - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:07:34,852 - INFO - 캡처 진행 중: Sudda
+2025-08-23 09:07:34,852 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-23 09:07:41,120 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Sudda
+2025-08-23 09:07:51,356 - ERROR - 평점 섹션을 찾을 수 없습니다: Sudda - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:07:51,359 - INFO - 캡처 진행 중: SuddaKakao
+2025-08-23 09:07:51,359 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-23 09:07:57,921 - INFO - 리뷰 모두 보기 버튼 클릭 성공: SuddaKakao
+2025-08-23 09:08:08,169 - ERROR - 평점 섹션을 찾을 수 없습니다: SuddaKakao - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:08:08,172 - INFO - 캡처 진행 중: ShowdownHoldem
+2025-08-23 09:08:08,172 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-23 09:08:14,197 - INFO - 리뷰 모두 보기 버튼 클릭 성공: ShowdownHoldem
+2025-08-23 09:08:24,418 - ERROR - 평점 섹션을 찾을 수 없습니다: ShowdownHoldem - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:08:24,421 - INFO - 캡처 진행 중: NewVegas
+2025-08-23 09:08:24,422 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-23 09:08:30,603 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewVegas
+2025-08-23 09:08:40,845 - ERROR - 평점 섹션을 찾을 수 없습니다: NewVegas - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb0378d5+2802741]
+	GetHandleVerifier [0x0x7ff7bad9eb70+79568]
+	(No symbol) [0x0x7ff7bab3c0fa]
+	(No symbol) [0x0x7ff7bab92a96]
+	(No symbol) [0x0x7ff7bab92d4c]
+	(No symbol) [0x0x7ff7babe6017]
+	(No symbol) [0x0x7ff7babbaccf]
+	(No symbol) [0x0x7ff7babe2e24]
+	(No symbol) [0x0x7ff7babbaa63]
+	(No symbol) [0x0x7ff7bab83c91]
+	(No symbol) [0x0x7ff7bab84a23]
+	GetHandleVerifier [0x0x7ff7bb062ced+2979917]
+	GetHandleVerifier [0x0x7ff7bb05d0f3+2956371]
+	GetHandleVerifier [0x0x7ff7bb07acbd+3078173]
+	GetHandleVerifier [0x0x7ff7badb836e+184014]
+	GetHandleVerifier [0x0x7ff7badc024f+216495]
+	GetHandleVerifier [0x0x7ff7bada70c4+113700]
+	GetHandleVerifier [0x0x7ff7bada7279+114137]
+	GetHandleVerifier [0x0x7ff7bad8df78+10968]
+	(No symbol) [0x0x7fff23337344]
+	RtlUserThreadStart [0x0x7fff24d3cc91+33]
+
+2025-08-23 09:08:40,847 - INFO - 캡처 완료: 0개 게임 성공
+2025-08-23 09:08:40,848 - ERROR - 캡처된 이미지가 없습니다.
+2025-08-23 09:08:43,240 - INFO - Chrome WebDriver 종료
+2025-08-23 09:11:38,391 - INFO - ==================================================
+2025-08-23 09:11:38,392 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:11:38,393 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:11:38,393 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:11:38,393 - INFO - ==================================================
+2025-08-23 09:11:38,394 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:11:42,101 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:11:42,122 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:11:42,123 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:11:52,583 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:11:56,792 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:11:56,977 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:11:57,185 - INFO - 캡처 완료: NewMatgo_20250823.png
+2025-08-23 09:11:57,188 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:11:57,189 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:12:04,625 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:07,713 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:07,782 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:07,941 - INFO - 캡처 완료: NewMatgoKakao_20250823.png
+2025-08-23 09:12:07,944 - INFO - 캡처 진행 중: Original
+2025-08-23 09:12:07,944 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:12:14,442 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:17,601 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:17,620 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:17,770 - INFO - 캡처 완료: Original_20250823.png
+2025-08-23 09:12:17,774 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:12:17,774 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:12:23,805 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:26,934 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:26,953 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:27,098 - INFO - 캡처 완료: Poker_20250823.png
+2025-08-23 09:12:27,100 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:12:27,100 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:12:33,314 - INFO - 리뷰 모두 보기 버튼 클릭 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:36,417 - INFO - 평점 섹션 찾기 성공: PokerKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:36,436 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:36,594 - INFO - 캡처 완료: PokerKakao_20250823.png
+2025-08-23 09:12:36,597 - INFO - 캡처 진행 중: Sudda
+2025-08-23 09:12:36,598 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-23 09:12:42,666 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:45,806 - INFO - 평점 섹션 찾기 성공: Sudda (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:45,824 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:45,972 - INFO - 캡처 완료: Sudda_20250823.png
+2025-08-23 09:12:45,974 - INFO - 캡처 진행 중: SuddaKakao
+2025-08-23 09:12:45,974 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-23 09:12:51,693 - INFO - 리뷰 모두 보기 버튼 클릭 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:54,873 - INFO - 평점 섹션 찾기 성공: SuddaKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:12:54,892 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:12:55,055 - INFO - 캡처 완료: SuddaKakao_20250823.png
+2025-08-23 09:12:55,057 - INFO - 캡처 진행 중: ShowdownHoldem
+2025-08-23 09:12:55,057 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-23 09:13:01,170 - INFO - 리뷰 모두 보기 버튼 클릭 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:13:04,291 - INFO - 평점 섹션 찾기 성공: ShowdownHoldem (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:13:04,318 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:13:04,453 - INFO - 캡처 완료: ShowdownHoldem_20250823.png
+2025-08-23 09:13:04,455 - INFO - 캡처 진행 중: NewVegas
+2025-08-23 09:13:04,455 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-23 09:13:10,547 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:13:13,776 - INFO - 평점 섹션 찾기 성공: NewVegas (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:13:13,807 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:13:13,999 - INFO - 캡처 완료: NewVegas_20250823.png
+2025-08-23 09:13:14,064 - INFO - 캡처 완료: 9개 게임 성공
+2025-08-23 09:13:14,071 - INFO - HTML 파일 업데이트 시작
+2025-08-23 09:13:14,072 - INFO - HTML 파일 업데이트 시작: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:13:14,080 - INFO - 날짜 선택 드롭다운 업데이트: 20250823
+2025-08-23 09:13:14,093 - INFO - 통계 정보 업데이트: 캡처 일수 +1, 총 이미지 +9, 최근 캡처 20250823
+2025-08-23 09:13:14,140 - INFO - HTML 파일 업데이트 완료: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:13:14,148 - INFO - ==================================================
+2025-08-23 09:13:14,151 - INFO - 자동화 완료!
+2025-08-23 09:13:14,158 - INFO - 캡처된 게임: NewMatgo, NewMatgoKakao, Original, Poker, PokerKakao, Sudda, SuddaKakao, ShowdownHoldem, NewVegas
+2025-08-23 09:13:14,162 - INFO - ==================================================
+2025-08-23 09:13:17,304 - INFO - Chrome WebDriver 종료
+2025-08-23 09:17:44,135 - INFO - ==================================================
+2025-08-23 09:17:44,135 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:17:44,136 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:17:44,136 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:17:44,136 - INFO - ==================================================
+2025-08-23 09:17:44,137 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:17:48,446 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:17:48,471 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:17:48,476 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:17:58,778 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:02,090 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:18:02,107 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:02,270 - INFO - 스크린샷 캡처 시작: NewMatgo
+2025-08-23 09:18:05,415 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:18:05,415 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: NewMatgo
+2025-08-23 09:18:05,415 - INFO - 크롭 영역: top=2096, bottom=932
+2025-08-23 09:18:05,416 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:18:05,472 - INFO - 캡처 완료: NewMatgo_20250823.png (크기: 1902 x 932)
+2025-08-23 09:18:05,473 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:18:05,473 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:18:12,790 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:15,870 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:18:15,885 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:16,016 - INFO - 스크린샷 캡처 시작: NewMatgoKakao
+2025-08-23 09:18:19,130 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:18:19,131 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: NewMatgoKakao
+2025-08-23 09:18:19,132 - INFO - 크롭 영역: top=2096, bottom=932
+2025-08-23 09:18:19,132 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:18:19,191 - INFO - 캡처 완료: NewMatgoKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:18:19,193 - INFO - 캡처 진행 중: Original
+2025-08-23 09:18:19,195 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:18:27,362 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:30,663 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:18:30,683 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:30,792 - INFO - 스크린샷 캡처 시작: Original
+2025-08-23 09:18:33,925 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:18:33,928 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: Original
+2025-08-23 09:18:33,928 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:18:33,929 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:18:33,993 - INFO - 캡처 완료: Original_20250823.png (크기: 1902 x 932)
+2025-08-23 09:18:33,994 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:18:33,994 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:18:40,708 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:43,847 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:18:43,861 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:43,978 - INFO - 스크린샷 캡처 시작: Poker
+2025-08-23 09:18:47,093 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:18:47,094 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: Poker
+2025-08-23 09:18:47,094 - INFO - 크롭 영역: top=2096, bottom=932
+2025-08-23 09:18:47,095 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:18:47,167 - INFO - 캡처 완료: Poker_20250823.png (크기: 1902 x 932)
+2025-08-23 09:18:47,168 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:18:47,168 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:18:53,394 - INFO - 리뷰 모두 보기 버튼 클릭 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:56,525 - INFO - 평점 섹션 찾기 성공: PokerKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:18:56,563 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:18:56,815 - INFO - 스크린샷 캡처 시작: PokerKakao
+2025-08-23 09:18:59,929 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:18:59,930 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: PokerKakao
+2025-08-23 09:18:59,930 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:18:59,930 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:18:59,995 - INFO - 캡처 완료: PokerKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:18:59,997 - INFO - 캡처 진행 중: Sudda
+2025-08-23 09:18:59,997 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-23 09:19:06,000 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:09,094 - INFO - 평점 섹션 찾기 성공: Sudda (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:19:09,118 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:09,236 - INFO - 스크린샷 캡처 시작: Sudda
+2025-08-23 09:19:12,341 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:19:12,342 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: Sudda
+2025-08-23 09:19:12,342 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:19:12,342 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:19:12,400 - INFO - 캡처 완료: Sudda_20250823.png (크기: 1902 x 932)
+2025-08-23 09:19:12,400 - INFO - 캡처 진행 중: SuddaKakao
+2025-08-23 09:19:12,401 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-23 09:19:18,600 - INFO - 리뷰 모두 보기 버튼 클릭 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:21,747 - INFO - 평점 섹션 찾기 성공: SuddaKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:19:21,821 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:21,965 - INFO - 스크린샷 캡처 시작: SuddaKakao
+2025-08-23 09:19:25,076 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:19:25,076 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: SuddaKakao
+2025-08-23 09:19:25,077 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:19:25,077 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:19:25,141 - INFO - 캡처 완료: SuddaKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:19:25,143 - INFO - 캡처 진행 중: ShowdownHoldem
+2025-08-23 09:19:25,146 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-23 09:19:31,525 - INFO - 리뷰 모두 보기 버튼 클릭 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:34,636 - INFO - 평점 섹션 찾기 성공: ShowdownHoldem (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:19:34,665 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:34,775 - INFO - 스크린샷 캡처 시작: ShowdownHoldem
+2025-08-23 09:19:37,888 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:19:37,888 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: ShowdownHoldem
+2025-08-23 09:19:37,888 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:19:37,889 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:19:37,952 - INFO - 캡처 완료: ShowdownHoldem_20250823.png (크기: 1902 x 932)
+2025-08-23 09:19:37,967 - INFO - 캡처 진행 중: NewVegas
+2025-08-23 09:19:37,984 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-23 09:19:44,632 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:47,774 - INFO - 평점 섹션 찾기 성공: NewVegas (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:19:47,794 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:19:47,911 - INFO - 스크린샷 캡처 시작: NewVegas
+2025-08-23 09:19:51,018 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:19:51,019 - WARNING - 리뷰 섹션을 찾을 수 없습니다. 기존 방식으로 캡처합니다: NewVegas
+2025-08-23 09:19:51,019 - INFO - 크롭 영역: top=2048, bottom=932
+2025-08-23 09:19:51,020 - WARNING - 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:19:51,077 - INFO - 캡처 완료: NewVegas_20250823.png (크기: 1902 x 932)
+2025-08-23 09:19:51,079 - INFO - 캡처 완료: 9개 게임 성공
+2025-08-23 09:19:51,079 - INFO - HTML 파일 업데이트 시작
+2025-08-23 09:19:51,079 - INFO - HTML 파일 업데이트 시작: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:19:51,084 - INFO - 통계 정보 업데이트: 캡처 일수 +1, 총 이미지 +9, 최근 캡처 20250823
+2025-08-23 09:19:51,093 - INFO - HTML 파일 업데이트 완료: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:19:51,094 - INFO - ==================================================
+2025-08-23 09:19:51,094 - INFO - 자동화 완료!
+2025-08-23 09:19:51,094 - INFO - 캡처된 게임: NewMatgo, NewMatgoKakao, Original, Poker, PokerKakao, Sudda, SuddaKakao, ShowdownHoldem, NewVegas
+2025-08-23 09:19:51,095 - INFO - ==================================================
+2025-08-23 09:19:54,895 - INFO - Chrome WebDriver 종료
+2025-08-23 09:21:10,246 - INFO - ==================================================
+2025-08-23 09:21:10,246 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:21:10,248 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:21:10,249 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:21:10,250 - INFO - ==================================================
+2025-08-23 09:21:10,252 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:21:15,160 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:21:15,168 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:21:15,169 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:21:23,865 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:27,055 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:21:27,077 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:21:27,127 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:27,173 - INFO - 리뷰 버튼 위치: y=3294, bottom=3294
+2025-08-23 09:21:27,364 - INFO - 리뷰 섹션 찾기 성공: NewMatgo (선택자 14: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:21:27,365 - INFO - 스크린샷 캡처 시작: NewMatgo
+2025-08-23 09:21:30,502 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:21:30,530 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:21:30,531 - INFO - 리뷰 섹션 크기: width=860, height=1322
+2025-08-23 09:21:30,531 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:21:30,532 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:21:30,631 - INFO - 캡처 완료: NewMatgo_20250823.png (크기: 1902 x 932)
+2025-08-23 09:21:30,715 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:21:30,772 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:21:37,942 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:41,038 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:21:41,076 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:21:41,102 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:41,109 - INFO - 리뷰 버튼 위치: y=3478, bottom=3478
+2025-08-23 09:21:41,212 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 14: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:21:41,212 - INFO - 스크린샷 캡처 시작: NewMatgoKakao
+2025-08-23 09:21:44,384 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:21:44,500 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:21:44,501 - INFO - 리뷰 섹션 크기: width=860, height=1506
+2025-08-23 09:21:44,501 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:21:44,502 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:21:44,564 - INFO - 캡처 완료: NewMatgoKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:21:44,567 - INFO - 캡처 진행 중: Original
+2025-08-23 09:21:44,568 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:21:51,062 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:54,193 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:21:54,213 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:21:54,248 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:21:54,266 - INFO - 리뷰 버튼 위치: y=3410, bottom=3410
+2025-08-23 09:21:54,439 - INFO - 리뷰 섹션 찾기 성공: Original (선택자 14: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:21:54,439 - INFO - 스크린샷 캡처 시작: Original
+2025-08-23 09:21:57,594 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:21:57,857 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:21:57,858 - INFO - 리뷰 섹션 크기: width=860, height=1486
+2025-08-23 09:21:57,859 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:21:57,859 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:21:57,920 - INFO - 캡처 완료: Original_20250823.png (크기: 1902 x 932)
+2025-08-23 09:21:57,929 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:21:57,933 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:22:04,166 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:22:07,270 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:22:07,285 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:22:07,316 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:22:07,327 - INFO - 리뷰 버튼 위치: y=3398, bottom=3398
+2025-08-23 09:22:07,452 - INFO - 리뷰 섹션 찾기 성공: Poker (선택자 14: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:22:07,453 - INFO - 스크린샷 캡처 시작: Poker
+2025-08-23 09:22:10,564 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:22:10,598 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:22:10,599 - INFO - 리뷰 섹션 크기: width=860, height=1426
+2025-08-23 09:22:10,599 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:22:10,600 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:22:10,659 - INFO - 캡처 완료: Poker_20250823.png (크기: 1902 x 932)
+2025-08-23 09:22:10,660 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:22:10,660 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:22:16,974 - INFO - 리뷰 모두 보기 버튼 클릭 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:22:20,602 - INFO - 평점 섹션 찾기 성공: PokerKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:22:20,653 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:22:20,681 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:22:20,690 - INFO - 리뷰 버튼 위치: y=3510, bottom=3510
+2025-08-23 09:22:21,006 - INFO - 리뷰 섹션 찾기 성공: PokerKakao (선택자 14: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:22:21,007 - INFO - 스크린샷 캡처 시작: PokerKakao
+2025-08-23 09:22:28,349 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204BE927250>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/ac5b6181046331f04f56e8ab025c1fec
+2025-08-23 09:22:32,409 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204BF3B42D0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/ac5b6181046331f04f56e8ab025c1fec
+2025-08-23 09:22:36,515 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204BF3A4B00>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/ac5b6181046331f04f56e8ab025c1fec
+2025-08-23 09:22:44,824 - INFO - Chrome WebDriver 종료
+2025-08-23 09:28:18,773 - INFO - ==================================================
+2025-08-23 09:28:18,774 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:28:18,774 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:28:18,775 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:28:18,775 - INFO - ==================================================
+2025-08-23 09:28:18,776 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:28:22,265 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:28:22,270 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:28:22,271 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:28:28,445 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:31,704 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:28:31,724 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:28:31,751 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgo (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:31,760 - INFO - 리뷰 버튼 위치: y=3294, bottom=3294
+2025-08-23 09:28:31,774 - INFO - 리뷰 섹션 찾기 성공: NewMatgo (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:28:31,775 - INFO - 스크린샷 캡처 시작: NewMatgo
+2025-08-23 09:28:34,937 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:28:35,136 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:28:35,152 - INFO - 리뷰 섹션 크기: width=860, height=1322
+2025-08-23 09:28:35,152 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:28:35,153 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:28:35,219 - INFO - 캡처 완료: NewMatgo_20250823.png (크기: 1902 x 932)
+2025-08-23 09:28:35,248 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:28:35,272 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:28:41,841 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:44,932 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:28:44,956 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:28:45,008 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewMatgoKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:45,088 - INFO - 리뷰 버튼 위치: y=3478, bottom=3478
+2025-08-23 09:28:45,125 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:28:45,127 - INFO - 스크린샷 캡처 시작: NewMatgoKakao
+2025-08-23 09:28:48,232 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:28:48,260 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:28:48,261 - INFO - 리뷰 섹션 크기: width=860, height=1506
+2025-08-23 09:28:48,261 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:28:48,262 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:28:48,333 - INFO - 캡처 완료: NewMatgoKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:28:48,377 - INFO - 캡처 진행 중: Original
+2025-08-23 09:28:48,393 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:28:56,280 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:59,467 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:28:59,493 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:28:59,525 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Original (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:28:59,572 - INFO - 리뷰 버튼 위치: y=3410, bottom=3410
+2025-08-23 09:28:59,586 - INFO - 리뷰 섹션 찾기 성공: Original (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:28:59,590 - INFO - 스크린샷 캡처 시작: Original
+2025-08-23 09:29:02,708 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:29:02,780 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:29:02,781 - INFO - 리뷰 섹션 크기: width=860, height=1486
+2025-08-23 09:29:02,782 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:29:02,782 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:29:02,856 - INFO - 캡처 완료: Original_20250823.png (크기: 1902 x 932)
+2025-08-23 09:29:02,857 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:29:02,858 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:29:09,234 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:12,901 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:29:12,949 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:29:12,974 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Poker (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:12,982 - INFO - 리뷰 버튼 위치: y=3398, bottom=3398
+2025-08-23 09:29:12,995 - INFO - 리뷰 섹션 찾기 성공: Poker (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:29:12,996 - INFO - 스크린샷 캡처 시작: Poker
+2025-08-23 09:29:16,215 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:29:16,591 - INFO - 리뷰 섹션 위치: x=303, y=2008
+2025-08-23 09:29:16,592 - INFO - 리뷰 섹션 크기: width=860, height=1426
+2025-08-23 09:29:16,592 - INFO - 크롭 영역: left=303, top=2008, right=1163, bottom=932
+2025-08-23 09:29:16,592 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:29:16,655 - INFO - 캡처 완료: Poker_20250823.png (크기: 1902 x 932)
+2025-08-23 09:29:16,662 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:29:16,676 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:29:25,976 - INFO - 리뷰 모두 보기 버튼 클릭 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:29,155 - INFO - 평점 섹션 찾기 성공: PokerKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:29:29,169 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:29:29,218 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: PokerKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:29,231 - INFO - 리뷰 버튼 위치: y=3510, bottom=3510
+2025-08-23 09:29:29,255 - INFO - 리뷰 섹션 찾기 성공: PokerKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:29:29,256 - INFO - 스크린샷 캡처 시작: PokerKakao
+2025-08-23 09:29:32,612 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:29:32,795 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:29:32,800 - INFO - 리뷰 섹션 크기: width=860, height=1586
+2025-08-23 09:29:32,801 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:29:32,801 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:29:32,861 - INFO - 캡처 완료: PokerKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:29:32,862 - INFO - 캡처 진행 중: Sudda
+2025-08-23 09:29:32,863 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-23 09:29:40,231 - INFO - 리뷰 모두 보기 버튼 클릭 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:43,383 - INFO - 평점 섹션 찾기 성공: Sudda (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:29:43,404 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:29:43,420 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: Sudda (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:43,436 - INFO - 리뷰 버튼 위치: y=3370, bottom=3370
+2025-08-23 09:29:43,443 - INFO - 리뷰 섹션 찾기 성공: Sudda (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:29:43,444 - INFO - 스크린샷 캡처 시작: Sudda
+2025-08-23 09:29:46,562 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:29:46,598 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:29:46,601 - INFO - 리뷰 섹션 크기: width=860, height=1446
+2025-08-23 09:29:46,602 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:29:46,606 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:29:46,672 - INFO - 캡처 완료: Sudda_20250823.png (크기: 1902 x 932)
+2025-08-23 09:29:46,677 - INFO - 캡처 진행 중: SuddaKakao
+2025-08-23 09:29:46,678 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-23 09:29:56,493 - INFO - 리뷰 모두 보기 버튼 클릭 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:59,653 - INFO - 평점 섹션 찾기 성공: SuddaKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:29:59,673 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:29:59,690 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: SuddaKakao (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:29:59,698 - INFO - 리뷰 버튼 위치: y=3530, bottom=3530
+2025-08-23 09:29:59,708 - INFO - 리뷰 섹션 찾기 성공: SuddaKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:29:59,708 - INFO - 스크린샷 캡처 시작: SuddaKakao
+2025-08-23 09:30:02,921 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:30:02,972 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:30:02,972 - INFO - 리뷰 섹션 크기: width=860, height=1606
+2025-08-23 09:30:02,972 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:30:02,973 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:30:03,036 - INFO - 캡처 완료: SuddaKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:30:03,037 - INFO - 캡처 진행 중: ShowdownHoldem
+2025-08-23 09:30:03,038 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-23 09:30:10,650 - INFO - 리뷰 모두 보기 버튼 클릭 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:30:13,797 - INFO - 평점 섹션 찾기 성공: ShowdownHoldem (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:30:13,818 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:30:13,855 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: ShowdownHoldem (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:30:13,871 - INFO - 리뷰 버튼 위치: y=3134, bottom=3134
+2025-08-23 09:30:13,883 - INFO - 리뷰 섹션 찾기 성공: ShowdownHoldem (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:30:13,883 - INFO - 스크린샷 캡처 시작: ShowdownHoldem
+2025-08-23 09:30:16,991 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:30:17,009 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:30:17,009 - INFO - 리뷰 섹션 크기: width=860, height=1210
+2025-08-23 09:30:17,009 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:30:17,010 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:30:17,072 - INFO - 캡처 완료: ShowdownHoldem_20250823.png (크기: 1902 x 932)
+2025-08-23 09:30:17,073 - INFO - 캡처 진행 중: NewVegas
+2025-08-23 09:30:17,073 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-23 09:30:23,104 - INFO - 리뷰 모두 보기 버튼 클릭 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:30:26,185 - INFO - 평점 섹션 찾기 성공: NewVegas (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:30:26,200 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:30:26,218 - INFO - 리뷰 모두 보기 버튼 재찾기 성공: NewVegas (선택자 1: //span[contains(text(), '리뷰 모두 보기')])
+2025-08-23 09:30:26,230 - INFO - 리뷰 버튼 위치: y=3338, bottom=3338
+2025-08-23 09:30:26,254 - INFO - 리뷰 섹션 찾기 성공: NewVegas (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:30:26,256 - INFO - 스크린샷 캡처 시작: NewVegas
+2025-08-23 09:30:29,364 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:30:29,383 - INFO - 리뷰 섹션 위치: x=303, y=1960
+2025-08-23 09:30:29,383 - INFO - 리뷰 섹션 크기: width=860, height=1414
+2025-08-23 09:30:29,383 - INFO - 크롭 영역: left=303, top=1960, right=1163, bottom=932
+2025-08-23 09:30:29,383 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:30:29,444 - INFO - 캡처 완료: NewVegas_20250823.png (크기: 1902 x 932)
+2025-08-23 09:30:29,444 - INFO - 캡처 완료: 9개 게임 성공
+2025-08-23 09:30:29,445 - INFO - HTML 파일 업데이트 시작
+2025-08-23 09:30:29,446 - INFO - HTML 파일 업데이트 시작: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:30:29,450 - INFO - 통계 정보 업데이트: 캡처 일수 +1, 총 이미지 +9, 최근 캡처 20250823
+2025-08-23 09:30:29,473 - INFO - HTML 파일 업데이트 완료: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:30:29,474 - INFO - ==================================================
+2025-08-23 09:30:29,474 - INFO - 자동화 완료!
+2025-08-23 09:30:29,474 - INFO - 캡처된 게임: NewMatgo, NewMatgoKakao, Original, Poker, PokerKakao, Sudda, SuddaKakao, ShowdownHoldem, NewVegas
+2025-08-23 09:30:29,475 - INFO - ==================================================
+2025-08-23 09:30:32,254 - INFO - Chrome WebDriver 종료
+2025-08-23 09:32:27,510 - INFO - ==================================================
+2025-08-23 09:32:27,511 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:32:27,512 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:32:27,512 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:32:27,513 - INFO - ==================================================
+2025-08-23 09:32:27,515 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:32:30,775 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:32:30,786 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:32:30,788 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:32:36,815 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-23 09:32:40,010 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:32:40,035 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:32:40,050 - INFO - 리뷰 섹션 찾기 성공: NewMatgo (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:32:40,051 - INFO - 스크린샷 캡처 시작: NewMatgo
+2025-08-23 09:32:43,430 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:32:43,449 - INFO - 리뷰 섹션 위치: x=296, y=2008
+2025-08-23 09:32:43,449 - INFO - 리뷰 섹션 크기: width=860, height=1322
+2025-08-23 09:32:43,449 - INFO - 크롭 영역: left=296, top=2008, right=1156, bottom=932
+2025-08-23 09:32:43,450 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:32:43,610 - INFO - 캡처 완료: NewMatgo_20250823.png (크기: 1902 x 932)
+2025-08-23 09:32:43,612 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:32:43,612 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:32:47,777 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 09:32:50,900 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:32:50,923 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:32:50,933 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:32:50,934 - INFO - 스크린샷 캡처 시작: NewMatgoKakao
+2025-08-23 09:32:54,247 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:32:54,268 - INFO - 리뷰 섹션 위치: x=296, y=2008
+2025-08-23 09:32:54,268 - INFO - 리뷰 섹션 크기: width=860, height=1506
+2025-08-23 09:32:54,268 - INFO - 크롭 영역: left=296, top=2008, right=1156, bottom=932
+2025-08-23 09:32:54,269 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:32:54,403 - INFO - 캡처 완료: NewMatgoKakao_20250823.png (크기: 1902 x 932)
+2025-08-23 09:32:54,405 - INFO - 캡처 진행 중: Original
+2025-08-23 09:32:54,405 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:32:58,234 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-23 09:33:01,409 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:33:01,428 - INFO - 평점 섹션 위치: y=1984, height=64, bottom=2048
+2025-08-23 09:33:01,438 - INFO - 리뷰 섹션 찾기 성공: Original (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:33:01,439 - INFO - 스크린샷 캡처 시작: Original
+2025-08-23 09:33:04,820 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:33:04,879 - INFO - 리뷰 섹션 위치: x=296, y=1960
+2025-08-23 09:33:04,880 - INFO - 리뷰 섹션 크기: width=860, height=1486
+2025-08-23 09:33:04,880 - INFO - 크롭 영역: left=296, top=1960, right=1156, bottom=932
+2025-08-23 09:33:04,881 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:33:05,034 - INFO - 캡처 완료: Original_20250823.png (크기: 1902 x 932)
+2025-08-23 09:33:05,036 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:33:05,037 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:33:10,352 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-23 09:33:13,650 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:33:13,665 - INFO - 평점 섹션 위치: y=2032, height=64, bottom=2096
+2025-08-23 09:33:13,681 - INFO - 리뷰 섹션 찾기 성공: Poker (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 09:33:13,681 - INFO - 스크린샷 캡처 시작: Poker
+2025-08-23 09:33:17,024 - INFO - 전체 스크린샷 크기: 1902 x 932
+2025-08-23 09:33:17,044 - INFO - 리뷰 섹션 위치: x=296, y=2008
+2025-08-23 09:33:17,045 - INFO - 리뷰 섹션 크기: width=860, height=1426
+2025-08-23 09:33:17,047 - INFO - 크롭 영역: left=296, top=2008, right=1156, bottom=932
+2025-08-23 09:33:17,048 - WARNING - 리뷰 섹션 크롭 영역이 유효하지 않습니다. 전체 화면을 캡처합니다.
+2025-08-23 09:33:17,250 - INFO - 캡처 완료: Poker_20250823.png (크기: 1902 x 932)
+2025-08-23 09:33:17,255 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:33:17,255 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:33:22,755 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-23 09:33:24,699 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/4767428229473707e75942570cdeb5c4
+2025-08-23 09:33:28,956 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F44623C190>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/4767428229473707e75942570cdeb5c4
+2025-08-23 09:33:33,077 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F44623C550>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/4767428229473707e75942570cdeb5c4
+2025-08-23 09:33:41,375 - INFO - Chrome WebDriver 종료
+2025-08-23 09:51:03,689 - INFO - ==================================================
+2025-08-23 09:51:03,705 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:51:03,708 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:51:03,708 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:51:03,708 - INFO - ==================================================
+2025-08-23 09:51:03,710 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:51:12,579 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:51:12,592 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:51:12,592 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:51:22,605 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-23 09:51:24,583 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/5ac882ff-7185-4cf8-a8eb-57bdd9deef97
+2025-08-23 09:51:29,511 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021A34357390>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/5ac882ff-7185-4cf8-a8eb-57bdd9deef97
+2025-08-23 09:51:33,731 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021A34356E90>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/5ac882ff-7185-4cf8-a8eb-57bdd9deef97
+2025-08-23 09:51:42,041 - INFO - Chrome WebDriver 종료
+2025-08-23 09:52:58,765 - INFO - ==================================================
+2025-08-23 09:52:58,766 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-23 09:52:58,766 - INFO - 캡처 날짜: 20250823
+2025-08-23 09:52:58,766 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 09:52:58,766 - INFO - ==================================================
+2025-08-23 09:52:58,767 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 09:53:08,830 - INFO - Chrome WebDriver 초기화 성공
+2025-08-23 09:53:08,886 - INFO - 캡처 진행 중: NewMatgo
+2025-08-23 09:53:08,886 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 09:53:17,930 - INFO - 한국어 설정 적용
+2025-08-23 09:53:17,945 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-23 09:53:23,079 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-23 09:53:26,146 - INFO - 평점 섹션 찾기 성공: NewMatgo (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:53:26,155 - INFO - 평점 섹션 위치: y=2030, height=64.0, bottom=2094.0
+2025-08-23 09:53:26,218 - INFO - 리뷰 섹션 찾기 성공: NewMatgo (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:53:26,240 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:53:28,292 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-23 09:53:31,853 - INFO - 전체 스크린샷 크기: 2382 x 4835
+2025-08-23 09:53:31,863 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:53:31,863 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:53:31,863 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:53:31,956 - INFO - 캡처 완료: NewMatgo_20250823.png (크기: 80 x 20)
+2025-08-23 09:53:31,959 - INFO - 캡처 진행 중: NewMatgoKakao
+2025-08-23 09:53:31,960 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 09:53:38,387 - INFO - 한국어 설정 적용
+2025-08-23 09:53:38,402 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 09:53:43,547 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 09:53:46,609 - INFO - 평점 섹션 찾기 성공: NewMatgoKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:53:46,618 - INFO - 평점 섹션 위치: y=2030, height=64.0, bottom=2094.0
+2025-08-23 09:53:46,649 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:53:46,659 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:53:48,715 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 09:53:52,427 - INFO - 전체 스크린샷 크기: 2382 x 5241
+2025-08-23 09:53:52,443 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:53:52,443 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:53:52,443 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:53:52,526 - INFO - 캡처 완료: NewMatgoKakao_20250823.png (크기: 80 x 20)
+2025-08-23 09:53:52,531 - INFO - 캡처 진행 중: Original
+2025-08-23 09:53:52,532 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-23 09:53:57,979 - INFO - 한국어 설정 적용
+2025-08-23 09:53:57,985 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-23 09:54:02,664 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-23 09:54:05,717 - INFO - 평점 섹션 찾기 성공: Original (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:54:05,723 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:54:05,757 - INFO - 리뷰 섹션 찾기 성공: Original (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:54:05,762 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:54:07,808 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-23 09:54:11,401 - INFO - 전체 스크린샷 크기: 2382 x 5647
+2025-08-23 09:54:11,428 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:54:11,432 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:54:11,433 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:54:11,590 - INFO - 캡처 완료: Original_20250823.png (크기: 80 x 20)
+2025-08-23 09:54:11,637 - INFO - 캡처 진행 중: Poker
+2025-08-23 09:54:11,638 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-23 09:54:16,506 - INFO - 한국어 설정 적용
+2025-08-23 09:54:16,518 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-23 09:54:20,842 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-23 09:54:23,899 - INFO - 평점 섹션 찾기 성공: Poker (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:54:23,905 - INFO - 평점 섹션 위치: y=2030, height=64.0, bottom=2094.0
+2025-08-23 09:54:23,937 - INFO - 리뷰 섹션 찾기 성공: Poker (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:54:23,939 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:54:25,993 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-23 09:54:29,662 - INFO - 전체 스크린샷 크기: 2382 x 6053
+2025-08-23 09:54:29,675 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:54:29,676 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:54:29,676 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:54:29,767 - INFO - 캡처 완료: Poker_20250823.png (크기: 80 x 20)
+2025-08-23 09:54:29,772 - INFO - 캡처 진행 중: PokerKakao
+2025-08-23 09:54:29,772 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-23 09:54:35,069 - INFO - 한국어 설정 적용
+2025-08-23 09:54:35,076 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-23 09:54:39,499 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-23 09:54:42,540 - INFO - 평점 섹션 찾기 성공: PokerKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:54:42,546 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:54:42,596 - INFO - 리뷰 섹션 찾기 성공: PokerKakao (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:54:42,601 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:54:44,649 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-23 09:54:48,131 - INFO - 전체 스크린샷 크기: 2382 x 6460
+2025-08-23 09:54:48,135 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:54:48,135 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:54:48,135 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:54:48,227 - INFO - 캡처 완료: PokerKakao_20250823.png (크기: 80 x 20)
+2025-08-23 09:54:48,242 - INFO - 캡처 진행 중: Sudda
+2025-08-23 09:54:48,247 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-23 09:54:52,995 - INFO - 한국어 설정 적용
+2025-08-23 09:54:53,003 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-23 09:54:57,691 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-23 09:55:00,731 - INFO - 평점 섹션 찾기 성공: Sudda (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:55:00,736 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:55:00,773 - INFO - 리뷰 섹션 찾기 성공: Sudda (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:55:00,773 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:55:02,811 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-23 09:55:06,301 - INFO - 전체 스크린샷 크기: 2382 x 6866
+2025-08-23 09:55:06,307 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:55:06,307 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:55:06,307 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:55:06,395 - INFO - 캡처 완료: Sudda_20250823.png (크기: 80 x 20)
+2025-08-23 09:55:06,400 - INFO - 캡처 진행 중: SuddaKakao
+2025-08-23 09:55:06,401 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-23 09:55:10,778 - INFO - 한국어 설정 적용
+2025-08-23 09:55:10,785 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-23 09:55:14,684 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-23 09:55:17,781 - INFO - 평점 섹션 찾기 성공: SuddaKakao (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:55:17,788 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:55:17,819 - INFO - 리뷰 섹션 찾기 성공: SuddaKakao (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:55:17,820 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:55:19,892 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-23 09:55:23,386 - INFO - 전체 스크린샷 크기: 2382 x 7272
+2025-08-23 09:55:23,395 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:55:23,396 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:55:23,396 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:55:23,511 - INFO - 캡처 완료: SuddaKakao_20250823.png (크기: 80 x 20)
+2025-08-23 09:55:23,521 - INFO - 캡처 진행 중: ShowdownHoldem
+2025-08-23 09:55:23,521 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-23 09:55:28,189 - INFO - 한국어 설정 적용
+2025-08-23 09:55:28,199 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-23 09:55:32,286 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-23 09:55:35,361 - INFO - 평점 섹션 찾기 성공: ShowdownHoldem (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:55:35,367 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:55:35,421 - INFO - 리뷰 섹션 찾기 성공: ShowdownHoldem (선택자 18: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:55:35,421 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:55:37,507 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-23 09:55:41,058 - INFO - 전체 스크린샷 크기: 2382 x 7678
+2025-08-23 09:55:41,066 - INFO - 리뷰 섹션 위치: x=296, y=1982
+2025-08-23 09:55:41,067 - INFO - 리뷰 섹션 크기: width=80.0, height=64.0
+2025-08-23 09:55:41,068 - INFO - 크롭 영역: left=296, top=1982, right=376.0, bottom=2046.0
+2025-08-23 09:55:41,212 - INFO - 캡처 완료: ShowdownHoldem_20250823.png (크기: 80 x 64)
+2025-08-23 09:55:41,237 - INFO - 캡처 진행 중: NewVegas
+2025-08-23 09:55:41,240 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-23 09:55:46,550 - INFO - 한국어 설정 적용
+2025-08-23 09:55:46,556 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-23 09:55:51,342 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-23 09:55:54,389 - INFO - 평점 섹션 찾기 성공: NewVegas (선택자 2: //div[contains(@class, 'jILTFe')])
+2025-08-23 09:55:54,393 - INFO - 평점 섹션 위치: y=1982, height=64.0, bottom=2046.0
+2025-08-23 09:55:54,422 - INFO - 리뷰 섹션 찾기 성공: NewVegas (선택자 11: //div[contains(text(), '리뷰') and contains(text(), '만개')])
+2025-08-23 09:55:54,422 - INFO - 전체 페이지 높이 설정
+2025-08-23 09:55:56,608 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-23 09:56:00,199 - INFO - 전체 스크린샷 크기: 2382 x 8085
+2025-08-23 09:56:00,214 - INFO - 리뷰 섹션 위치: x=360, y=582
+2025-08-23 09:56:00,214 - INFO - 리뷰 섹션 크기: width=80.0, height=20.0
+2025-08-23 09:56:00,215 - INFO - 크롭 영역: left=360, top=582, right=440.0, bottom=602.0
+2025-08-23 09:56:00,413 - INFO - 캡처 완료: NewVegas_20250823.png (크기: 80 x 20)
+2025-08-23 09:56:00,423 - INFO - 캡처 완료: 9개 게임 성공
+2025-08-23 09:56:00,431 - INFO - HTML 파일 업데이트 시작
+2025-08-23 09:56:00,442 - INFO - HTML 파일 업데이트 시작: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:56:00,457 - INFO - 통계 정보 업데이트: 캡처 일수 +1, 총 이미지 +9, 최근 캡처 20250823
+2025-08-23 09:56:00,510 - INFO - HTML 파일 업데이트 완료: D:\aos review\구글 플레이_리뷰.html
+2025-08-23 09:56:00,520 - INFO - ==================================================
+2025-08-23 09:56:00,523 - INFO - 자동화 완료!
+2025-08-23 09:56:00,540 - INFO - 캡처된 게임: NewMatgo, NewMatgoKakao, Original, Poker, PokerKakao, Sudda, SuddaKakao, ShowdownHoldem, NewVegas
+2025-08-23 09:56:00,571 - INFO - ==================================================
+2025-08-23 09:56:05,035 - INFO - Chrome WebDriver 종료

@@ -1,0 +1,6 @@
+selenium==4.15.2
+Pillow==10.1.0
+watchdog==3.0.0
+
+
+

@@ -1,0 +1,268 @@
+2025-08-23 10:14:35,057 - INFO - ==================================================
+2025-08-23 10:14:35,058 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:14:35,058 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:14:35,058 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:14:35,058 - INFO - ==================================================
+2025-08-23 10:14:35,059 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:14:44,189 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:14:44,314 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:14:57,392 - INFO - 한국어 설정 적용
+2025-08-23 10:14:57,407 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:15:01,943 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:15:01,958 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 10:15:01,960 - INFO - 리뷰 섹션으로 스크롤: NewMatgoKakao
+2025-08-23 10:15:05,042 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:15:07,071 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:15:07,473 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:15:07,522 - INFO - 리뷰 섹션 위치: x=296, y=2006
+2025-08-23 10:15:07,533 - INFO - 리뷰 섹션 크기: width=860.0, height=1544.800048828125
+2025-08-23 10:15:07,549 - INFO - 리뷰 모두 보기 버튼 위치: y=3515
+2025-08-23 10:15:07,557 - INFO - 리뷰 모두 보기 버튼 위까지만 캡처: bottom=3515
+2025-08-23 10:15:07,574 - INFO - 최종 크롭 영역: left=296, top=2006, right=1156.0, bottom=3515
+2025-08-23 10:15:07,689 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 860 x 1509)
+2025-08-23 10:15:07,693 - INFO - ==================================================
+2025-08-23 10:15:07,694 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:15:07,695 - INFO - ==================================================
+2025-08-23 10:15:11,044 - INFO - Firefox WebDriver 종료
+2025-08-23 10:18:20,955 - INFO - ==================================================
+2025-08-23 10:18:20,955 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:18:20,956 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:18:20,956 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:18:20,956 - INFO - ==================================================
+2025-08-23 10:18:20,957 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:18:29,511 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:18:29,598 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:18:39,425 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/18871a49-281f-4cde-a84e-60d3af3a7840
+2025-08-23 10:18:44,209 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029830813390>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/18871a49-281f-4cde-a84e-60d3af3a7840
+2025-08-23 10:18:48,295 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029830812E90>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/18871a49-281f-4cde-a84e-60d3af3a7840
+2025-08-23 10:18:56,650 - INFO - Firefox WebDriver 종료
+2025-08-23 10:28:32,515 - INFO - ==================================================
+2025-08-23 10:28:32,516 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:28:32,517 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:28:32,517 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:28:32,518 - INFO - ==================================================
+2025-08-23 10:28:32,519 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:28:41,406 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:28:41,422 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:28:54,025 - INFO - 한국어 설정 적용
+2025-08-23 10:28:54,041 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:28:58,601 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:28:58,610 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-23 10:28:58,610 - INFO - 리뷰 섹션으로 스크롤: NewMatgoKakao
+2025-08-23 10:29:01,658 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:29:03,687 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:29:04,059 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:29:04,070 - INFO - 리뷰 섹션 위치: x=296, y=2006
+2025-08-23 10:29:04,071 - INFO - 리뷰 섹션 크기: width=860.0, height=1544.800048828125
+2025-08-23 10:29:04,080 - INFO - 평점 섹션 찾기 성공 (대체 선택자)
+2025-08-23 10:29:04,101 - INFO - 리뷰 모두 보기 버튼 위치: y=3535.0
+2025-08-23 10:29:04,112 - INFO - 평점 섹션 기준 상단 확장: top=2010
+2025-08-23 10:29:04,117 - INFO - 리뷰 모두 보기 버튼 기준 하단 확장: bottom=3565.0
+2025-08-23 10:29:04,117 - INFO - 최종 크롭 영역: left=296, top=2010, right=1156.0, bottom=3565.0
+2025-08-23 10:29:04,222 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 860 x 1555)
+2025-08-23 10:29:04,227 - INFO - ==================================================
+2025-08-23 10:29:04,228 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:29:04,228 - INFO - ==================================================
+2025-08-23 10:29:07,681 - INFO - Firefox WebDriver 종료
+2025-08-23 10:50:31,056 - INFO - ==================================================
+2025-08-23 10:50:31,056 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:50:31,057 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:50:31,057 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:50:31,057 - INFO - ==================================================
+2025-08-23 10:50:31,058 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:50:39,370 - INFO - ==================================================
+2025-08-23 10:50:39,370 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:50:39,370 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:50:39,371 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:50:39,371 - INFO - ==================================================
+2025-08-23 10:50:39,372 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:50:48,200 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:50:48,225 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:51:01,276 - INFO - 한국어 설정 적용
+2025-08-23 10:51:01,304 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:51:05,504 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:51:05,511 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 10:51:05,513 - ERROR - 끝 요소 찾기 실패: Message: Unable to locate element: //div[@role='button']//span[text()='리뷰 모두 보기']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-08-23 10:51:05,514 - ERROR - 뉴맞고Kakao Firefox 캡처 실패
+2025-08-23 10:51:08,911 - INFO - Firefox WebDriver 종료
+2025-08-23 10:51:26,187 - INFO - ==================================================
+2025-08-23 10:51:26,189 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:51:26,189 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:51:26,190 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:51:26,190 - INFO - ==================================================
+2025-08-23 10:51:26,191 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:51:34,927 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:51:34,945 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:51:50,337 - INFO - 한국어 설정 적용
+2025-08-23 10:51:50,349 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:51:55,253 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:51:55,261 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 10:51:55,268 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 10:51:55,268 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-23 10:51:58,332 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:52:00,356 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:52:00,719 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:52:00,729 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 10:52:00,738 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 10:52:00,740 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-23 10:52:00,741 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 10:52:00,744 - INFO - 최종 크롭 영역: left=296, top=1879, right=416.2666778564453, bottom=3565.0
+2025-08-23 10:52:00,851 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 120 x 1686)
+2025-08-23 10:52:00,863 - INFO - ==================================================
+2025-08-23 10:52:00,867 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:52:00,867 - INFO - ==================================================
+2025-08-23 10:52:05,012 - INFO - Firefox WebDriver 종료
+2025-08-23 10:53:10,067 - INFO - ==================================================
+2025-08-23 10:53:10,067 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:53:10,067 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:53:10,068 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:53:10,068 - INFO - ==================================================
+2025-08-23 10:53:10,069 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:53:19,712 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:53:19,931 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:53:33,494 - INFO - 한국어 설정 적용
+2025-08-23 10:53:33,508 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:53:38,070 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:53:38,079 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 10:53:38,087 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 10:53:38,087 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-23 10:53:41,135 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:53:43,165 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:53:43,551 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:53:43,568 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 10:53:43,568 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 10:53:43,569 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-23 10:53:43,569 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 10:53:43,569 - INFO - 최종 크롭 영역: left=296, top=1879, right=1096, bottom=3565.0
+2025-08-23 10:53:43,678 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 800 x 1686)
+2025-08-23 10:53:43,682 - INFO - ==================================================
+2025-08-23 10:53:43,682 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:53:43,682 - INFO - ==================================================
+2025-08-23 10:54:51,586 - INFO - ==================================================
+2025-08-23 10:54:51,587 - INFO - 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:54:51,588 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:54:51,588 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:54:51,588 - INFO - ==================================================
+2025-08-23 10:54:51,589 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:55:01,672 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:55:01,696 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:55:15,006 - INFO - 한국어 설정 적용
+2025-08-23 10:55:15,021 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:55:19,654 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:55:19,662 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 10:55:19,668 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 10:55:19,668 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-23 10:55:22,721 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:55:24,749 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:55:25,125 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:55:25,141 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 10:55:25,142 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 10:55:25,143 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-23 10:55:25,143 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 10:55:25,143 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-23 10:55:25,269 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 1200 x 1686)
+2025-08-23 10:55:25,273 - INFO - ==================================================
+2025-08-23 10:55:25,273 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:55:25,274 - INFO - ==================================================
+2025-08-23 10:55:28,558 - INFO - Firefox WebDriver 종료
+2025-08-23 10:57:17,475 - INFO - ==================================================
+2025-08-23 10:57:17,475 - INFO - 뉴맞고 & 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:57:17,476 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:57:17,476 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:57:17,476 - INFO - ==================================================
+2025-08-23 10:57:17,477 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:57:26,584 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 10:57:26,698 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang_new_matgo)
+2025-08-23 10:57:35,406 - INFO - 한국어 설정 적용
+2025-08-23 10:57:35,420 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang_new_matgo&hl=ko
+2025-08-23 10:57:38,634 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-23 10:57:38,658 - ERROR - 시작 요소 찾기 실패: Message: Unable to locate element: //h2[text()='평점 및 리뷰']; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-08-23 10:57:38,683 - ERROR - 뉴맞고 Firefox 캡처 실패
+2025-08-23 10:57:38,683 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 10:57:49,982 - INFO - 한국어 설정 적용
+2025-08-23 10:57:49,989 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 10:57:54,504 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 10:57:54,511 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 10:57:54,519 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 10:57:54,519 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-23 10:57:57,709 - INFO - 전체 페이지 높이 설정
+2025-08-23 10:57:59,756 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 10:58:00,187 - INFO - 전체 스크린샷 크기: 2382 x 5115
+2025-08-23 10:58:00,256 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 10:58:00,258 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 10:58:00,259 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-23 10:58:00,259 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 10:58:00,259 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-23 10:58:00,394 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 1200 x 1686)
+2025-08-23 10:58:00,399 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 10:58:00,399 - INFO - ==================================================
+2025-08-23 10:58:00,399 - INFO - 1/2 게임 Firefox 캡처 성공!
+2025-08-23 10:58:00,400 - INFO - ==================================================
+2025-08-23 10:58:29,315 - INFO - ==================================================
+2025-08-23 10:58:29,321 - INFO - 뉴맞고 & 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:58:29,321 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:58:29,322 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:58:29,322 - INFO - ==================================================
+2025-08-23 10:58:29,325 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:58:45,413 - INFO - ==================================================
+2025-08-23 10:58:45,413 - INFO - 뉴맞고 & 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:58:45,414 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:58:45,414 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:58:45,414 - INFO - ==================================================
+2025-08-23 10:58:45,415 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 10:59:51,987 - INFO - ==================================================
+2025-08-23 10:59:51,988 - INFO - 뉴맞고 & 뉴맞고Kakao 리뷰 캡처 테스트 (Firefox) 시작
+2025-08-23 10:59:51,988 - INFO - 캡처 날짜: 20250823
+2025-08-23 10:59:51,988 - INFO - 저장 폴더: D:\aos review\20250823
+2025-08-23 10:59:51,989 - INFO - ==================================================
+2025-08-23 10:59:51,989 - INFO - 저장 폴더 생성: D:\aos review\20250823
+2025-08-23 11:00:00,408 - INFO - Firefox WebDriver 초기화 성공
+2025-08-23 11:00:00,466 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-23 11:00:13,465 - INFO - 한국어 설정 적용
+2025-08-23 11:00:13,492 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-23 11:00:18,394 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-23 11:00:18,401 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-23 11:00:18,409 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 11:00:18,410 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-23 11:00:21,491 - INFO - 전체 페이지 높이 설정
+2025-08-23 11:00:23,520 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-23 11:00:23,893 - INFO - 전체 스크린샷 크기: 2382 x 4835
+2025-08-23 11:00:23,904 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 11:00:23,904 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 11:00:23,904 - INFO - 끝 요소 위치: x=304, y=3291
+2025-08-23 11:00:23,905 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 11:00:23,905 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3341.0
+2025-08-23 11:00:24,045 - INFO - 캡처 완료: NewMatgo_firefox_20250823.png (크기: 1200 x 1462)
+2025-08-23 11:00:24,050 - INFO - 뉴맞고 Firefox 캡처 성공!
+2025-08-23 11:00:24,051 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-23 11:00:34,073 - INFO - 한국어 설정 적용
+2025-08-23 11:00:34,080 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-23 11:00:39,120 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-23 11:00:39,132 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰'
+2025-08-23 11:00:39,173 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-23 11:00:39,220 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-23 11:00:42,337 - INFO - 전체 페이지 높이 설정
+2025-08-23 11:00:44,449 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-23 11:00:44,857 - INFO - 전체 스크린샷 크기: 2382 x 5241
+2025-08-23 11:00:44,913 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-23 11:00:44,931 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-23 11:00:44,946 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-23 11:00:44,969 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-23 11:00:44,983 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-23 11:00:45,188 - INFO - 캡처 완료: NewMatgoKakao_firefox_20250823.png (크기: 1200 x 1686)
+2025-08-23 11:00:45,213 - INFO - 뉴맞고Kakao Firefox 캡처 성공!
+2025-08-23 11:00:45,227 - INFO - ==================================================
+2025-08-23 11:00:45,264 - INFO - 모든 게임 Firefox 캡처 성공!
+2025-08-23 11:00:45,276 - INFO - ==================================================

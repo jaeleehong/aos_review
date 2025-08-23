@@ -1,0 +1,32 @@
+# 이미지 파일들은 바이너리로 처리
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.webp binary
+*.ico binary
+
+# 문서 파일들
+*.md text
+*.txt text
+*.html text
+*.css text
+*.js text
+*.json text
+*.xml text
+*.py text
+*.bat text
+
+# 압축 파일들은 바이너리로 처리
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+
+# 실행 파일들
+*.exe binary
+
+# 모든 파일에 대해 줄바꿈 문자 정규화 비활성화 (Windows 환경에서)
+* -text

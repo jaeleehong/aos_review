@@ -1,0 +1,633 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AION실 Google Play 리뷰 캡처 리포트</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: flex;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            width: 300px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        .content-area {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .summary {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .summary h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+            text-align: center;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .stat-number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .date-selector {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .date-selector h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+
+        .date-select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            font-size: 1em;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .date-select:focus {
+            outline: none;
+            border-color: #764ba2;
+            box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
+        }
+
+        .game-filter {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-filter h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .filter-option {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .filter-option:hover {
+            background-color: #f8f9fa;
+        }
+
+        .filter-option input[type="radio"] {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .filter-label {
+            color: #333;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+
+        .filter-option input[type="radio"]:checked+.filter-label {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .business-group {
+            margin-bottom: 40px;
+        }
+
+        .business-header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .business-header.blue {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+        }
+
+        .business-header.brown {
+            background: linear-gradient(135deg, #a8e6cf 0%, #7fcdcd 100%);
+            color: #333;
+        }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .app-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .app-header h4 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #333;
+        }
+
+        .app-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+        }
+
+        .image-comparison {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .image-section {
+            text-align: center;
+        }
+
+        .image-section h5 {
+            margin: 0 0 15px 0;
+            color: #666;
+            font-size: 0.9em;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .capture-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .prev-week {
+            color: #e74c3c;
+            background: #fdf2f2;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .current-week {
+            color: #27ae60;
+            background: #f0f9f0;
+            border-left: 4px solid #27ae60;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+            .app-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .image-comparison {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AION실 Google Play 리뷰 캡처 리포트</h1>
+            <p>매일 자동으로 캡처되는 게임 리뷰 현황</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="summary">
+                    <h3>📊 요약 통계</h3>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">9</div>
+                            <div class="stat-label">총 게임 수</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">캡처 날짜</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">27</div>
+                            <div class="stat-label">총 이미지</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="date-selector">
+                    <h3>📅 날짜 선택</h3>
+                    <select id="dateSelect" class="date-select" onchange="showDateContent(this.value)">
+                        <option value="20250823">2025-08-23</option>
+                        <option value="20250822">2025-08-22</option>
+                        <option value="20250821">2025-08-21</option>
+                        <option value="20250813">2025-08-13</option>
+                    </select>
+                </div>
+
+                <div class="game-filter">
+                    <h3>🎮 게임 필터</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="all" checked
+                                onchange="filterGames(this.value)">
+                            <span class="filter-label">전체 게임</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="NewMatgo" onchange="filterGames(this.value)">
+                            <span class="filter-label">뉴맞고</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="NewMatgoKakao"
+                                onchange="filterGames(this.value)">
+                            <span class="filter-label">뉴맞고카카오</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="Sudda" onchange="filterGames(this.value)">
+                            <span class="filter-label">섯다</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="SuddaKakao" onchange="filterGames(this.value)">
+                            <span class="filter-label">섯다카카오</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="Original" onchange="filterGames(this.value)">
+                            <span class="filter-label">오리지널</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="Poker" onchange="filterGames(this.value)">
+                            <span class="filter-label">포커</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="PokerKakao" onchange="filterGames(this.value)">
+                            <span class="filter-label">포커카카오</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="ShowdownHoldem"
+                                onchange="filterGames(this.value)">
+                            <span class="filter-label">쇼다운홀덤</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="gameFilter" value="NewVegas" onchange="filterGames(this.value)">
+                            <span class="filter-label">뉴베가스</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="date-content" id="content-20250823">
+                    <div class="business-group">
+                        <div class="business-header">
+                            🔴 레드사업실
+                        </div>
+                        <div class="app-grid">
+                            <!-- NewMatgo -->
+                            <div class="app-card" data-game="NewMatgo">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/뉴맞고.webp" alt="뉴맞고 아이콘" class="app-icon"> 뉴맞고</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/NewMatgo_20250822.png" alt="뉴맞고 전주 리뷰" class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/NewMatgo_20250823.png" alt="뉴맞고 금주 리뷰" class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- NewMatgoKakao -->
+                            <div class="app-card" data-game="NewMatgoKakao">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/뉴맞고카카오.webp" alt="뉴맞고카카오 아이콘" class="app-icon"> 뉴맞고카카오</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/NewMatgoKakao_20250822.png" alt="뉴맞고카카오 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/NewMatgoKakao_20250823.png" alt="뉴맞고카카오 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sudda -->
+                            <div class="app-card" data-game="Sudda">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/섯다.webp" alt="섯다 아이콘" class="app-icon"> 섯다</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/Sudda_20250822.png" alt="섯다 전주 리뷰" class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/Sudda_20250823.png" alt="섯다 금주 리뷰" class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SuddaKakao -->
+                            <div class="app-card" data-game="SuddaKakao">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/섯다카카오.webp" alt="섯다카카오 아이콘" class="app-icon"> 섯다카카오</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/SuddaKakao_20250822.png" alt="섯다카카오 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/SuddaKakao_20250823.png" alt="섯다카카오 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Original -->
+                            <div class="app-card" data-game="Original">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/오리지널.webp" alt="오리지널 아이콘" class="app-icon"> 오리지널</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/Original_20250822.png" alt="오리지널 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/Original_20250823.png" alt="오리지널 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-group">
+                        <div class="business-header blue">
+                            🔵 블루사업실
+                        </div>
+                        <div class="app-grid">
+                            <!-- Poker -->
+                            <div class="app-card" data-game="Poker">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/포커.webp" alt="포커 아이콘" class="app-icon"> 포커</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/Poker_20250822.png" alt="포커 전주 리뷰" class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/Poker_20250823.png" alt="포커 금주 리뷰" class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PokerKakao -->
+                            <div class="app-card" data-game="PokerKakao">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/포커카카오.webp" alt="포커카카오 아이콘" class="app-icon"> 포커카카오</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/PokerKakao_20250822.png" alt="포커카카오 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/PokerKakao_20250823.png" alt="포커카카오 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ShowdownHoldem -->
+                            <div class="app-card" data-game="ShowdownHoldem">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/쇼다운홀덤.webp" alt="쇼다운홀덤 아이콘" class="app-icon"> 쇼다운홀덤</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/ShowdownHoldem_20250822.png" alt="쇼다운홀덤 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/ShowdownHoldem_20250823.png" alt="쇼다운홀덤 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-group">
+                        <div class="business-header brown">
+                            🟤 브라운사업실
+                        </div>
+                        <div class="app-grid">
+                            <!-- NewVegas -->
+                            <div class="app-card" data-game="NewVegas">
+                                <div class="app-header">
+                                    <h4><img src="앱아이콘/뉴베가스.webp" alt="뉴베가스 아이콘" class="app-icon"> 뉴베가스</h4>
+                                </div>
+                                <div class="image-comparison">
+                                    <div class="image-section">
+                                        <h5 class="prev-week">전주 (2025-08-22)</h5>
+                                        <img src="20250822/NewVegas_20250822.png" alt="뉴베가스 전주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                    <div class="image-section">
+                                        <h5 class="current-week">금주 (2025-08-23)</h5>
+                                        <img src="20250823/NewVegas_20250823.png" alt="뉴베가스 금주 리뷰"
+                                            class="capture-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 AION실 - Google Play 리뷰 자동 캡처 시스템</p>
+        </div>
+    </div>
+
+    <script>
+        function showDateContent(selectedDate) {
+            // 모든 날짜 콘텐츠 숨기기
+            var contents = document.querySelectorAll('.date-content');
+            contents.forEach(function (content) {
+                content.style.display = 'none';
+            });
+
+            // 선택된 날짜의 콘텐츠만 표시
+            var selectedContent = document.getElementById('content-' + selectedDate);
+            if (selectedContent) {
+                selectedContent.style.display = 'block';
+            }
+        }
+
+        function filterGames(selectedGame) {
+            // 모든 게임 카드 가져오기
+            var gameCards = document.querySelectorAll('.app-card');
+
+            gameCards.forEach(function (card) {
+                if (selectedGame === 'all') {
+                    // 전체 게임 선택 시 모든 카드 표시
+                    card.style.display = 'block';
+                } else {
+                    // 특정 게임 선택 시 해당 게임만 표시
+                    if (card.getAttribute('data-game') === selectedGame) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // 페이지 로드 시 기본 날짜 표시
+        document.addEventListener('DOMContentLoaded', function () {
+            showDateContent('20250823');
+        });
+    </script>
+</body>
+
+</html>
