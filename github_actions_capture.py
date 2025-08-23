@@ -57,6 +57,9 @@ def setup_driver():
     firefox_options.add_argument("--disable-dev-shm-usage")
     firefox_options.add_argument("--width=1920")
     firefox_options.add_argument("--height=1080")
+    firefox_options.add_argument("--disable-gpu")
+    firefox_options.add_argument("--disable-extensions")
+    firefox_options.add_argument("--disable-plugins")
     
     # 브라우저 설정
     firefox_options.set_preference("dom.webdriver.enabled", False)
@@ -68,15 +71,20 @@ def setup_driver():
     firefox_options.set_preference("intl.accept_languages", "ko-KR,ko;q=0.9,en;q=0.8")
     firefox_options.set_preference("general.useragent.locale", "ko-KR")
     
+    # 네트워크 타임아웃 설정
+    firefox_options.set_preference("network.http.connection-timeout", 30)
+    firefox_options.set_preference("network.http.response-timeout", 30)
+    
     # GitHub Actions 환경에서 실행
     try:
-        driver = webdriver.Firefox(options=firefox_options)
-    except Exception as e:
-        print(f"Firefox WebDriver 초기화 실패: {e}")
-        # webdriver-manager 사용
         from selenium.webdriver.firefox.service import Service
         service = Service(GeckoDriverManager().install())
         driver = webdriver.Firefox(service=service, options=firefox_options)
+        driver.set_page_load_timeout(60)
+        driver.implicitly_wait(10)
+    except Exception as e:
+        print(f"Firefox WebDriver 초기화 실패: {e}")
+        raise
     
     return driver
 
