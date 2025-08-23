@@ -1,0 +1,67 @@
+name: Daily Auto Capture - Google Play Reviews
+
+on:
+  schedule:
+    # 매일 오전 1시 (UTC)에 실행 (한국 시간 오전 10시)
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  auto-capture:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Firefox
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y firefox-esr
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium pillow beautifulsoup4 webdriver-manager
+        
+    - name: Create logs directory
+      run: mkdir -p logs
+      
+    - name: Setup Xvfb
+      run: |
+        sudo apt-get install -y xvfb
+        Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+        
+    - name: Run auto capture script
+      run: |
+        python github_actions_capture.py
+      env:
+        # GitHub Actions에서 실행할 때 필요한 환경변수
+        DISPLAY: :99
+        
+    - name: Convert PNG to WebP
+      run: |
+        python convert_png_to_webp.py
+        
+    - name: Update HTML
+      run: |
+        python update_html_to_webp.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto capture: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
+        
+    - name: Upload logs as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: capture-logs-${{ github.run_number }}
+        path: logs/
+        retention-days: 30
