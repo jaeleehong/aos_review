@@ -78,7 +78,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto capture: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto capture: $(date +'%Y-%m-%d %H:%M:%S')" && git push origin master)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Upload logs as artifacts
       uses: actions/upload-artifact@v4
