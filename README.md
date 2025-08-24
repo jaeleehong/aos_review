@@ -1,128 +1,139 @@
-# Google Play 리뷰 자동 캡처 시스템
+# AOS 리뷰 자동 캡처 시스템
 
-매일 자동으로 Google Play Store의 게임 리뷰를 캡처하고 HTML 파일에 업데이트하는 자동화 시스템입니다.
+Google Play 리뷰를 자동으로 캡처하고 HTML 대시보드를 업데이트하는 시스템입니다.
 
-## 🎮 지원 게임
+## 🚀 주요 기능
 
-- **NewMatgo** (뉴맞고)
-- **NewMatgoKakao** (뉴맞고카카오)
-- **Original** (오리지널/고스톱2018)
-- **Poker** (포커)
-- **PokerKakao** (포커카카오)
-- **Sudda** (섯다)
-- **SuddaKakao** (섯다카카오)
-- **ShowdownHoldem** (쇼다운홀덤)
-- **NewVegas** (뉴베가스)
+- **자동 캡처**: 9개 게임의 Google Play 리뷰 자동 캡처
+- **HTML 대시보드**: 실시간 리뷰 현황 확인
+- **GitHub 자동 배포**: 캡처 후 자동으로 GitHub Pages에 배포
+- **스케줄링**: 매일 00:10에 자동 실행
 
-## 📁 프로젝트 구조
+## 📋 지원 게임
 
-```
-D:\aos review\
-├── auto_capture_and_update.py    # 메인 자동화 스크립트
-├── daily_auto_capture.bat        # 스케줄러용 배치 파일
-├── setup_scheduler.py            # 스케줄러 설정 도구
-├── google_play_review_capture.py # 수동 캡처 스크립트
-├── update_html_images.py         # HTML 업데이트 스크립트
-├── 구글 플레이_리뷰.html         # 메인 HTML 파일
-├── logs/                         # 로그 파일 폴더
-├── 20250823/                     # 캡처된 이미지 폴더 (날짜별)
-├── 앱아이콘/                     # 게임 아이콘 폴더
-└── .gitignore                    # Git 무시 파일 설정
-```
+### 🎴 레드사업실
+- 뉴맞고 (NewMatgo)
+- 뉴맞고카카오 (NewMatgoKakao)
+- 섯다 (Sudda)
+- 섯다카카오 (SuddaKakao)
+- 오리지널 (Original)
 
-## ⚙️ 설치 및 설정
+### 🃏 블루사업실
+- 포커 (Poker)
+- 포커카카오 (PokerKakao)
+- 쇼다운홀덤 (ShowdownHoldem)
+
+### 🎰 브라운사업실
+- 뉴베가스 (NewVegas)
+
+## 🛠️ 설치 및 설정
 
 ### 1. 필수 요구사항
-- Python 3.7+
+
+- Python 3.8+
 - Firefox 브라우저
-- Selenium WebDriver
-- PIL (Pillow)
-- BeautifulSoup4
+- Git
+- Windows 10/11
 
 ### 2. 의존성 설치
+
 ```bash
-pip install selenium pillow beautifulsoup4
+pip install -r requirements.txt
 ```
 
-### 3. Firefox WebDriver 설치
-Firefox 브라우저가 설치되어 있어야 합니다.
+### 3. 자동화 설정
 
-## 🚀 사용법
+#### 자동 스케줄러 설정 (관리자 권한 필요)
 
-### 자동 실행 설정 (권장)
 ```bash
+# 관리자 권한으로 명령 프롬프트 실행 후
 python setup_scheduler.py
 ```
-- 매일 00:10에 자동으로 실행됩니다
-- 관리자 권한이 필요합니다
+
+이 명령어는 매일 00:10에 자동으로 실행되도록 Windows 작업 스케줄러를 설정합니다.
+
+## 📁 파일 구조
+
+```
+aos_review/
+├── auto_capture_and_update.py    # 메인 캡처 스크립트
+├── daily_auto_capture.bat        # 자동 실행 배치 파일
+├── local_auto_capture.bat        # 수동 실행 배치 파일
+├── setup_scheduler.py            # 스케줄러 설정 스크립트
+├── aos_review.html              # 메인 대시보드
+├── 20250824/                    # 캡처된 이미지들
+├── 앱아이콘/                    # 게임 아이콘들
+└── logs/                        # 로그 파일들
+```
+
+## 🎯 사용 방법
+
+### 자동 실행 (권장)
+- 스케줄러 설정 후 매일 00:10에 자동으로 실행됩니다
+- 별도 조작 없이 자동으로 캡처 및 배포됩니다
 
 ### 수동 실행
 ```bash
+# 수동으로 캡처 및 배포
+local_auto_capture.bat
+```
+
+### 개별 실행
+```bash
+# 캡처만 실행
 python auto_capture_and_update.py
 ```
 
-### 개별 게임 캡처
-```bash
-python google_play_review_capture.py
-```
+## 📊 대시보드 확인
 
-## 📊 결과물
+- **로컬**: `aos_review.html` 파일을 브라우저에서 열기
+- **온라인**: [https://jaeleehong.github.io/aos_review/aos_review.html](https://jaeleehong.github.io/aos_review/aos_review.html)
 
-### 캡처된 이미지
-- **위치**: `{날짜}/` 폴더 (예: `20250823/`)
-- **형식**: `{게임명}_{날짜}.png`
-- **크기**: 1200px 너비, 리뷰 섹션 높이
+## 📝 로그 확인
 
-### HTML 리포트
-- **파일**: `구글 플레이_리뷰.html`
-- **내용**: 모든 게임의 리뷰 캡처 이미지
-- **자동 업데이트**: 매일 캡처 후 자동 반영
+- **자동 실행 로그**: `logs/auto_capture_YYYYMMDD.log`
+- **배포 로그**: `logs/auto_deploy.log`
+- **수동 실행 로그**: `logs/manual_deploy.log`
 
-### 로그 파일
-- **위치**: `logs/` 폴더
-- **형식**: `auto_capture_{날짜}.log`
-- **내용**: 실행 과정 및 오류 정보
-
-## 🔧 설정 옵션
+## ⚙️ 설정 옵션
 
 ### 실행 시간 변경
 `setup_scheduler.py` 파일에서 다음 부분을 수정:
+
 ```python
-"/st", "00:10"  # 원하는 시간으로 변경
+"/st", "00:10",  # 원하는 시간으로 변경 (HH:MM 형식)
 ```
 
-### 게임 목록 수정
+### 게임 추가/제거
 `auto_capture_and_update.py` 파일의 `GAMES` 딕셔너리를 수정:
+
 ```python
 GAMES = {
     "com.neowiz.games.newmatgo": "NewMatgo",
-    # 새로운 게임 추가
+    # 새 게임 추가
+    "com.example.newgame": "NewGame"
 }
 ```
 
-## 📝 주의사항
+## 🔧 문제 해결
 
-1. **PC 상태**: 자동 실행을 위해서는 PC가 켜져 있어야 합니다
-2. **인터넷 연결**: Google Play Store 접속을 위해 인터넷이 필요합니다
-3. **관리자 권한**: 스케줄러 설정 시 관리자 권한이 필요합니다
-4. **브라우저 업데이트**: Firefox 브라우저가 최신 버전이어야 합니다
+### 스케줄러 설정 실패
+- 관리자 권한으로 실행했는지 확인
+- Windows 작업 스케줄러 서비스가 실행 중인지 확인
 
-## 🛠️ 문제 해결
+### 캡처 실패
+- Firefox가 설치되어 있는지 확인
+- 인터넷 연결 상태 확인
+- `logs/` 폴더의 로그 파일 확인
 
-### 스케줄러가 실행되지 않는 경우
-1. 관리자 권한으로 `setup_scheduler.py` 재실행
-2. Windows 작업 스케줄러에서 작업 상태 확인
-3. 로그 파일에서 오류 메시지 확인
+### GitHub 배포 실패
+- Git 설정이 올바른지 확인
+- GitHub 인증 정보 확인
 
-### 캡처가 실패하는 경우
-1. 인터넷 연결 상태 확인
-2. Firefox 브라우저 업데이트
-3. 로그 파일에서 상세 오류 확인
+## 📞 지원
 
-## 📄 라이선스
+문제가 발생하면 `logs/` 폴더의 로그 파일을 확인하거나 개발팀에 문의하세요.
 
-이 프로젝트는 개인 및 교육 목적으로 사용됩니다.
+---
 
-## 🤝 기여
-
-버그 리포트나 기능 제안은 이슈로 등록해주세요.
+© 2025 AION실 - Google Play 리뷰 자동 캡처 시스템

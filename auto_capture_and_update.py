@@ -56,6 +56,7 @@ def setup_driver():
     firefox_options = Options()
     firefox_options.add_argument("--width=1920")
     firefox_options.add_argument("--height=1080")
+    firefox_options.add_argument("--headless")  # 백그라운드 실행을 위한 헤드리스 모드
     firefox_options.set_preference("dom.webdriver.enabled", False)
     firefox_options.set_preference("useAutomationExtension", False)
     firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0")
@@ -207,7 +208,7 @@ def capture_game_review_firefox(driver, app_id, game_name, save_dir, logger):
 def update_html_with_new_images(save_dir, logger):
     """새로 캡처된 이미지들을 HTML 파일에 업데이트"""
     try:
-        html_file = '구글 플레이_리뷰.html'
+        html_file = 'aos_review.html'
         
         if not os.path.exists(html_file):
             logger.error(f"HTML 파일을 찾을 수 없습니다: {html_file}")
@@ -264,7 +265,7 @@ def main():
     # 로깅 설정
     logger = setup_logging()
     
-    base_dir = "D:\\aos review"
+    base_dir = os.getcwd()  # 현재 작업 디렉토리 사용
     today = datetime.datetime.now().strftime('%Y%m%d')
     save_dir = os.path.join(base_dir, today)
     

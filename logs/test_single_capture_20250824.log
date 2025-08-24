@@ -1,0 +1,55 @@
+2025-08-24 11:18:53,887 - INFO - 단일 게임 캡처 테스트 시작
+2025-08-24 11:18:53,889 - INFO - ====== WebDriver manager ======
+2025-08-24 11:19:01,800 - INFO - 단일 게임 캡처 테스트 시작
+2025-08-24 11:19:01,801 - INFO - ====== WebDriver manager ======
+2025-08-24 11:19:08,796 - INFO - Driver [C:\Users\shevano7\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+2025-08-24 11:19:20,808 - INFO - WebDriver 초기화 완료
+2025-08-24 11:19:20,809 - INFO - 캡처 시작: NewMatgo
+2025-08-24 11:19:33,277 - INFO - 한국어 설정 적용
+2025-08-24 11:19:33,294 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 11:19:33,303 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:19:43,330 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:19:43,349 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 11:19:46,524 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:19:48,535 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 11:19:48,873 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 11:19:48,910 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:19:48,946 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:19:48,946 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 11:19:49,009 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:19:49,029 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 11:19:49,345 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 11:19:49,390 - INFO - NewMatgo 캡처 성공!
+2025-08-24 11:19:57,628 - INFO - WebDriver 종료
+2025-08-24 11:20:36,150 - INFO - 단일 게임 캡처 테스트 시작
+2025-08-24 11:20:36,154 - INFO - ====== WebDriver manager ======
+2025-08-24 11:20:41,344 - INFO - Driver [C:\Users\shevano7\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+2025-08-24 11:20:51,527 - INFO - WebDriver 초기화 완료
+2025-08-24 11:20:51,528 - INFO - 캡처 시작: NewMatgo
+2025-08-24 11:21:03,057 - INFO - 한국어 설정 적용
+2025-08-24 11:21:03,071 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 11:21:03,079 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:21:13,098 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:21:13,099 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 11:21:16,170 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:21:18,183 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 11:21:18,513 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 11:21:18,533 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:21:18,545 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:21:18,546 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 11:21:18,547 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:21:18,548 - INFO - 최종 크롭 영역: left=254, top=1850, right=1554, bottom=3512.0
+2025-08-24 11:21:18,686 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1300 x 1662)
+2025-08-24 11:21:18,735 - INFO - NewMatgo 캡처 성공!
+2025-08-24 11:29:54,350 - INFO - 단일 게임 캡처 테스트 시작
+2025-08-24 11:29:54,351 - INFO - ====== WebDriver manager ======
+2025-08-24 11:29:59,613 - INFO - Driver [C:\Users\shevano7\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+2025-08-24 11:32:02,675 - INFO - 단일 게임 캡처 테스트 시작
+2025-08-24 11:32:02,676 - INFO - ====== WebDriver manager ======
+2025-08-24 11:32:07,514 - INFO - Driver [C:\Users\shevano7\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+2025-08-24 11:32:17,095 - INFO - WebDriver 초기화 완료
+2025-08-24 11:32:17,095 - INFO - 캡처 시작: NewMatgo
+2025-08-24 11:32:25,063 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/94881261-d395-414f-b917-c0fa045ec98b
+2025-08-24 11:32:29,542 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000249AF208CD0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/94881261-d395-414f-b917-c0fa045ec98b
+2025-08-24 11:32:34,245 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000249AF2087D0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/94881261-d395-414f-b917-c0fa045ec98b
+2025-08-24 12:35:03,690 - INFO - 뉴맞고 리뷰 캡처 테스트 시작

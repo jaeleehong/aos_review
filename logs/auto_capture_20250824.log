@@ -1,0 +1,1663 @@
+2025-08-24 11:38:10,648 - INFO - ==================================================
+2025-08-24 11:38:10,649 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 11:38:10,649 - INFO - 실행 날짜: 20250824
+2025-08-24 11:38:10,650 - INFO - 저장 폴더: D:\aos review\20250824
+2025-08-24 11:38:10,650 - INFO - 캡처할 게임 수: 9개
+2025-08-24 11:38:10,650 - INFO - ==================================================
+2025-08-24 11:38:10,651 - INFO - 저장 폴더 생성: D:\aos review\20250824
+2025-08-24 11:38:21,128 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 11:38:21,151 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 11:38:21,247 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 11:38:35,508 - INFO - 한국어 설정 적용
+2025-08-24 11:38:35,537 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 11:38:40,049 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 11:38:40,109 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:38:40,123 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:38:40,126 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 11:38:43,183 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:38:45,207 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 11:38:45,648 - INFO - 전체 스크린샷 크기: 2382 x 4960
+2025-08-24 11:38:45,658 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 11:38:45,659 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 11:38:45,659 - INFO - 끝 요소 위치: x=304, y=3391
+2025-08-24 11:38:45,659 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:38:45,660 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3441.0
+2025-08-24 11:38:45,782 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 11:38:45,787 - INFO - NewMatgo 캡처 성공!
+2025-08-24 11:38:45,787 - INFO - ==================================================
+2025-08-24 11:38:45,788 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 11:38:45,788 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 11:38:55,772 - INFO - 한국어 설정 적용
+2025-08-24 11:38:55,779 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 11:39:01,246 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 11:39:01,251 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:39:01,291 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:39:01,297 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 11:39:04,312 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:39:06,348 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 11:39:06,804 - INFO - 전체 스크린샷 크기: 2382 x 5366
+2025-08-24 11:39:06,839 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 11:39:06,847 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 11:39:06,847 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-24 11:39:06,848 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:39:06,848 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-24 11:39:07,025 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 11:39:07,033 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 11:39:07,034 - INFO - ==================================================
+2025-08-24 11:39:07,036 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 11:39:07,039 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 11:39:16,802 - INFO - 한국어 설정 적용
+2025-08-24 11:39:16,809 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 11:39:22,114 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 11:39:22,144 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:39:22,168 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:39:22,184 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 11:39:25,214 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:39:27,419 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 11:39:27,936 - INFO - 전체 스크린샷 크기: 2382 x 5772
+2025-08-24 11:39:27,960 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 11:39:27,962 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 11:39:27,962 - INFO - 끝 요소 위치: x=304, y=3427
+2025-08-24 11:39:27,963 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:39:27,965 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3477.0
+2025-08-24 11:39:28,104 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 11:39:28,114 - INFO - Original 캡처 성공!
+2025-08-24 11:39:28,115 - INFO - ==================================================
+2025-08-24 11:39:28,118 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 11:39:28,119 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 11:39:38,162 - INFO - 한국어 설정 적용
+2025-08-24 11:39:38,175 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 11:39:42,875 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 11:39:42,880 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:39:42,886 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:39:42,888 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 11:39:45,916 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:39:48,007 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 11:39:48,751 - INFO - 전체 스크린샷 크기: 2382 x 6178
+2025-08-24 11:39:48,794 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 11:39:48,825 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 11:39:48,825 - INFO - 끝 요소 위치: x=304, y=3535
+2025-08-24 11:39:48,832 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:39:48,842 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3585.0
+2025-08-24 11:39:49,059 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 11:39:49,093 - INFO - Poker 캡처 성공!
+2025-08-24 11:39:49,145 - INFO - ==================================================
+2025-08-24 11:39:49,166 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 11:39:49,180 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 11:40:00,081 - INFO - 한국어 설정 적용
+2025-08-24 11:40:00,097 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 11:40:04,842 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 11:40:04,855 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:40:04,873 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:40:04,880 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 11:40:07,892 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:40:10,074 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 11:40:10,991 - INFO - 전체 스크린샷 크기: 2382 x 6585
+2025-08-24 11:40:11,097 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 11:40:11,159 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 11:40:11,159 - INFO - 끝 요소 위치: x=304, y=3587
+2025-08-24 11:40:11,161 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:40:11,238 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3637.0
+2025-08-24 11:40:11,607 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 11:40:11,666 - INFO - PokerKakao 캡처 성공!
+2025-08-24 11:40:11,679 - INFO - ==================================================
+2025-08-24 11:40:11,683 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 11:40:11,685 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 11:40:22,530 - INFO - 한국어 설정 적용
+2025-08-24 11:40:22,537 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 11:40:27,223 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D2F623890>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/28742915-c5f9-40ca-b034-7ddbf978bfc5
+2025-08-24 11:40:31,537 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D2F622710>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/28742915-c5f9-40ca-b034-7ddbf978bfc5
+2025-08-24 11:40:35,590 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020D2F612FD0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/28742915-c5f9-40ca-b034-7ddbf978bfc5
+2025-08-24 11:40:43,865 - INFO - Firefox WebDriver 종료
+2025-08-24 11:42:53,718 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 11:42:53,726 - INFO - 저장 디렉토리: AOS_REVIEW\20250824
+2025-08-24 11:43:02,150 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 11:43:02,165 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 11:43:14,197 - INFO - 한국어 설정 적용
+2025-08-24 11:43:14,212 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 11:43:18,998 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 11:43:19,006 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:43:19,012 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:43:19,012 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 11:43:22,069 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:43:24,080 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 11:43:24,295 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 11:43:24,315 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:43:24,318 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:43:24,319 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 11:43:24,320 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:43:24,321 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 11:43:24,416 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 11:43:27,425 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 11:43:37,987 - INFO - 한국어 설정 적용
+2025-08-24 11:43:37,994 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 11:43:43,138 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 11:43:43,145 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:43:43,155 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:43:43,158 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 11:43:46,198 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:43:48,212 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 11:43:48,647 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 11:43:48,660 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:43:48,662 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:43:48,663 - INFO - 끝 요소 위치: x=312, y=3516
+2025-08-24 11:43:48,666 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:43:48,667 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3566.0
+2025-08-24 11:43:48,810 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 11:43:51,839 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 11:44:03,931 - INFO - 한국어 설정 적용
+2025-08-24 11:44:03,946 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 11:44:09,343 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/20309d6c-168e-428c-844a-5640c29382a1
+2025-08-24 11:44:13,941 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE66E9FB10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/20309d6c-168e-428c-844a-5640c29382a1
+2025-08-24 11:44:18,811 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE66E9FC50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/20309d6c-168e-428c-844a-5640c29382a1
+2025-08-24 11:44:28,988 - INFO - WebDriver 종료
+2025-08-24 11:44:35,033 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 11:44:35,035 - INFO - 저장 디렉토리: aos_review\20250824
+2025-08-24 11:44:46,214 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 11:44:46,253 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 11:44:54,733 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/4bb2699e-eb97-41f9-9551-b13e92c6f73f
+2025-08-24 11:44:59,414 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022C6C6CE850>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/4bb2699e-eb97-41f9-9551-b13e92c6f73f
+2025-08-24 11:45:03,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022C6C6CE350>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/4bb2699e-eb97-41f9-9551-b13e92c6f73f
+2025-08-24 11:45:12,163 - INFO - WebDriver 종료
+2025-08-24 11:45:37,773 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 11:45:37,776 - INFO - 기존 폴더 사용: aos_review\20250824
+2025-08-24 11:45:37,776 - INFO - 저장 디렉토리: aos_review\20250824
+2025-08-24 11:45:44,913 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 11:45:44,939 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 11:45:57,153 - INFO - 한국어 설정 적용
+2025-08-24 11:45:57,170 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 11:46:02,534 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 11:46:02,547 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:46:02,596 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:46:02,601 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 11:46:05,719 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:46:07,728 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 11:46:08,042 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 11:46:08,077 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:46:08,089 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:46:08,091 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 11:46:08,091 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:46:08,092 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 11:46:08,198 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 11:46:11,209 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 11:46:27,305 - INFO - 한국어 설정 적용
+2025-08-24 11:46:27,311 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 11:46:32,965 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 11:46:32,968 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:46:32,976 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:46:32,978 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 11:46:36,009 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:46:38,018 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 11:46:38,411 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 11:46:38,434 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:46:38,451 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:46:38,451 - INFO - 끝 요소 위치: x=312, y=3516
+2025-08-24 11:46:38,452 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:46:38,453 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3566.0
+2025-08-24 11:46:38,593 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 11:46:41,650 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 11:46:52,019 - INFO - 한국어 설정 적용
+2025-08-24 11:46:52,033 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 11:46:57,376 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 11:46:57,395 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:46:57,423 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:46:57,466 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 11:47:00,540 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:47:02,567 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 11:47:03,028 - INFO - 전체 스크린샷 크기: 1920 x 4641
+2025-08-24 11:47:03,057 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:47:03,059 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:47:03,059 - INFO - 끝 요소 위치: x=312, y=3428
+2025-08-24 11:47:03,063 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:47:03,070 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3478.0
+2025-08-24 11:47:03,177 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 11:47:06,184 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 11:47:16,411 - INFO - 한국어 설정 적용
+2025-08-24 11:47:16,420 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 11:47:21,442 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 11:47:21,449 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:47:21,458 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:47:21,459 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 11:47:24,490 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:47:26,551 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 11:47:26,764 - INFO - 전체 스크린샷 크기: 1920 x 4973
+2025-08-24 11:47:26,779 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 11:47:26,779 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:47:26,779 - INFO - 끝 요소 위치: x=312, y=3536
+2025-08-24 11:47:26,780 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:47:26,780 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3586.0
+2025-08-24 11:47:26,906 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 11:47:29,927 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 11:47:39,774 - INFO - 한국어 설정 적용
+2025-08-24 11:47:39,780 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 11:47:44,963 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 11:47:44,967 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:47:44,975 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:47:44,976 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 11:47:48,033 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:47:50,044 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 11:47:50,269 - INFO - 전체 스크린샷 크기: 1920 x 5305
+2025-08-24 11:47:50,284 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:47:50,284 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:47:50,284 - INFO - 끝 요소 위치: x=312, y=3588
+2025-08-24 11:47:50,285 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:47:50,285 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3638.0
+2025-08-24 11:47:50,410 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 11:47:53,418 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 11:48:04,162 - INFO - 한국어 설정 적용
+2025-08-24 11:48:04,174 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 11:48:09,717 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 11:48:09,723 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:48:09,731 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:48:09,747 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 11:48:12,821 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:48:14,830 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 11:48:15,198 - INFO - 전체 스크린샷 크기: 1920 x 5637
+2025-08-24 11:48:15,219 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:48:15,226 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:48:15,231 - INFO - 끝 요소 위치: x=312, y=3368
+2025-08-24 11:48:15,240 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:48:15,252 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3418.0
+2025-08-24 11:48:15,393 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1200 x 1586)
+2025-08-24 11:48:18,401 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 11:48:29,101 - INFO - 한국어 설정 적용
+2025-08-24 11:48:29,119 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 11:48:34,711 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 11:48:34,715 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:48:34,722 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:48:34,732 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 11:48:37,765 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:48:39,775 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 11:48:40,072 - INFO - 전체 스크린샷 크기: 1920 x 5969
+2025-08-24 11:48:40,083 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:48:40,090 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:48:40,094 - INFO - 끝 요소 위치: x=312, y=3528
+2025-08-24 11:48:40,095 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:48:40,095 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3578.0
+2025-08-24 11:48:40,223 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1200 x 1746)
+2025-08-24 11:48:43,240 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 11:48:54,373 - INFO - 한국어 설정 적용
+2025-08-24 11:48:54,412 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 11:49:00,067 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 11:49:00,077 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:49:00,092 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:49:00,096 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 11:49:03,130 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:49:05,139 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 11:49:05,459 - INFO - 전체 스크린샷 크기: 1920 x 6301
+2025-08-24 11:49:05,490 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:49:05,497 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:49:05,498 - INFO - 끝 요소 위치: x=312, y=3224
+2025-08-24 11:49:05,503 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:49:05,504 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3274.0
+2025-08-24 11:49:05,634 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1200 x 1442)
+2025-08-24 11:49:08,643 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 11:49:19,650 - INFO - 한국어 설정 적용
+2025-08-24 11:49:19,657 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 11:49:24,821 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 11:49:24,824 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 11:49:24,830 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 11:49:24,830 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 11:49:27,865 - INFO - 전체 페이지 높이 설정
+2025-08-24 11:49:29,874 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 11:49:30,152 - INFO - 전체 스크린샷 크기: 1920 x 6633
+2025-08-24 11:49:30,164 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 11:49:30,164 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 11:49:30,165 - INFO - 끝 요소 위치: x=312, y=3252
+2025-08-24 11:49:30,165 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 11:49:30,165 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3302.0
+2025-08-24 11:49:30,266 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1200 x 1470)
+2025-08-24 11:49:33,277 - INFO - 캡처 완료: 9/9 성공
+2025-08-24 11:49:33,283 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 11:49:33,302 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 11:49:33,306 - INFO - HTML 파일 업데이트 완료
+2025-08-24 11:49:36,769 - INFO - WebDriver 종료
+2025-08-24 11:59:48,776 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 11:59:48,779 - INFO - 기존 폴더 사용: D:aos_review\20250824
+2025-08-24 11:59:48,782 - INFO - 저장 디렉토리: D:aos_review\20250824
+2025-08-24 11:59:59,746 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 11:59:59,784 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:00:13,231 - INFO - 한국어 설정 적용
+2025-08-24 12:00:13,258 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:00:18,577 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:00:18,642 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:00:18,659 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:00:18,684 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:00:21,808 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:00:23,834 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:00:24,130 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:00:24,160 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:00:24,181 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:00:24,188 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 12:00:24,193 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:00:24,201 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 12:00:24,377 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 12:00:27,460 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:00:38,481 - INFO - 한국어 설정 적용
+2025-08-24 12:00:38,490 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:00:43,808 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:00:43,812 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:00:43,820 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:00:43,820 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:00:46,870 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:00:48,881 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:00:49,102 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 12:00:49,117 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:00:49,117 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:00:49,118 - INFO - 끝 요소 위치: x=312, y=3516
+2025-08-24 12:00:49,118 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:00:49,118 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3566.0
+2025-08-24 12:00:49,226 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 12:00:52,233 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:01:02,279 - INFO - 한국어 설정 적용
+2025-08-24 12:01:02,329 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 12:01:07,202 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 12:01:07,205 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:01:07,212 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:01:07,213 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 12:01:10,273 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:01:12,287 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 12:01:12,572 - INFO - 전체 스크린샷 크기: 1920 x 4641
+2025-08-24 12:01:12,596 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:01:12,610 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:01:12,614 - INFO - 끝 요소 위치: x=312, y=3428
+2025-08-24 12:01:12,614 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:01:12,614 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3478.0
+2025-08-24 12:01:12,717 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 12:01:15,722 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 12:01:25,903 - INFO - 한국어 설정 적용
+2025-08-24 12:01:25,918 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 12:01:30,444 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/a8d7c933-babd-4ca8-a83c-30a06b1ee244
+2025-08-24 12:01:35,333 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251FAA03B10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/a8d7c933-babd-4ca8-a83c-30a06b1ee244
+2025-08-24 12:01:40,131 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000251FAA03C50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/a8d7c933-babd-4ca8-a83c-30a06b1ee244
+2025-08-24 12:01:49,614 - INFO - WebDriver 종료
+2025-08-24 12:06:15,984 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:06:15,988 - INFO - 폴더가 없어서 생성합니다: D:20250824
+2025-08-24 12:06:15,989 - INFO - 폴더 생성 완료: D:20250824
+2025-08-24 12:06:15,990 - INFO - 저장 디렉토리: D:20250824
+2025-08-24 12:06:28,354 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:06:28,357 - INFO - 기존 폴더 사용: D:20250824
+2025-08-24 12:06:28,364 - INFO - 저장 디렉토리: D:20250824
+2025-08-24 12:06:39,183 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:06:39,217 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:06:51,628 - INFO - 한국어 설정 적용
+2025-08-24 12:06:51,644 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:06:56,652 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:06:56,659 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:06:56,667 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:06:56,670 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:06:59,810 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:07:01,820 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:07:02,194 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:07:02,207 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:07:02,208 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:07:02,208 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 12:07:02,208 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:07:02,209 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 12:07:02,309 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 12:07:05,330 - INFO - 캡처 완료: 1/1 성공
+2025-08-24 12:07:05,501 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 12:07:05,597 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 12:07:05,698 - INFO - HTML 파일 업데이트 완료
+2025-08-24 12:07:10,737 - INFO - WebDriver 종료
+2025-08-24 12:16:11,622 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:16:11,625 - INFO - 폴더가 없어서 생성합니다: D:aos_review\20250824
+2025-08-24 12:16:11,627 - INFO - 폴더 생성 완료: D:aos_review\20250824
+2025-08-24 12:16:11,628 - INFO - 저장 디렉토리: D:aos_review\20250824
+2025-08-24 12:16:20,405 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:16:20,417 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:16:32,427 - INFO - 한국어 설정 적용
+2025-08-24 12:16:32,441 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:16:37,382 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:16:37,393 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:16:37,405 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:16:37,405 - ERROR - 캡처 실패 (NewMatgo): cannot access local variable 'start_location' where it is not associated with a value
+2025-08-24 12:16:40,406 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:16:47,536 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/8996439c-2aa9-4f10-af2c-8a00799421c4
+2025-08-24 12:16:51,583 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA50392850>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/8996439c-2aa9-4f10-af2c-8a00799421c4
+2025-08-24 12:16:56,300 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA50392350>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/8996439c-2aa9-4f10-af2c-8a00799421c4
+2025-08-24 12:17:04,671 - INFO - WebDriver 종료
+2025-08-24 12:17:08,567 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:17:08,567 - INFO - 기존 폴더 사용: D:aos_review\20250824
+2025-08-24 12:17:08,567 - INFO - 저장 디렉토리: D:aos_review\20250824
+2025-08-24 12:17:18,519 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:17:18,550 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:17:31,949 - INFO - 한국어 설정 적용
+2025-08-24 12:17:32,144 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:17:38,279 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:17:38,294 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:17:38,317 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:17:41,414 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:17:43,424 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:17:43,700 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:17:43,707 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:17:43,708 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:17:43,708 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:17:43,708 - ERROR - 캡처 실패 (NewMatgo): 'x'
+2025-08-24 12:17:46,710 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:17:57,772 - INFO - 한국어 설정 적용
+2025-08-24 12:17:57,779 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:18:03,131 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:18:03,135 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:18:03,149 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:18:06,169 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:18:08,178 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:18:08,475 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 12:18:08,493 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:18:08,493 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:18:08,495 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:18:08,495 - ERROR - 캡처 실패 (NewMatgoKakao): 'x'
+2025-08-24 12:18:11,496 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:18:21,157 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/fb211f32-59ce-4253-be45-0826925a80db
+2025-08-24 12:18:25,635 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000189061B7B10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/fb211f32-59ce-4253-be45-0826925a80db
+2025-08-24 12:18:30,236 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000189061B7C50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/fb211f32-59ce-4253-be45-0826925a80db
+2025-08-24 12:18:38,516 - INFO - WebDriver 종료
+2025-08-24 12:18:42,211 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:18:42,213 - INFO - 기존 폴더 사용: D:aos_review\20250824
+2025-08-24 12:18:42,213 - INFO - 저장 디렉토리: D:aos_review\20250824
+2025-08-24 12:18:50,826 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:18:50,839 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:19:03,044 - INFO - 한국어 설정 적용
+2025-08-24 12:19:03,062 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:19:08,022 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:19:08,030 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:19:08,044 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:19:11,230 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:19:13,240 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:19:13,539 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:19:13,552 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:19:13,558 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:19:13,562 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:19:13,563 - INFO - 끝 요소 위치: x=304, y=2832
+2025-08-24 12:19:13,566 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:19:13,567 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=2812
+2025-08-24 12:19:13,696 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1616 x 932)
+2025-08-24 12:19:16,704 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:19:26,831 - INFO - 한국어 설정 적용
+2025-08-24 12:19:26,841 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:19:32,182 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:19:32,256 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:19:32,326 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:19:35,399 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:19:37,407 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:19:37,715 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 12:19:37,734 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:19:37,737 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:19:37,738 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:19:37,741 - INFO - 끝 요소 위치: x=304, y=2832
+2025-08-24 12:19:37,742 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:19:37,742 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=2812
+2025-08-24 12:19:37,837 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1616 x 932)
+2025-08-24 12:19:40,842 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:19:52,322 - INFO - 한국어 설정 적용
+2025-08-24 12:19:52,333 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 12:19:57,806 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 12:19:57,824 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:19:57,840 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 12:20:00,942 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:20:02,963 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 12:20:03,274 - INFO - 전체 스크린샷 크기: 1920 x 4641
+2025-08-24 12:20:03,287 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:20:03,323 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:20:03,332 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:20:03,340 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:20:03,343 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:20:03,346 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:20:03,582 - INFO - 캡처 완료: Original_20250824.png (크기: 1616 x 932)
+2025-08-24 12:20:06,688 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 12:20:18,719 - INFO - 한국어 설정 적용
+2025-08-24 12:20:18,751 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 12:20:24,943 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 12:20:25,230 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:20:25,316 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 12:20:28,445 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:20:29,175 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/ce50230e-396b-4720-a230-69fad1e36461
+2025-08-24 12:20:34,016 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025DE27AF9D0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/ce50230e-396b-4720-a230-69fad1e36461
+2025-08-24 12:20:38,511 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025DE27AFC50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/ce50230e-396b-4720-a230-69fad1e36461
+2025-08-24 12:20:48,652 - INFO - WebDriver 종료
+2025-08-24 12:20:53,358 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:20:53,358 - INFO - 기존 폴더 사용: D:aos_review\20250824
+2025-08-24 12:20:53,359 - INFO - 저장 디렉토리: D:aos_review\20250824
+2025-08-24 12:21:01,682 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:21:01,692 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:21:13,824 - INFO - 한국어 설정 적용
+2025-08-24 12:21:13,838 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:21:18,818 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:21:18,829 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:21:18,841 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:21:21,967 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:21:23,978 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:21:24,498 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:21:24,516 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:21:24,516 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:21:24,517 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:21:24,518 - INFO - 끝 요소 위치: x=304, y=2832
+2025-08-24 12:21:24,522 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:21:24,525 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=2812
+2025-08-24 12:21:24,625 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1616 x 932)
+2025-08-24 12:21:27,708 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:21:41,516 - INFO - 한국어 설정 적용
+2025-08-24 12:21:41,638 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:21:48,079 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:21:48,199 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:21:48,308 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:21:51,357 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:21:53,482 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:21:54,052 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 12:21:54,096 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:21:54,146 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:21:54,239 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:21:54,284 - INFO - 끝 요소 위치: x=304, y=2832
+2025-08-24 12:21:54,430 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:21:54,500 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=2812
+2025-08-24 12:21:54,979 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1616 x 932)
+2025-08-24 12:21:58,096 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:22:09,813 - INFO - 한국어 설정 적용
+2025-08-24 12:22:09,825 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 12:22:16,140 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 12:22:16,147 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:22:16,164 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 12:22:19,220 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:22:21,231 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 12:22:21,538 - INFO - 전체 스크린샷 크기: 1920 x 4641
+2025-08-24 12:22:21,554 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:22:21,557 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:22:21,558 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:22:21,560 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:22:21,563 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:22:21,564 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:22:21,672 - INFO - 캡처 완료: Original_20250824.png (크기: 1616 x 932)
+2025-08-24 12:22:24,756 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 12:22:37,757 - INFO - 한국어 설정 적용
+2025-08-24 12:22:37,773 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 12:22:43,814 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 12:22:43,836 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:22:43,877 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 12:22:46,924 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:22:48,941 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 12:22:49,270 - INFO - 전체 스크린샷 크기: 1920 x 4973
+2025-08-24 12:22:49,281 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:22:49,282 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:22:49,282 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:22:49,283 - INFO - 끝 요소 위치: x=304, y=2832
+2025-08-24 12:22:49,284 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:22:49,285 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=2812
+2025-08-24 12:22:49,384 - INFO - 캡처 완료: Poker_20250824.png (크기: 1616 x 932)
+2025-08-24 12:22:52,390 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 12:23:02,804 - INFO - 한국어 설정 적용
+2025-08-24 12:23:02,810 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 12:23:07,752 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 12:23:07,757 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:23:07,774 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 12:23:10,836 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:23:12,911 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 12:23:13,646 - INFO - 전체 스크린샷 크기: 1920 x 5305
+2025-08-24 12:23:13,657 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:23:13,680 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:23:13,681 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:23:13,681 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:23:13,682 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:23:13,683 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:23:13,846 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1616 x 932)
+2025-08-24 12:23:16,878 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 12:23:27,013 - INFO - 한국어 설정 적용
+2025-08-24 12:23:27,054 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 12:23:32,484 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 12:23:32,489 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:23:32,504 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 12:23:35,608 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:23:37,632 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 12:23:37,857 - INFO - 전체 스크린샷 크기: 1920 x 5637
+2025-08-24 12:23:37,867 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:23:37,867 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:23:37,867 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:23:37,868 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:23:37,868 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:23:37,868 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:23:37,956 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1616 x 932)
+2025-08-24 12:23:40,960 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 12:23:51,028 - INFO - 한국어 설정 적용
+2025-08-24 12:23:51,037 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 12:23:55,907 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 12:23:55,960 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:23:55,995 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 12:23:59,031 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:24:01,040 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 12:24:01,491 - INFO - 전체 스크린샷 크기: 1920 x 5969
+2025-08-24 12:24:01,508 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:24:01,516 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:24:01,517 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:24:01,517 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:24:01,518 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:24:01,518 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:24:01,662 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1616 x 932)
+2025-08-24 12:24:04,675 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 12:24:16,414 - INFO - 한국어 설정 적용
+2025-08-24 12:24:16,431 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 12:24:21,498 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 12:24:21,515 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:24:21,537 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 12:24:24,574 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:24:26,585 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 12:24:26,946 - INFO - 전체 스크린샷 크기: 1920 x 6301
+2025-08-24 12:24:26,960 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:24:26,962 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:24:26,963 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:24:26,964 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:24:26,964 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:24:26,964 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:24:27,097 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1616 x 932)
+2025-08-24 12:24:30,109 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 12:24:41,224 - INFO - 한국어 설정 적용
+2025-08-24 12:24:41,243 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 12:24:46,500 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 12:24:46,555 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:24:46,624 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 12:24:49,657 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:24:51,676 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 12:24:52,233 - INFO - 전체 스크린샷 크기: 1920 x 6633
+2025-08-24 12:24:52,244 - WARNING - 3번째 리뷰 요소를 찾을 수 없습니다. 기본 높이를 사용합니다.
+2025-08-24 12:24:52,248 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 12:24:52,251 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:24:52,253 - INFO - 끝 요소 위치: x=304, y=2784
+2025-08-24 12:24:52,253 - INFO - 끝 요소 크기: width=0, height=0
+2025-08-24 12:24:52,260 - INFO - 최종 크롭 영역: left=304, top=1832, right=1920, bottom=2764
+2025-08-24 12:24:52,406 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1616 x 932)
+2025-08-24 12:24:55,430 - INFO - 캡처 완료: 9/9 성공
+2025-08-24 12:24:55,465 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 12:24:55,499 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 12:24:55,523 - INFO - HTML 파일 업데이트 완료
+2025-08-24 12:25:05,111 - INFO - WebDriver 종료
+2025-08-24 12:27:19,690 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:27:19,694 - INFO - 저장 디렉토리: 20250824
+2025-08-24 12:27:28,722 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:27:28,742 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:27:40,633 - INFO - 한국어 설정 적용
+2025-08-24 12:27:40,653 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:27:45,811 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:27:45,820 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:27:45,826 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:27:45,831 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:27:48,936 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:27:50,947 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:27:51,232 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:27:51,249 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:27:51,252 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:27:51,252 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 12:27:51,261 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:27:51,277 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=3442.0
+2025-08-24 12:27:51,319 - ERROR - 캡처 실패 (NewMatgo): [Errno 2] No such file or directory: '20250824\\NewMatgo_20250824.png'
+2025-08-24 12:27:54,373 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:27:59,309 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE43D26710>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/6177ec1e-c7bd-407c-867b-1e1236af3781
+2025-08-24 12:28:03,352 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE43D27B10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/6177ec1e-c7bd-407c-867b-1e1236af3781
+2025-08-24 12:28:08,270 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE43D16EA0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/6177ec1e-c7bd-407c-867b-1e1236af3781
+2025-08-24 12:28:17,020 - INFO - WebDriver 종료
+2025-08-24 12:28:22,078 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:28:22,083 - INFO - 폴더가 없어서 생성합니다: 20250824
+2025-08-24 12:28:22,083 - INFO - 폴더 생성 완료: 20250824
+2025-08-24 12:28:22,085 - INFO - 저장 디렉토리: 20250824
+2025-08-24 12:28:33,986 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:28:34,009 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:28:42,368 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/7d3f25bc-240a-4d26-9c54-3e3e72cdcc85
+2025-08-24 12:28:47,297 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F53D23E850>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/7d3f25bc-240a-4d26-9c54-3e3e72cdcc85
+2025-08-24 12:28:52,083 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F53D23E350>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/7d3f25bc-240a-4d26-9c54-3e3e72cdcc85
+2025-08-24 12:29:01,201 - INFO - WebDriver 종료
+2025-08-24 12:30:06,101 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:30:06,102 - INFO - 기존 폴더 사용: 20250824
+2025-08-24 12:30:06,102 - INFO - 저장 디렉토리: 20250824
+2025-08-24 12:30:13,373 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:30:13,531 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:30:26,227 - INFO - 한국어 설정 적용
+2025-08-24 12:30:26,261 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:30:31,569 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:30:31,620 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:30:31,638 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:30:31,669 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:30:34,790 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:30:36,801 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:30:37,029 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 12:30:37,044 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:30:37,045 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:30:37,046 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 12:30:37,051 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:30:37,052 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=3442.0
+2025-08-24 12:30:37,172 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1616 x 1562)
+2025-08-24 12:30:40,177 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:30:51,530 - INFO - 한국어 설정 적용
+2025-08-24 12:30:51,538 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:30:57,163 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:30:57,168 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:30:57,174 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:30:57,174 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:31:00,197 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:31:02,206 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:31:02,468 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 12:31:02,480 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 12:31:02,483 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:31:02,484 - INFO - 끝 요소 위치: x=312, y=3516
+2025-08-24 12:31:02,485 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:31:02,485 - INFO - 최종 크롭 영역: left=304, top=1880, right=1920, bottom=3566.0
+2025-08-24 12:31:02,620 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1616 x 1686)
+2025-08-24 12:31:05,640 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:31:13,238 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4E26EF890>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/d72043bb-62d9-4e43-8e7c-4e9699a8742f
+2025-08-24 12:31:17,844 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4E26EE710>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/d72043bb-62d9-4e43-8e7c-4e9699a8742f
+2025-08-24 12:31:22,616 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4E26DEEA0>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/d72043bb-62d9-4e43-8e7c-4e9699a8742f
+2025-08-24 12:31:32,536 - INFO - WebDriver 종료
+2025-08-24 12:50:09,048 - INFO - Google Play 리뷰 자동 캡처 시작
+2025-08-24 12:50:09,050 - INFO - 폴더가 없어서 생성합니다: 20250824
+2025-08-24 12:50:09,051 - INFO - 폴더 생성 완료: 20250824
+2025-08-24 12:50:09,051 - INFO - 저장 디렉토리: 20250824
+2025-08-24 12:50:20,933 - INFO - Firefox WebDriver 초기화 완료
+2025-08-24 12:50:21,089 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:50:30,323 - INFO - 한국어 설정 적용
+2025-08-24 12:50:30,341 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:50:34,563 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:50:34,572 - INFO - 리뷰 섹션 찾기 성공: NewMatgo (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-24 12:50:34,573 - INFO - 리뷰 섹션으로 스크롤: NewMatgo
+2025-08-24 12:50:37,659 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:50:39,684 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:50:39,958 - INFO - 전체 스크린샷 크기: 1904 x 3969
+2025-08-24 12:50:39,979 - INFO - 리뷰 섹션 위치: x=296, y=2007
+2025-08-24 12:50:39,979 - INFO - 리뷰 섹션 크기: width=860.0, height=1421.5
+2025-08-24 12:50:39,988 - INFO - 리뷰 모두 보기 버튼 위치: y=3392
+2025-08-24 12:50:39,995 - INFO - 리뷰 모두 보기 버튼 위까지만 캡처: bottom=3392
+2025-08-24 12:50:39,995 - INFO - 최종 크롭 영역: left=296, top=2007, right=1156.0, bottom=3392
+2025-08-24 12:50:40,066 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 860 x 1385)
+2025-08-24 12:50:43,070 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:50:48,136 - INFO - 한국어 설정 적용
+2025-08-24 12:50:48,155 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:50:53,240 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:50:53,418 - INFO - 리뷰 섹션 찾기 성공: NewMatgoKakao (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-24 12:50:53,445 - INFO - 리뷰 섹션으로 스크롤: NewMatgoKakao
+2025-08-24 12:50:56,684 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:50:58,743 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:50:59,220 - INFO - 전체 스크린샷 크기: 1904 x 4293
+2025-08-24 12:50:59,232 - INFO - 리뷰 섹션 위치: x=296, y=2007
+2025-08-24 12:50:59,239 - INFO - 리뷰 섹션 크기: width=860.0, height=1545.5
+2025-08-24 12:50:59,244 - INFO - 리뷰 모두 보기 버튼 위치: y=3516
+2025-08-24 12:50:59,253 - INFO - 리뷰 모두 보기 버튼 위까지만 캡처: bottom=3516
+2025-08-24 12:50:59,254 - INFO - 최종 크롭 영역: left=296, top=2007, right=1156.0, bottom=3516
+2025-08-24 12:50:59,364 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 860 x 1509)
+2025-08-24 12:51:02,391 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:51:08,497 - INFO - 한국어 설정 적용
+2025-08-24 12:51:08,564 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 12:51:13,662 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 12:51:13,669 - INFO - 리뷰 섹션 찾기 성공: Original (선택자 1: //div[contains(@class, 'Jwxk6d')])
+2025-08-24 12:51:13,682 - INFO - 리뷰 섹션으로 스크롤: Original
+2025-08-24 12:51:16,686 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:51:19,459 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 12:51:22,537 - INFO - 전체 스크린샷 크기: 1904 x 4617
+2025-08-24 12:51:23,148 - ERROR - 캡처 실패 (Original): Message: Failed to decode response from marionette
+
+2025-08-24 12:51:26,153 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 12:51:26,159 - ERROR - 캡처 실패 (Poker): Message: Tried to run command without establishing a connection
+
+2025-08-24 12:51:26,648 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/3a38ae99-736f-4ec3-b03e-61e578134adf
+2025-08-24 12:51:31,586 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022780823B10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/3a38ae99-736f-4ec3-b03e-61e578134adf
+2025-08-24 12:51:36,223 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022780823C50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/3a38ae99-736f-4ec3-b03e-61e578134adf
+2025-08-24 12:51:46,190 - INFO - WebDriver 종료
+2025-08-24 12:53:47,042 - INFO - ==================================================
+2025-08-24 12:53:47,050 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 12:53:47,050 - INFO - 실행 날짜: 20250824
+2025-08-24 12:53:47,051 - INFO - 저장 폴더: D:\aos review\20250824
+2025-08-24 12:53:47,051 - INFO - 캡처할 게임 수: 9개
+2025-08-24 12:53:47,052 - INFO - ==================================================
+2025-08-24 12:53:47,053 - INFO - 저장 폴더 생성: D:\aos review\20250824
+2025-08-24 12:54:00,899 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 12:54:00,927 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 12:54:01,026 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 12:54:18,596 - INFO - 한국어 설정 적용
+2025-08-24 12:54:18,612 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 12:54:23,110 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 12:54:23,127 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:54:23,134 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:54:23,149 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 12:54:26,218 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:54:28,261 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 12:54:28,535 - INFO - 전체 스크린샷 크기: 1904 x 3969
+2025-08-24 12:54:28,549 - INFO - 시작 요소 위치: x=296, y=1900
+2025-08-24 12:54:28,549 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:54:28,549 - INFO - 끝 요소 위치: x=304, y=3392
+2025-08-24 12:54:28,550 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:54:28,550 - INFO - 최종 크롭 영역: left=296, top=1880, right=1496, bottom=3442.0
+2025-08-24 12:54:28,670 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 12:54:28,673 - INFO - NewMatgo 캡처 성공!
+2025-08-24 12:54:28,673 - INFO - ==================================================
+2025-08-24 12:54:28,674 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 12:54:28,674 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 12:54:39,177 - INFO - 한국어 설정 적용
+2025-08-24 12:54:39,200 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 12:54:43,498 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 12:54:43,502 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:54:43,509 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:54:43,509 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 12:54:46,529 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:54:48,560 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 12:54:48,814 - INFO - 전체 스크린샷 크기: 1904 x 4293
+2025-08-24 12:54:48,834 - INFO - 시작 요소 위치: x=296, y=1900
+2025-08-24 12:54:48,836 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:54:48,837 - INFO - 끝 요소 위치: x=304, y=3516
+2025-08-24 12:54:48,837 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:54:48,839 - INFO - 최종 크롭 영역: left=296, top=1880, right=1496, bottom=3566.0
+2025-08-24 12:54:48,935 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 12:54:48,939 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 12:54:48,939 - INFO - ==================================================
+2025-08-24 12:54:48,940 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 12:54:48,942 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 12:54:58,342 - INFO - 한국어 설정 적용
+2025-08-24 12:54:58,351 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 12:55:02,909 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 12:55:02,913 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:55:02,921 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:55:02,921 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 12:55:05,941 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:55:07,985 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 12:55:08,287 - INFO - 전체 스크린샷 크기: 1904 x 4617
+2025-08-24 12:55:08,311 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:55:08,319 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:55:08,322 - INFO - 끝 요소 위치: x=304, y=3428
+2025-08-24 12:55:08,325 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:55:08,327 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3478.0
+2025-08-24 12:55:08,446 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 12:55:08,464 - INFO - Original 캡처 성공!
+2025-08-24 12:55:08,469 - INFO - ==================================================
+2025-08-24 12:55:08,470 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 12:55:08,504 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 12:55:18,406 - INFO - 한국어 설정 적용
+2025-08-24 12:55:18,417 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 12:55:24,067 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 12:55:24,073 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:55:24,079 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:55:24,086 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 12:55:27,143 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:55:29,182 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 12:55:29,580 - INFO - 전체 스크린샷 크기: 1904 x 4941
+2025-08-24 12:55:29,595 - INFO - 시작 요소 위치: x=296, y=1900
+2025-08-24 12:55:29,600 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:55:29,604 - INFO - 끝 요소 위치: x=304, y=3536
+2025-08-24 12:55:29,607 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:55:29,608 - INFO - 최종 크롭 영역: left=296, top=1880, right=1496, bottom=3586.0
+2025-08-24 12:55:29,720 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 12:55:29,737 - INFO - Poker 캡처 성공!
+2025-08-24 12:55:29,743 - INFO - ==================================================
+2025-08-24 12:55:29,745 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 12:55:29,747 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 12:55:40,385 - INFO - 한국어 설정 적용
+2025-08-24 12:55:40,417 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 12:55:45,049 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 12:55:45,053 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:55:45,059 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:55:45,059 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 12:55:48,079 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:55:50,112 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 12:55:50,521 - INFO - 전체 스크린샷 크기: 1904 x 5265
+2025-08-24 12:55:50,538 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:55:50,540 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:55:50,540 - INFO - 끝 요소 위치: x=304, y=3588
+2025-08-24 12:55:50,541 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:55:50,545 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3638.0
+2025-08-24 12:55:50,668 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 12:55:50,700 - INFO - PokerKakao 캡처 성공!
+2025-08-24 12:55:50,732 - INFO - ==================================================
+2025-08-24 12:55:50,752 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 12:55:50,767 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 12:56:01,628 - INFO - 한국어 설정 적용
+2025-08-24 12:56:01,650 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 12:56:06,342 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 12:56:06,389 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:56:06,419 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:56:06,432 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 12:56:09,491 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:56:11,554 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 12:56:11,984 - INFO - 전체 스크린샷 크기: 1904 x 5589
+2025-08-24 12:56:12,014 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:56:12,015 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:56:12,019 - INFO - 끝 요소 위치: x=304, y=3368
+2025-08-24 12:56:12,023 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:56:12,025 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3418.0
+2025-08-24 12:56:12,176 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1200 x 1586)
+2025-08-24 12:56:12,182 - INFO - Sudda 캡처 성공!
+2025-08-24 12:56:12,186 - INFO - ==================================================
+2025-08-24 12:56:12,187 - INFO - 게임 캡처 시작: SuddaKakao (com.neowiz.games.suddaKakao)
+2025-08-24 12:56:12,188 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 12:56:22,978 - INFO - 한국어 설정 적용
+2025-08-24 12:56:22,987 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 12:56:27,945 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 12:56:27,952 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:56:27,961 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:56:27,976 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 12:56:31,021 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:56:33,054 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 12:56:33,381 - INFO - 전체 스크린샷 크기: 1904 x 5913
+2025-08-24 12:56:33,393 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:56:33,394 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:56:33,394 - INFO - 끝 요소 위치: x=304, y=3528
+2025-08-24 12:56:33,394 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:56:33,395 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3578.0
+2025-08-24 12:56:33,507 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1200 x 1746)
+2025-08-24 12:56:33,512 - INFO - SuddaKakao 캡처 성공!
+2025-08-24 12:56:33,513 - INFO - ==================================================
+2025-08-24 12:56:33,513 - INFO - 게임 캡처 시작: ShowdownHoldem (com.neowiz.games.pmang.holdem.poker)
+2025-08-24 12:56:33,513 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 12:56:42,934 - INFO - 한국어 설정 적용
+2025-08-24 12:56:42,966 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 12:56:47,088 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 12:56:47,092 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:56:47,099 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:56:47,101 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 12:56:50,163 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:56:52,233 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 12:56:52,499 - INFO - 전체 스크린샷 크기: 1904 x 6237
+2025-08-24 12:56:52,511 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:56:52,512 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:56:52,512 - INFO - 끝 요소 위치: x=304, y=3224
+2025-08-24 12:56:52,512 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:56:52,513 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3274.0
+2025-08-24 12:56:52,633 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1200 x 1442)
+2025-08-24 12:56:52,638 - INFO - ShowdownHoldem 캡처 성공!
+2025-08-24 12:56:52,639 - INFO - ==================================================
+2025-08-24 12:56:52,640 - INFO - 게임 캡처 시작: NewVegas (com.neowiz.playstudio.slot.casino)
+2025-08-24 12:56:52,640 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 12:57:02,354 - INFO - 한국어 설정 적용
+2025-08-24 12:57:02,366 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 12:57:06,613 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 12:57:06,617 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 12:57:06,623 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 12:57:06,623 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 12:57:09,679 - INFO - 전체 페이지 높이 설정
+2025-08-24 12:57:11,723 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 12:57:12,018 - INFO - 전체 스크린샷 크기: 1904 x 6561
+2025-08-24 12:57:12,033 - INFO - 시작 요소 위치: x=296, y=1852
+2025-08-24 12:57:12,035 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 12:57:12,035 - INFO - 끝 요소 위치: x=304, y=3252
+2025-08-24 12:57:12,037 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 12:57:12,038 - INFO - 최종 크롭 영역: left=296, top=1832, right=1496, bottom=3302.0
+2025-08-24 12:57:12,147 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1200 x 1470)
+2025-08-24 12:57:12,159 - INFO - NewVegas 캡처 성공!
+2025-08-24 12:57:12,164 - INFO - ==================================================
+2025-08-24 12:57:12,166 - INFO - HTML 파일 업데이트 시작
+2025-08-24 12:57:12,166 - ERROR - HTML 파일을 찾을 수 없습니다: 구글 플레이_리뷰.html
+2025-08-24 12:57:12,167 - ERROR - HTML 파일 업데이트 실패
+2025-08-24 12:57:12,167 - INFO - ==================================================
+2025-08-24 12:57:12,168 - INFO - 모든 게임 캡처 및 HTML 업데이트 성공!
+2025-08-24 12:57:12,170 - INFO - ==================================================
+2025-08-24 15:54:17,853 - INFO - ==================================================
+2025-08-24 15:54:17,900 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 15:54:17,914 - INFO - 실행 날짜: 20250824
+2025-08-24 15:54:17,943 - INFO - 저장 폴더: D:\aos_review\20250824
+2025-08-24 15:54:17,965 - INFO - 캡처할 게임 수: 9개
+2025-08-24 15:54:17,999 - INFO - ==================================================
+2025-08-24 15:54:18,010 - INFO - 저장 폴더 생성: D:\aos_review\20250824
+2025-08-24 15:54:33,727 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 15:54:33,783 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 15:54:33,784 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 15:54:50,399 - INFO - 한국어 설정 적용
+2025-08-24 15:54:50,449 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 15:54:55,688 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 15:54:55,708 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:54:55,746 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:54:55,764 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 15:54:58,857 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:55:00,903 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 15:55:01,307 - INFO - 전체 스크린샷 크기: 2382 x 4960
+2025-08-24 15:55:01,361 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 15:55:01,409 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:55:01,479 - INFO - 끝 요소 위치: x=304, y=3391
+2025-08-24 15:55:01,526 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:55:01,567 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3441.0
+2025-08-24 15:55:01,889 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 15:55:01,915 - INFO - NewMatgo 캡처 성공!
+2025-08-24 15:55:01,939 - INFO - ==================================================
+2025-08-24 15:55:01,950 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 15:55:01,974 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 15:55:12,779 - INFO - 한국어 설정 적용
+2025-08-24 15:55:12,803 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 15:55:17,547 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 15:55:17,552 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:55:17,561 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:55:17,572 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 15:55:20,599 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:55:22,695 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 15:55:23,214 - INFO - 전체 스크린샷 크기: 2382 x 5366
+2025-08-24 15:55:23,235 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 15:55:23,247 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:55:23,247 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-24 15:55:23,247 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:55:23,248 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-24 15:55:23,382 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 15:55:23,388 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 15:55:23,389 - INFO - ==================================================
+2025-08-24 15:55:23,392 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 15:55:23,395 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 15:55:33,132 - INFO - 한국어 설정 적용
+2025-08-24 15:55:33,147 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 15:55:37,716 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 15:55:37,725 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:55:37,740 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:55:37,756 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 15:55:40,812 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:55:42,846 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 15:55:43,225 - INFO - 전체 스크린샷 크기: 2382 x 5772
+2025-08-24 15:55:43,248 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:55:43,249 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:55:43,249 - INFO - 끝 요소 위치: x=304, y=3427
+2025-08-24 15:55:43,250 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:55:43,250 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3477.0
+2025-08-24 15:55:43,387 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 15:55:43,398 - INFO - Original 캡처 성공!
+2025-08-24 15:55:43,404 - INFO - ==================================================
+2025-08-24 15:55:43,406 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 15:55:43,409 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 15:55:53,559 - INFO - 한국어 설정 적용
+2025-08-24 15:55:53,566 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 15:55:58,107 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 15:55:58,114 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:55:58,123 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:55:58,124 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 15:56:01,133 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:56:03,200 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 15:56:03,623 - INFO - 전체 스크린샷 크기: 2382 x 6178
+2025-08-24 15:56:03,651 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 15:56:03,655 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:56:03,663 - INFO - 끝 요소 위치: x=304, y=3535
+2025-08-24 15:56:03,680 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:56:03,682 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3585.0
+2025-08-24 15:56:03,830 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 15:56:03,836 - INFO - Poker 캡처 성공!
+2025-08-24 15:56:03,836 - INFO - ==================================================
+2025-08-24 15:56:03,837 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 15:56:03,838 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 15:56:14,444 - INFO - 한국어 설정 적용
+2025-08-24 15:56:14,454 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 15:56:20,839 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 15:56:20,845 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:56:20,854 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:56:20,858 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 15:56:23,873 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:56:25,943 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 15:56:26,428 - INFO - 전체 스크린샷 크기: 2382 x 6585
+2025-08-24 15:56:26,446 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:56:26,455 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:56:26,456 - INFO - 끝 요소 위치: x=304, y=3587
+2025-08-24 15:56:26,456 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:56:26,461 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3637.0
+2025-08-24 15:56:26,725 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 15:56:26,751 - INFO - PokerKakao 캡처 성공!
+2025-08-24 15:56:26,759 - INFO - ==================================================
+2025-08-24 15:56:26,759 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 15:56:26,762 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 15:56:38,853 - INFO - 한국어 설정 적용
+2025-08-24 15:56:38,871 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 15:56:43,860 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 15:56:43,871 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:56:43,881 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:56:43,897 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 15:56:46,932 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:56:48,966 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 15:56:49,501 - INFO - 전체 스크린샷 크기: 2382 x 6991
+2025-08-24 15:56:49,541 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:56:49,561 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:56:49,561 - INFO - 끝 요소 위치: x=304, y=3367
+2025-08-24 15:56:49,562 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:56:49,562 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3417.0
+2025-08-24 15:56:49,742 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1200 x 1586)
+2025-08-24 15:56:49,752 - INFO - Sudda 캡처 성공!
+2025-08-24 15:56:49,753 - INFO - ==================================================
+2025-08-24 15:56:49,754 - INFO - 게임 캡처 시작: SuddaKakao (com.neowiz.games.suddaKakao)
+2025-08-24 15:56:49,755 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 15:56:59,936 - INFO - 한국어 설정 적용
+2025-08-24 15:56:59,963 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 15:57:04,720 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 15:57:04,726 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:57:04,734 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:57:04,736 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 15:57:07,746 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:57:09,882 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 15:57:10,410 - INFO - 전체 스크린샷 크기: 2382 x 7397
+2025-08-24 15:57:10,438 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:57:10,457 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:57:10,458 - INFO - 끝 요소 위치: x=304, y=3527
+2025-08-24 15:57:10,458 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:57:10,461 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3577.0
+2025-08-24 15:57:10,724 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1200 x 1746)
+2025-08-24 15:57:10,733 - INFO - SuddaKakao 캡처 성공!
+2025-08-24 15:57:10,741 - INFO - ==================================================
+2025-08-24 15:57:10,743 - INFO - 게임 캡처 시작: ShowdownHoldem (com.neowiz.games.pmang.holdem.poker)
+2025-08-24 15:57:10,745 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 15:57:21,215 - INFO - 한국어 설정 적용
+2025-08-24 15:57:21,227 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 15:57:27,065 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 15:57:27,087 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:57:27,099 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:57:27,125 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 15:57:30,135 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:57:32,192 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 15:57:32,713 - INFO - 전체 스크린샷 크기: 2382 x 7803
+2025-08-24 15:57:32,735 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:57:32,738 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:57:32,742 - INFO - 끝 요소 위치: x=304, y=3223
+2025-08-24 15:57:32,743 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:57:32,744 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3273.0
+2025-08-24 15:57:32,946 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1200 x 1442)
+2025-08-24 15:57:32,957 - INFO - ShowdownHoldem 캡처 성공!
+2025-08-24 15:57:32,960 - INFO - ==================================================
+2025-08-24 15:57:32,969 - INFO - 게임 캡처 시작: NewVegas (com.neowiz.playstudio.slot.casino)
+2025-08-24 15:57:32,971 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 15:57:43,135 - INFO - 한국어 설정 적용
+2025-08-24 15:57:43,146 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 15:57:47,355 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 15:57:47,361 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 15:57:47,368 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 15:57:47,369 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 15:57:50,379 - INFO - 전체 페이지 높이 설정
+2025-08-24 15:57:52,481 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 15:57:52,958 - INFO - 전체 스크린샷 크기: 2382 x 8210
+2025-08-24 15:57:52,975 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 15:57:52,979 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 15:57:52,979 - INFO - 끝 요소 위치: x=304, y=3251
+2025-08-24 15:57:52,980 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 15:57:52,980 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3301.0
+2025-08-24 15:57:53,134 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1200 x 1470)
+2025-08-24 15:57:53,144 - INFO - NewVegas 캡처 성공!
+2025-08-24 15:57:53,145 - INFO - ==================================================
+2025-08-24 15:57:53,145 - INFO - HTML 파일 업데이트 시작
+2025-08-24 15:57:53,146 - ERROR - HTML 파일을 찾을 수 없습니다: 구글 플레이_리뷰.html
+2025-08-24 15:57:53,146 - ERROR - HTML 파일 업데이트 실패
+2025-08-24 15:57:53,147 - INFO - ==================================================
+2025-08-24 15:57:53,147 - INFO - 모든 게임 캡처 및 HTML 업데이트 성공!
+2025-08-24 15:57:53,147 - INFO - ==================================================
+2025-08-24 15:58:02,190 - INFO - Firefox WebDriver 종료
+2025-08-24 15:59:43,933 - INFO - ==================================================
+2025-08-24 15:59:43,935 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 15:59:43,936 - INFO - 실행 날짜: 20250824
+2025-08-24 15:59:43,937 - INFO - 저장 폴더: D:\aos_review\20250824
+2025-08-24 15:59:43,938 - INFO - 캡처할 게임 수: 9개
+2025-08-24 15:59:43,938 - INFO - ==================================================
+2025-08-24 15:59:43,938 - INFO - 저장 폴더 생성: D:\aos_review\20250824
+2025-08-24 15:59:54,123 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 15:59:54,183 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 15:59:54,184 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 16:00:08,559 - INFO - 한국어 설정 적용
+2025-08-24 16:00:08,581 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 16:00:13,680 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 16:00:13,697 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:00:13,714 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:00:13,736 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 16:00:16,817 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:00:18,855 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 16:00:19,245 - INFO - 전체 스크린샷 크기: 2382 x 4960
+2025-08-24 16:00:19,256 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 16:00:19,257 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:00:19,257 - INFO - 끝 요소 위치: x=304, y=3391
+2025-08-24 16:00:19,257 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:00:19,258 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3441.0
+2025-08-24 16:00:19,437 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 16:00:19,461 - INFO - NewMatgo 캡처 성공!
+2025-08-24 16:00:19,467 - INFO - ==================================================
+2025-08-24 16:00:19,471 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 16:00:19,473 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 16:00:29,892 - INFO - 한국어 설정 적용
+2025-08-24 16:00:29,905 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 16:00:34,918 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 16:00:34,929 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:00:34,948 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:00:34,984 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 16:00:37,997 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:00:40,034 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 16:00:40,477 - INFO - 전체 스크린샷 크기: 2382 x 5366
+2025-08-24 16:00:40,505 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 16:00:40,507 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:00:40,508 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-24 16:00:40,508 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:00:40,509 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-24 16:00:40,650 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 16:00:40,655 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 16:00:40,658 - INFO - ==================================================
+2025-08-24 16:00:40,659 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 16:00:40,659 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 16:00:50,584 - INFO - 한국어 설정 적용
+2025-08-24 16:00:50,589 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 16:00:55,566 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 16:00:55,575 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:00:55,584 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:00:55,590 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 16:00:58,598 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:01:00,681 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 16:01:01,220 - INFO - 전체 스크린샷 크기: 2382 x 5772
+2025-08-24 16:01:01,251 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:01:01,271 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:01:01,280 - INFO - 끝 요소 위치: x=304, y=3427
+2025-08-24 16:01:01,299 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:01:01,300 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3477.0
+2025-08-24 16:01:01,629 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 16:01:01,694 - INFO - Original 캡처 성공!
+2025-08-24 16:01:01,725 - INFO - ==================================================
+2025-08-24 16:01:01,737 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 16:01:01,746 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 16:01:12,242 - INFO - 한국어 설정 적용
+2025-08-24 16:01:12,253 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 16:01:18,176 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 16:01:18,183 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:01:18,192 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:01:18,222 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 16:01:21,248 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:01:23,318 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 16:01:23,825 - INFO - 전체 스크린샷 크기: 2382 x 6178
+2025-08-24 16:01:23,853 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 16:01:23,866 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:01:23,885 - INFO - 끝 요소 위치: x=304, y=3535
+2025-08-24 16:01:23,898 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:01:23,899 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3585.0
+2025-08-24 16:01:24,494 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 16:01:24,727 - INFO - Poker 캡처 성공!
+2025-08-24 16:01:24,952 - INFO - ==================================================
+2025-08-24 16:01:25,070 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 16:01:25,155 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 16:01:35,169 - INFO - 한국어 설정 적용
+2025-08-24 16:01:35,189 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 16:01:40,618 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 16:01:40,638 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:01:40,651 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:01:40,664 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 16:01:43,695 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:01:45,761 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 16:01:46,233 - INFO - 전체 스크린샷 크기: 2382 x 6585
+2025-08-24 16:01:46,276 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:01:46,306 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:01:46,306 - INFO - 끝 요소 위치: x=304, y=3587
+2025-08-24 16:01:46,307 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:01:46,349 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3637.0
+2025-08-24 16:01:46,773 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 16:01:46,811 - INFO - PokerKakao 캡처 성공!
+2025-08-24 16:01:46,841 - INFO - ==================================================
+2025-08-24 16:01:46,852 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 16:01:46,867 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 16:01:57,024 - INFO - 한국어 설정 적용
+2025-08-24 16:01:57,032 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 16:02:02,468 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 16:02:02,473 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:02:02,488 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:02:02,494 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 16:02:05,502 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:02:07,536 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 16:02:07,994 - INFO - 전체 스크린샷 크기: 2382 x 6991
+2025-08-24 16:02:08,010 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:02:08,011 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:02:08,012 - INFO - 끝 요소 위치: x=304, y=3367
+2025-08-24 16:02:08,018 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:02:08,023 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3417.0
+2025-08-24 16:02:08,209 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1200 x 1586)
+2025-08-24 16:02:08,218 - INFO - Sudda 캡처 성공!
+2025-08-24 16:02:08,219 - INFO - ==================================================
+2025-08-24 16:02:08,219 - INFO - 게임 캡처 시작: SuddaKakao (com.neowiz.games.suddaKakao)
+2025-08-24 16:02:08,220 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 16:02:17,693 - INFO - 한국어 설정 적용
+2025-08-24 16:02:17,701 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 16:02:22,105 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 16:02:22,111 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:02:22,117 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:02:22,118 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 16:02:25,127 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:02:27,240 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 16:02:27,643 - INFO - 전체 스크린샷 크기: 2382 x 7397
+2025-08-24 16:02:27,662 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:02:27,662 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:02:27,663 - INFO - 끝 요소 위치: x=304, y=3527
+2025-08-24 16:02:27,663 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:02:27,665 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3577.0
+2025-08-24 16:02:27,855 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1200 x 1746)
+2025-08-24 16:02:27,866 - INFO - SuddaKakao 캡처 성공!
+2025-08-24 16:02:27,870 - INFO - ==================================================
+2025-08-24 16:02:27,873 - INFO - 게임 캡처 시작: ShowdownHoldem (com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:02:27,875 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:02:38,336 - INFO - 한국어 설정 적용
+2025-08-24 16:02:38,382 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 16:02:43,393 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 16:02:43,404 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:02:43,413 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:02:43,414 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 16:02:46,440 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:02:48,545 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 16:02:48,972 - INFO - 전체 스크린샷 크기: 2382 x 7803
+2025-08-24 16:02:49,020 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:02:49,023 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:02:49,036 - INFO - 끝 요소 위치: x=304, y=3223
+2025-08-24 16:02:49,039 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:02:49,042 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3273.0
+2025-08-24 16:02:49,206 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1200 x 1442)
+2025-08-24 16:02:49,216 - INFO - ShowdownHoldem 캡처 성공!
+2025-08-24 16:02:49,222 - INFO - ==================================================
+2025-08-24 16:02:49,224 - INFO - 게임 캡처 시작: NewVegas (com.neowiz.playstudio.slot.casino)
+2025-08-24 16:02:49,225 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 16:02:58,798 - INFO - 한국어 설정 적용
+2025-08-24 16:02:58,830 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 16:03:03,056 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 16:03:03,060 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:03:03,067 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:03:03,067 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 16:03:06,100 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:03:08,165 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 16:03:08,614 - INFO - 전체 스크린샷 크기: 2382 x 8210
+2025-08-24 16:03:08,642 - INFO - 시작 요소 위치: x=296, y=1851
+2025-08-24 16:03:08,651 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:03:08,657 - INFO - 끝 요소 위치: x=304, y=3251
+2025-08-24 16:03:08,658 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:03:08,660 - INFO - 최종 크롭 영역: left=296, top=1831, right=1496, bottom=3301.0
+2025-08-24 16:03:08,861 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1200 x 1470)
+2025-08-24 16:03:08,901 - INFO - NewVegas 캡처 성공!
+2025-08-24 16:03:08,908 - INFO - ==================================================
+2025-08-24 16:03:08,912 - INFO - HTML 파일 업데이트 시작
+2025-08-24 16:03:08,929 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 16:03:08,960 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 16:03:08,968 - INFO - HTML 파일 업데이트 성공!
+2025-08-24 16:03:08,974 - INFO - ==================================================
+2025-08-24 16:03:08,977 - INFO - 모든 게임 캡처 및 HTML 업데이트 성공!
+2025-08-24 16:03:08,987 - INFO - ==================================================
+2025-08-24 16:16:17,883 - INFO - ==================================================
+2025-08-24 16:16:17,884 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 16:16:17,884 - INFO - 실행 날짜: 20250824
+2025-08-24 16:16:17,884 - INFO - 저장 폴더: D:\aos_review\20250824
+2025-08-24 16:16:17,884 - INFO - 캡처할 게임 수: 9개
+2025-08-24 16:16:17,885 - INFO - ==================================================
+2025-08-24 16:16:17,885 - INFO - 저장 폴더 생성: D:\aos_review\20250824
+2025-08-24 16:16:25,370 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 16:16:25,420 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 16:16:25,446 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 16:16:38,025 - INFO - 한국어 설정 적용
+2025-08-24 16:16:38,069 - ERROR - 캡처 실패 (NewMatgo): Message: Failed to decode response from marionette
+
+2025-08-24 16:16:38,069 - ERROR - NewMatgo 캡처 실패
+2025-08-24 16:16:38,070 - INFO - ==================================================
+2025-08-24 16:16:38,070 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 16:16:38,071 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 16:16:38,074 - ERROR - 캡처 실패 (NewMatgoKakao): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,075 - ERROR - NewMatgoKakao 캡처 실패
+2025-08-24 16:16:38,076 - INFO - ==================================================
+2025-08-24 16:16:38,079 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 16:16:38,084 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 16:16:38,088 - ERROR - 캡처 실패 (Original): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,089 - ERROR - Original 캡처 실패
+2025-08-24 16:16:38,091 - INFO - ==================================================
+2025-08-24 16:16:38,092 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 16:16:38,094 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 16:16:38,097 - ERROR - 캡처 실패 (Poker): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,098 - ERROR - Poker 캡처 실패
+2025-08-24 16:16:38,103 - INFO - ==================================================
+2025-08-24 16:16:38,104 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 16:16:38,107 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 16:16:38,113 - ERROR - 캡처 실패 (PokerKakao): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,115 - ERROR - PokerKakao 캡처 실패
+2025-08-24 16:16:38,118 - INFO - ==================================================
+2025-08-24 16:16:38,119 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 16:16:38,120 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 16:16:38,124 - ERROR - 캡처 실패 (Sudda): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,124 - ERROR - Sudda 캡처 실패
+2025-08-24 16:16:38,125 - INFO - ==================================================
+2025-08-24 16:16:38,126 - INFO - 게임 캡처 시작: SuddaKakao (com.neowiz.games.suddaKakao)
+2025-08-24 16:16:38,127 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 16:16:38,130 - ERROR - 캡처 실패 (SuddaKakao): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,133 - ERROR - SuddaKakao 캡처 실패
+2025-08-24 16:16:38,135 - INFO - ==================================================
+2025-08-24 16:16:38,142 - INFO - 게임 캡처 시작: ShowdownHoldem (com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:16:38,144 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:16:38,148 - ERROR - 캡처 실패 (ShowdownHoldem): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,149 - ERROR - ShowdownHoldem 캡처 실패
+2025-08-24 16:16:38,150 - INFO - ==================================================
+2025-08-24 16:16:38,151 - INFO - 게임 캡처 시작: NewVegas (com.neowiz.playstudio.slot.casino)
+2025-08-24 16:16:38,151 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 16:16:38,153 - ERROR - 캡처 실패 (NewVegas): Message: Tried to run command without establishing a connection
+
+2025-08-24 16:16:38,154 - ERROR - NewVegas 캡처 실패
+2025-08-24 16:16:38,155 - INFO - ==================================================
+2025-08-24 16:16:38,156 - INFO - HTML 파일 업데이트 시작
+2025-08-24 16:16:38,157 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 16:16:38,163 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 16:16:38,164 - INFO - HTML 파일 업데이트 성공!
+2025-08-24 16:16:38,166 - INFO - ==================================================
+2025-08-24 16:16:38,168 - ERROR - 모든 게임 캡처 실패
+2025-08-24 16:16:38,169 - INFO - ==================================================
+2025-08-24 16:17:25,360 - INFO - ==================================================
+2025-08-24 16:17:25,401 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 16:17:25,442 - INFO - 실행 날짜: 20250824
+2025-08-24 16:17:25,465 - INFO - 저장 폴더: D:\aos_review\20250824
+2025-08-24 16:17:25,474 - INFO - 캡처할 게임 수: 9개
+2025-08-24 16:17:25,495 - INFO - ==================================================
+2025-08-24 16:17:25,524 - INFO - 저장 폴더 생성: D:\aos_review\20250824
+2025-08-24 16:17:37,580 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 16:17:37,641 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 16:17:37,754 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 16:17:51,455 - INFO - 한국어 설정 적용
+2025-08-24 16:17:51,471 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 16:17:55,857 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 16:17:55,864 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:17:55,871 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:17:55,871 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 16:17:58,931 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:18:00,961 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 16:18:01,390 - INFO - 전체 스크린샷 크기: 2382 x 4960
+2025-08-24 16:18:01,402 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 16:18:01,402 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:18:01,404 - INFO - 끝 요소 위치: x=304, y=3391
+2025-08-24 16:18:01,406 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:18:01,406 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3441.0
+2025-08-24 16:18:01,530 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 16:18:01,546 - INFO - NewMatgo 캡처 성공!
+2025-08-24 16:18:01,551 - INFO - ==================================================
+2025-08-24 16:18:01,555 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 16:18:01,559 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 16:18:11,806 - INFO - 한국어 설정 적용
+2025-08-24 16:18:11,820 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 16:18:17,069 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 16:18:17,074 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:18:17,083 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:18:17,087 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 16:18:20,097 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:18:22,173 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 16:18:22,693 - INFO - 전체 스크린샷 크기: 2382 x 5366
+2025-08-24 16:18:22,714 - INFO - 시작 요소 위치: x=296, y=1899
+2025-08-24 16:18:22,715 - INFO - 시작 요소 크기: width=120.26667785644533, height=28.0
+2025-08-24 16:18:22,715 - INFO - 끝 요소 위치: x=304, y=3515
+2025-08-24 16:18:22,716 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:18:22,716 - INFO - 최종 크롭 영역: left=296, top=1879, right=1496, bottom=3565.0
+2025-08-24 16:18:22,863 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 16:18:22,871 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 16:18:22,873 - INFO - ==================================================
+2025-08-24 16:18:22,879 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 16:18:22,887 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 16:18:27,769 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None)': /session/f64baa1a-93ac-42d1-ba62-7b8f1f0b9728
+2025-08-24 16:18:32,489 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E597FABB10>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/f64baa1a-93ac-42d1-ba62-7b8f1f0b9728
+2025-08-24 16:18:37,431 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E597FABC50>: Failed to establish a new connection: [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다')': /session/f64baa1a-93ac-42d1-ba62-7b8f1f0b9728
+2025-08-24 16:18:46,071 - INFO - Firefox WebDriver 종료
+2025-08-24 16:20:56,876 - INFO - ==================================================
+2025-08-24 16:20:56,876 - INFO - 자동 Google Play 리뷰 캡처 및 HTML 업데이트 시작
+2025-08-24 16:20:56,877 - INFO - 실행 날짜: 20250824
+2025-08-24 16:20:56,877 - INFO - 저장 폴더: D:\aos_review\20250824
+2025-08-24 16:20:56,877 - INFO - 캡처할 게임 수: 9개
+2025-08-24 16:20:56,878 - INFO - ==================================================
+2025-08-24 16:20:56,878 - INFO - 저장 폴더 생성: D:\aos_review\20250824
+2025-08-24 16:21:06,334 - INFO - Firefox WebDriver 초기화 성공
+2025-08-24 16:21:06,346 - INFO - 게임 캡처 시작: NewMatgo (com.neowiz.games.newmatgo)
+2025-08-24 16:21:06,346 - INFO - 캡처 시작: NewMatgo (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo)
+2025-08-24 16:21:19,838 - INFO - 한국어 설정 적용
+2025-08-24 16:21:19,856 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgo&hl=ko
+2025-08-24 16:21:24,420 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgo (버튼 클릭 없음)
+2025-08-24 16:21:24,428 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:21:24,435 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:21:24,435 - INFO - 시작 요소로 스크롤: NewMatgo
+2025-08-24 16:21:27,485 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:21:29,498 - INFO - 전체 페이지 스크린샷 촬영: NewMatgo
+2025-08-24 16:21:29,813 - INFO - 전체 스크린샷 크기: 1920 x 3977
+2025-08-24 16:21:29,837 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 16:21:29,849 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:21:29,852 - INFO - 끝 요소 위치: x=312, y=3392
+2025-08-24 16:21:29,863 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:21:29,863 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3442.0
+2025-08-24 16:21:29,978 - INFO - 캡처 완료: NewMatgo_20250824.png (크기: 1200 x 1562)
+2025-08-24 16:21:29,991 - INFO - NewMatgo 캡처 성공!
+2025-08-24 16:21:29,998 - INFO - ==================================================
+2025-08-24 16:21:30,022 - INFO - 게임 캡처 시작: NewMatgoKakao (com.neowiz.games.newmatgoKakao)
+2025-08-24 16:21:30,049 - INFO - 캡처 시작: NewMatgoKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao)
+2025-08-24 16:21:41,380 - INFO - 한국어 설정 적용
+2025-08-24 16:21:41,390 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.newmatgoKakao&hl=ko
+2025-08-24 16:21:46,835 - INFO - 기본 리뷰 섹션 캡처 시작: NewMatgoKakao (버튼 클릭 없음)
+2025-08-24 16:21:46,840 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:21:46,849 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:21:46,853 - INFO - 시작 요소로 스크롤: NewMatgoKakao
+2025-08-24 16:21:49,872 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:21:51,881 - INFO - 전체 페이지 스크린샷 촬영: NewMatgoKakao
+2025-08-24 16:21:52,166 - INFO - 전체 스크린샷 크기: 1920 x 4309
+2025-08-24 16:21:52,183 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 16:21:52,183 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:21:52,184 - INFO - 끝 요소 위치: x=312, y=3516
+2025-08-24 16:21:52,184 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:21:52,185 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3566.0
+2025-08-24 16:21:52,312 - INFO - 캡처 완료: NewMatgoKakao_20250824.png (크기: 1200 x 1686)
+2025-08-24 16:21:52,336 - INFO - NewMatgoKakao 캡처 성공!
+2025-08-24 16:21:52,341 - INFO - ==================================================
+2025-08-24 16:21:52,342 - INFO - 게임 캡처 시작: Original (com.neowiz.games.gostop2018)
+2025-08-24 16:21:52,345 - INFO - 캡처 시작: Original (https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018)
+2025-08-24 16:22:02,958 - INFO - 한국어 설정 적용
+2025-08-24 16:22:02,970 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.gostop2018&hl=ko
+2025-08-24 16:22:07,772 - INFO - 기본 리뷰 섹션 캡처 시작: Original (버튼 클릭 없음)
+2025-08-24 16:22:07,785 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:22:07,795 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:22:07,800 - INFO - 시작 요소로 스크롤: Original
+2025-08-24 16:22:10,846 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:22:12,856 - INFO - 전체 페이지 스크린샷 촬영: Original
+2025-08-24 16:22:13,246 - INFO - 전체 스크린샷 크기: 1920 x 4641
+2025-08-24 16:22:13,270 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:22:13,274 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:22:13,275 - INFO - 끝 요소 위치: x=312, y=3428
+2025-08-24 16:22:13,277 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:22:13,278 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3478.0
+2025-08-24 16:22:13,396 - INFO - 캡처 완료: Original_20250824.png (크기: 1200 x 1646)
+2025-08-24 16:22:13,401 - INFO - Original 캡처 성공!
+2025-08-24 16:22:13,402 - INFO - ==================================================
+2025-08-24 16:22:13,403 - INFO - 게임 캡처 시작: Poker (com.neowiz.games.poker)
+2025-08-24 16:22:13,404 - INFO - 캡처 시작: Poker (https://play.google.com/store/apps/details?id=com.neowiz.games.poker)
+2025-08-24 16:22:23,362 - INFO - 한국어 설정 적용
+2025-08-24 16:22:23,372 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.poker&hl=ko
+2025-08-24 16:22:27,714 - INFO - 기본 리뷰 섹션 캡처 시작: Poker (버튼 클릭 없음)
+2025-08-24 16:22:27,724 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:22:27,733 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:22:27,741 - INFO - 시작 요소로 스크롤: Poker
+2025-08-24 16:22:30,770 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:22:32,785 - INFO - 전체 페이지 스크린샷 촬영: Poker
+2025-08-24 16:22:33,082 - INFO - 전체 스크린샷 크기: 1920 x 4973
+2025-08-24 16:22:33,097 - INFO - 시작 요소 위치: x=304, y=1900
+2025-08-24 16:22:33,097 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:22:33,097 - INFO - 끝 요소 위치: x=312, y=3536
+2025-08-24 16:22:33,098 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:22:33,098 - INFO - 최종 크롭 영역: left=304, top=1880, right=1504, bottom=3586.0
+2025-08-24 16:22:33,197 - INFO - 캡처 완료: Poker_20250824.png (크기: 1200 x 1706)
+2025-08-24 16:22:33,201 - INFO - Poker 캡처 성공!
+2025-08-24 16:22:33,202 - INFO - ==================================================
+2025-08-24 16:22:33,202 - INFO - 게임 캡처 시작: PokerKakao (com.neowiz.games.pokerKakao)
+2025-08-24 16:22:33,202 - INFO - 캡처 시작: PokerKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao)
+2025-08-24 16:22:43,367 - INFO - 한국어 설정 적용
+2025-08-24 16:22:43,375 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pokerKakao&hl=ko
+2025-08-24 16:22:47,822 - INFO - 기본 리뷰 섹션 캡처 시작: PokerKakao (버튼 클릭 없음)
+2025-08-24 16:22:47,830 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:22:47,836 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:22:47,838 - INFO - 시작 요소로 스크롤: PokerKakao
+2025-08-24 16:22:50,859 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:22:52,868 - INFO - 전체 페이지 스크린샷 촬영: PokerKakao
+2025-08-24 16:22:53,102 - INFO - 전체 스크린샷 크기: 1920 x 5305
+2025-08-24 16:22:53,114 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:22:53,115 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:22:53,115 - INFO - 끝 요소 위치: x=312, y=3588
+2025-08-24 16:22:53,117 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:22:53,118 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3638.0
+2025-08-24 16:22:53,232 - INFO - 캡처 완료: PokerKakao_20250824.png (크기: 1200 x 1806)
+2025-08-24 16:22:53,237 - INFO - PokerKakao 캡처 성공!
+2025-08-24 16:22:53,237 - INFO - ==================================================
+2025-08-24 16:22:53,237 - INFO - 게임 캡처 시작: Sudda (com.neowiz.games.sudda)
+2025-08-24 16:22:53,238 - INFO - 캡처 시작: Sudda (https://play.google.com/store/apps/details?id=com.neowiz.games.sudda)
+2025-08-24 16:23:02,491 - INFO - 한국어 설정 적용
+2025-08-24 16:23:02,503 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.sudda&hl=ko
+2025-08-24 16:23:06,930 - INFO - 기본 리뷰 섹션 캡처 시작: Sudda (버튼 클릭 없음)
+2025-08-24 16:23:06,936 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:23:06,943 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:23:06,945 - INFO - 시작 요소로 스크롤: Sudda
+2025-08-24 16:23:09,981 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:23:11,990 - INFO - 전체 페이지 스크린샷 촬영: Sudda
+2025-08-24 16:23:12,397 - INFO - 전체 스크린샷 크기: 1920 x 5637
+2025-08-24 16:23:12,454 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:23:12,461 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:23:12,472 - INFO - 끝 요소 위치: x=312, y=3368
+2025-08-24 16:23:12,484 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:23:12,496 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3418.0
+2025-08-24 16:23:12,604 - INFO - 캡처 완료: Sudda_20250824.png (크기: 1200 x 1586)
+2025-08-24 16:23:12,609 - INFO - Sudda 캡처 성공!
+2025-08-24 16:23:12,609 - INFO - ==================================================
+2025-08-24 16:23:12,609 - INFO - 게임 캡처 시작: SuddaKakao (com.neowiz.games.suddaKakao)
+2025-08-24 16:23:12,610 - INFO - 캡처 시작: SuddaKakao (https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao)
+2025-08-24 16:23:21,899 - INFO - 한국어 설정 적용
+2025-08-24 16:23:21,907 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.suddaKakao&hl=ko
+2025-08-24 16:23:26,731 - INFO - 기본 리뷰 섹션 캡처 시작: SuddaKakao (버튼 클릭 없음)
+2025-08-24 16:23:26,735 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:23:26,741 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:23:26,742 - INFO - 시작 요소로 스크롤: SuddaKakao
+2025-08-24 16:23:29,760 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:23:31,797 - INFO - 전체 페이지 스크린샷 촬영: SuddaKakao
+2025-08-24 16:23:32,163 - INFO - 전체 스크린샷 크기: 1920 x 5969
+2025-08-24 16:23:32,185 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:23:32,191 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:23:32,203 - INFO - 끝 요소 위치: x=312, y=3528
+2025-08-24 16:23:32,204 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:23:32,204 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3578.0
+2025-08-24 16:23:32,396 - INFO - 캡처 완료: SuddaKakao_20250824.png (크기: 1200 x 1746)
+2025-08-24 16:23:32,423 - INFO - SuddaKakao 캡처 성공!
+2025-08-24 16:23:32,428 - INFO - ==================================================
+2025-08-24 16:23:32,433 - INFO - 게임 캡처 시작: ShowdownHoldem (com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:23:32,438 - INFO - 캡처 시작: ShowdownHoldem (https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker)
+2025-08-24 16:23:42,588 - INFO - 한국어 설정 적용
+2025-08-24 16:23:42,609 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.games.pmang.holdem.poker&hl=ko
+2025-08-24 16:23:47,827 - INFO - 기본 리뷰 섹션 캡처 시작: ShowdownHoldem (버튼 클릭 없음)
+2025-08-24 16:23:47,834 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:23:47,841 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:23:47,843 - INFO - 시작 요소로 스크롤: ShowdownHoldem
+2025-08-24 16:23:50,865 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:23:52,877 - INFO - 전체 페이지 스크린샷 촬영: ShowdownHoldem
+2025-08-24 16:23:53,202 - INFO - 전체 스크린샷 크기: 1920 x 6301
+2025-08-24 16:23:53,219 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:23:53,233 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:23:53,233 - INFO - 끝 요소 위치: x=312, y=3224
+2025-08-24 16:23:53,239 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:23:53,243 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3274.0
+2025-08-24 16:23:53,362 - INFO - 캡처 완료: ShowdownHoldem_20250824.png (크기: 1200 x 1442)
+2025-08-24 16:23:53,372 - INFO - ShowdownHoldem 캡처 성공!
+2025-08-24 16:23:53,375 - INFO - ==================================================
+2025-08-24 16:23:53,376 - INFO - 게임 캡처 시작: NewVegas (com.neowiz.playstudio.slot.casino)
+2025-08-24 16:23:53,377 - INFO - 캡처 시작: NewVegas (https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino)
+2025-08-24 16:24:03,143 - INFO - 한국어 설정 적용
+2025-08-24 16:24:03,150 - INFO - 한국어 URL로 리다이렉트: https://play.google.com/store/apps/details?id=com.neowiz.playstudio.slot.casino&hl=ko
+2025-08-24 16:24:07,936 - INFO - 기본 리뷰 섹션 캡처 시작: NewVegas (버튼 클릭 없음)
+2025-08-24 16:24:07,940 - INFO - 시작 요소 찾기 성공: '평점 및 리뷰' (선택자 1: //h2[text()='평점 및 리뷰'])
+2025-08-24 16:24:07,952 - INFO - 끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 2: //span[text()='리뷰 모두 보기'])
+2025-08-24 16:24:07,953 - INFO - 시작 요소로 스크롤: NewVegas
+2025-08-24 16:24:10,972 - INFO - 전체 페이지 높이 설정
+2025-08-24 16:24:12,983 - INFO - 전체 페이지 스크린샷 촬영: NewVegas
+2025-08-24 16:24:13,394 - INFO - 전체 스크린샷 크기: 1920 x 6633
+2025-08-24 16:24:13,413 - INFO - 시작 요소 위치: x=304, y=1852
+2025-08-24 16:24:13,417 - INFO - 시작 요소 크기: width=120.26666259765624, height=28.0
+2025-08-24 16:24:13,417 - INFO - 끝 요소 위치: x=312, y=3252
+2025-08-24 16:24:13,419 - INFO - 끝 요소 크기: width=91.73333740234376, height=20.0
+2025-08-24 16:24:13,421 - INFO - 최종 크롭 영역: left=304, top=1832, right=1504, bottom=3302.0
+2025-08-24 16:24:13,543 - INFO - 캡처 완료: NewVegas_20250824.png (크기: 1200 x 1470)
+2025-08-24 16:24:13,555 - INFO - NewVegas 캡처 성공!
+2025-08-24 16:24:13,558 - INFO - ==================================================
+2025-08-24 16:24:13,561 - INFO - HTML 파일 업데이트 시작
+2025-08-24 16:24:13,570 - INFO - HTML 파일을 읽었습니다: aos_review.html
+2025-08-24 16:24:13,580 - INFO - 변경할 이미지 경로가 없습니다.
+2025-08-24 16:24:13,605 - INFO - HTML 파일 업데이트 성공!
+2025-08-24 16:24:13,610 - INFO - ==================================================
+2025-08-24 16:24:13,638 - INFO - 모든 게임 캡처 및 HTML 업데이트 성공!
+2025-08-24 16:24:13,649 - INFO - ==================================================
