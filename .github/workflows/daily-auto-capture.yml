@@ -22,8 +22,15 @@ jobs:
     - name: Install Firefox
       run: |
         sudo apt-get update
-        sudo apt-get install -y firefox-esr
-        firefox --version
+        # 먼저 apt로 firefox 설치 시도
+        if sudo apt-get install -y firefox; then
+          echo "Firefox installed via apt"
+          firefox --version
+        else
+          echo "Firefox not available via apt, trying snap..."
+          sudo snap install firefox
+          firefox --version
+        fi
         
     - name: Install Python dependencies
       run: |
