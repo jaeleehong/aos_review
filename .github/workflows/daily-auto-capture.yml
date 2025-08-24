@@ -25,8 +25,25 @@ jobs:
       run: |
         # Firefox 바이너리 직접 다운로드 (리디렉션 처리)
         wget -L -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
-        # 압축 형식 자동 감지하여 해제
-        sudo tar -xaf firefox.tar.bz2 -C /opt/
+        
+        # 파일 타입 확인 및 적절한 압축 해제
+        file_type=$(file firefox.tar.bz2 | grep -o "bzip2\|gzip\|XZ\|POSIX tar")
+        echo "Detected file type: $file_type"
+        
+        if [[ "$file_type" == "bzip2" ]]; then
+          echo "Extracting bzip2 archive..."
+          sudo tar -xjf firefox.tar.bz2 -C /opt/
+        elif [[ "$file_type" == "gzip" ]]; then
+          echo "Extracting gzip archive..."
+          sudo tar -xzf firefox.tar.bz2 -C /opt/
+        elif [[ "$file_type" == "XZ" ]]; then
+          echo "Extracting XZ archive..."
+          sudo tar -xJf firefox.tar.bz2 -C /opt/
+        else
+          echo "Trying auto-detect extraction..."
+          sudo tar -xaf firefox.tar.bz2 -C /opt/
+        fi
+        
         sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
         firefox --version
         
