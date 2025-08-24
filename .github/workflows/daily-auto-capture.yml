@@ -21,11 +21,17 @@ jobs:
         
     - name: Install Firefox
       run: |
-        # Firefox 바이너리 직접 다운로드 (리디렉션 처리)
-        wget -L -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
-        # 압축 형식 자동 감지하여 해제
-        sudo tar -xaf firefox.tar.bz2 -C /opt/
-        sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+        # 저장소에 포함된 Firefox 사용
+        if [ -d "firefox" ]; then
+          echo "Using pre-installed Firefox from repository"
+          sudo cp -r firefox /opt/
+          sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+        else
+          echo "Firefox not found in repository, trying download..."
+          wget -L -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
+          sudo tar -xaf firefox.tar.bz2 -C /opt/
+          sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+        fi
         firefox --version
         
     - name: Install Python dependencies
