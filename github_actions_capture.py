@@ -8,6 +8,7 @@ import os
 import datetime
 import logging
 import time
+import re
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
@@ -139,7 +140,7 @@ def capture_game_review(driver, app_id, game_name, save_dir, logger):
 def main():
     """메인 실행 함수"""
     logger = setup_logging()
-    logger.info("GitHub Actions 캡처 시작")
+    logger.info("로컬 캡처 시작")
     
     # 저장 디렉토리 생성
     today = datetime.datetime.now().strftime('%Y%m%d')
@@ -161,6 +162,11 @@ def main():
         
         logger.info(f"캡처 완료: {success_count}/{total_games} 성공")
         
+        # HTML 파일 업데이트
+        if success_count > 0:
+            update_html_file(today, logger)
+            logger.info("HTML 파일 업데이트 완료")
+        
     except Exception as e:
         logger.error(f"실행 중 오류 발생: {e}")
         raise
@@ -168,6 +174,52 @@ def main():
         if driver:
             driver.quit()
             logger.info("WebDriver 종료")
+
+def update_html_file(date_folder, logger):
+    """HTML 파일에 새로운 날짜 폴더 추가"""
+    try:
+        # aos_review.html 파일 읽기
+        with open('aos_review.html', 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 새로운 날짜 폴더가 이미 있는지 확인
+        if date_folder not in content:
+            # 날짜 선택 옵션에 추가
+            date_pattern = r'<option value="(\d{8})">(\d{4}-\d{2}-\d{2})</option>'
+            matches = re.findall(date_pattern, content)
+            
+            # 새로운 날짜 추가
+            new_date_option = f'<option value="{date_folder}">{date_folder[:4]}-{date_folder[4:6]}-{date_folder[6:8]}</option>'
+            
+            # 날짜 옵션들을 정렬하여 추가
+            all_dates = [(date_folder, f"{date_folder[:4]}-{date_folder[4:6]}-{date_folder[6:8]}")] + matches
+            all_dates.sort(reverse=True)  # 최신 날짜가 위로
+            
+            # 기존 날짜 옵션들 제거
+            for match in matches:
+                old_option = f'<option value="{match[0]}">{match[1]}</option>'
+                content = content.replace(old_option, '')
+            
+            # 새로운 날짜 옵션들 추가
+            date_options = ''
+            for date_val, date_display in all_dates:
+                date_options += f'<option value="{date_val}">{date_display}</option>'
+            
+            # 날짜 선택 부분 찾아서 교체
+            date_select_pattern = r'(<select id="dateSelect"[^>]*>).*?(</select>)'
+            content = re.sub(date_select_pattern, r'\1' + date_options + r'\2', content, flags=re.DOTALL)
+            
+            # 파일 저장
+            with open('aos_review.html', 'w', encoding='utf-8') as f:
+                f.write(content)
+            
+            logger.info(f"HTML 파일에 {date_folder} 날짜 추가 완료")
+        else:
+            logger.info(f"{date_folder} 날짜가 이미 HTML에 존재함")
+            
+    except Exception as e:
+        logger.error(f"HTML 파일 업데이트 실패: {e}")
+        raise
 
 if __name__ == "__main__":
     main()
