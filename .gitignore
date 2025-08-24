@@ -72,6 +72,10 @@ settings.json
 *.bat
 *.cmd
 
+# Firefox 폴더는 포함 (GitHub Actions용)
+!firefox/
+!firefox/*
+
 # 압축 파일들
 *.zip
 *.rar
