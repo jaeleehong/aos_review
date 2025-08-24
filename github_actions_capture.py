@@ -51,7 +51,7 @@ def setup_driver():
     """GitHub Actions용 Firefox WebDriver 설정"""
     firefox_options = Options()
     
-    # 헤드리스 모드 설정
+    # 헤드리스 모드 설정 (GitHub Actions 환경에 최적화)
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--no-sandbox")
     firefox_options.add_argument("--disable-dev-shm-usage")
@@ -60,6 +60,9 @@ def setup_driver():
     firefox_options.add_argument("--disable-gpu")
     firefox_options.add_argument("--disable-extensions")
     firefox_options.add_argument("--disable-plugins")
+    firefox_options.add_argument("--disable-background-timer-throttling")
+    firefox_options.add_argument("--disable-backgrounding-occluded-windows")
+    firefox_options.add_argument("--disable-renderer-backgrounding")
     
     # 브라우저 설정
     firefox_options.set_preference("dom.webdriver.enabled", False)
@@ -74,14 +77,26 @@ def setup_driver():
     # 네트워크 타임아웃 설정
     firefox_options.set_preference("network.http.connection-timeout", 30)
     firefox_options.set_preference("network.http.response-timeout", 30)
+    firefox_options.set_preference("network.http.connection-retry-timeout", 30)
+    
+    # 메모리 및 성능 최적화
+    firefox_options.set_preference("browser.cache.disk.enable", False)
+    firefox_options.set_preference("browser.cache.memory.enable", False)
+    firefox_options.set_preference("browser.cache.offline.enable", False)
+    firefox_options.set_preference("network.http.use-cache", False)
     
     # GitHub Actions 환경에서 실행
     try:
         from selenium.webdriver.firefox.service import Service
-        service = Service(GeckoDriverManager().install())
+        # 특정 버전의 geckodriver 사용 (안정성 향상)
+        service = Service(GeckoDriverManager(version="v0.33.0").install())
         driver = webdriver.Firefox(service=service, options=firefox_options)
         driver.set_page_load_timeout(60)
         driver.implicitly_wait(10)
+        
+        # 추가 대기 시간 (GitHub Actions 환경 안정화)
+        time.sleep(3)
+        
     except Exception as e:
         print(f"Firefox WebDriver 초기화 실패: {e}")
         raise
