@@ -112,71 +112,25 @@ def capture_game_review(driver, app_id, game_name, save_dir, logger):
         driver.get(url)
         time.sleep(10)  # 페이지 로딩 대기
         
-        # 리뷰 섹션 찾기 (여러 선택자 시도)
-        wait = WebDriverWait(driver, 20)
-        review_section = None
+        # 페이지 로딩 대기 및 전체 페이지 캡처
+        logger.info(f"페이지 로딩 완료, 전체 페이지 캡처 시작: {game_name}")
         
-        # 다양한 선택자 시도
-        selectors = [
-            "div[data-testid='reviews-section']",
-            "div[data-testid='reviews']",
-            "div[data-testid='reviews-container']",
-            "div[data-testid='reviews-section'] div",
-            "div[jsname='V67aGc']",
-            "div[jsname='V67aGc'] div",
-            "div[role='main'] div[data-testid]",
-            "div[role='main'] div[jsname]",
-            "div[data-testid]",
-            "div[jsname]"
-        ]
+        # 페이지가 완전히 로드될 때까지 대기
+        time.sleep(5)
         
-        for selector in selectors:
-            try:
-                review_section = wait.until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, selector))
-                )
-                logger.info(f"리뷰 섹션 찾음: {selector}")
-                break
-            except:
-                continue
-        
-        if not review_section:
-            # 전체 페이지 캡처로 대체
-            logger.warning(f"리뷰 섹션을 찾을 수 없어 전체 페이지 캡처: {game_name}")
-            screenshot = driver.get_screenshot_as_png()
-            img = Image.open(io.BytesIO(screenshot))
-            
-            # 저장
-            filename = f"{game_name}_{datetime.datetime.now().strftime('%Y%m%d')}.png"
-            filepath = os.path.join(save_dir, filename)
-            img.save(filepath, "PNG")
-            
-            logger.info(f"전체 페이지 캡처 완료: {filepath}")
-            return True
-        
-        # 스크롤하여 리뷰 섹션 확장
-        driver.execute_script("arguments[0].scrollIntoView();", review_section)
-        time.sleep(3)
-        
-        # 리뷰 섹션 캡처
+        # 전체 페이지 캡처
         screenshot = driver.get_screenshot_as_png()
         img = Image.open(io.BytesIO(screenshot))
-        
-        # 리뷰 섹션 위치 계산 (대략적인 위치)
-        window_height = driver.execute_script("return window.innerHeight;")
-        review_y = review_section.location['y']
-        
-        # 리뷰 섹션만 크롭
-        crop_box = (0, max(0, review_y - 100), 1920, min(img.height, review_y + 800))
-        cropped_img = img.crop(crop_box)
         
         # 저장
         filename = f"{game_name}_{datetime.datetime.now().strftime('%Y%m%d')}.png"
         filepath = os.path.join(save_dir, filename)
-        cropped_img.save(filepath, "PNG")
+        img.save(filepath, "PNG")
         
-        logger.info(f"캡처 완료: {filepath}")
+        logger.info(f"전체 페이지 캡처 완료: {filepath}")
         return True
+        
+
         
     except Exception as e:
         logger.error(f"캡처 실패 {game_name}: {e}")
