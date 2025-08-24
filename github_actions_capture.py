@@ -9,12 +9,12 @@ import datetime
 import logging
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PIL import Image
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 import io
 
 # 게임 정보 정의
@@ -48,35 +48,42 @@ def setup_logging():
     return logging.getLogger(__name__)
 
 def setup_driver():
-    """GitHub Actions용 Chrome WebDriver 설정"""
-    chrome_options = Options()
+    """GitHub Actions용 Firefox WebDriver 설정"""
+    firefox_options = Options()
     
     # 헤드리스 모드 설정
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--disable-plugins")
-    chrome_options.add_argument("--disable-images")
-    chrome_options.add_argument("--disable-javascript")
+    firefox_options.add_argument("--headless")
+    firefox_options.add_argument("--no-sandbox")
+    firefox_options.add_argument("--disable-dev-shm-usage")
+    firefox_options.add_argument("--width=1920")
+    firefox_options.add_argument("--height=1080")
+    firefox_options.add_argument("--disable-gpu")
+    firefox_options.add_argument("--disable-extensions")
+    firefox_options.add_argument("--disable-plugins")
     
-    # User-Agent 설정
-    chrome_options.add_argument("--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    # 브라우저 설정
+    firefox_options.set_preference("dom.webdriver.enabled", False)
+    firefox_options.set_preference("useAutomationExtension", False)
+    firefox_options.set_preference("general.useragent.override", 
+                                 "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0")
     
-    # 언어 설정
-    chrome_options.add_argument("--lang=ko-KR")
+    # 한국어 설정
+    firefox_options.set_preference("intl.accept_languages", "ko-KR,ko;q=0.9,en;q=0.8")
+    firefox_options.set_preference("general.useragent.locale", "ko-KR")
+    
+    # 네트워크 타임아웃 설정
+    firefox_options.set_preference("network.http.connection-timeout", 30)
+    firefox_options.set_preference("network.http.response-timeout", 30)
     
     # GitHub Actions 환경에서 실행
     try:
-        from selenium.webdriver.chrome.service import Service
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=chrome_options)
+        from selenium.webdriver.firefox.service import Service
+        service = Service(GeckoDriverManager().install())
+        driver = webdriver.Firefox(service=service, options=firefox_options)
         driver.set_page_load_timeout(60)
         driver.implicitly_wait(10)
     except Exception as e:
-        print(f"Chrome WebDriver 초기화 실패: {e}")
+        print(f"Firefox WebDriver 초기화 실패: {e}")
         raise
     
     return driver
