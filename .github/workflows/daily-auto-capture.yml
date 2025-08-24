@@ -21,9 +21,10 @@ jobs:
         
     - name: Install Firefox
       run: |
-        # Firefox 바이너리 직접 다운로드
-        wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
-        sudo tar -xjf firefox.tar.bz2 -C /opt/
+        # Firefox 바이너리 직접 다운로드 (리디렉션 처리)
+        wget -L -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
+        # 압축 형식 자동 감지하여 해제
+        sudo tar -xaf firefox.tar.bz2 -C /opt/
         sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
         firefox --version
         
