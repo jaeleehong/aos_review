@@ -21,16 +21,11 @@ jobs:
         
     - name: Install Firefox
       run: |
-        sudo apt-get update
-        # 먼저 apt로 firefox 설치 시도
-        if sudo apt-get install -y firefox; then
-          echo "Firefox installed via apt"
-          firefox --version
-        else
-          echo "Firefox not available via apt, trying snap..."
-          sudo snap install firefox
-          firefox --version
-        fi
+        # Firefox 바이너리 직접 다운로드
+        wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=ko"
+        sudo tar -xjf firefox.tar.bz2 -C /opt/
+        sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+        firefox --version
         
     - name: Install Python dependencies
       run: |
