@@ -56,7 +56,6 @@ def setup_driver():
     firefox_options = Options()
     firefox_options.add_argument("--width=1920")
     firefox_options.add_argument("--height=1080")
-    firefox_options.add_argument("--headless")  # 백그라운드 실행을 위한 헤드리스 모드
     firefox_options.set_preference("dom.webdriver.enabled", False)
     firefox_options.set_preference("useAutomationExtension", False)
     firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0")
