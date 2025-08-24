@@ -112,11 +112,47 @@ def capture_game_review(driver, app_id, game_name, save_dir, logger):
         driver.get(url)
         time.sleep(10)  # 페이지 로딩 대기
         
-        # 리뷰 섹션 찾기
+        # 리뷰 섹션 찾기 (여러 선택자 시도)
         wait = WebDriverWait(driver, 20)
-        review_section = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-testid='reviews-section']"))
-        )
+        review_section = None
+        
+        # 다양한 선택자 시도
+        selectors = [
+            "div[data-testid='reviews-section']",
+            "div[data-testid='reviews']",
+            "div[data-testid='reviews-container']",
+            "div[data-testid='reviews-section'] div",
+            "div[jsname='V67aGc']",
+            "div[jsname='V67aGc'] div",
+            "div[role='main'] div[data-testid]",
+            "div[role='main'] div[jsname]",
+            "div[data-testid]",
+            "div[jsname]"
+        ]
+        
+        for selector in selectors:
+            try:
+                review_section = wait.until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, selector))
+                )
+                logger.info(f"리뷰 섹션 찾음: {selector}")
+                break
+            except:
+                continue
+        
+        if not review_section:
+            # 전체 페이지 캡처로 대체
+            logger.warning(f"리뷰 섹션을 찾을 수 없어 전체 페이지 캡처: {game_name}")
+            screenshot = driver.get_screenshot_as_png()
+            img = Image.open(io.BytesIO(screenshot))
+            
+            # 저장
+            filename = f"{game_name}_{datetime.datetime.now().strftime('%Y%m%d')}.png"
+            filepath = os.path.join(save_dir, filename)
+            img.save(filepath, "PNG")
+            
+            logger.info(f"전체 페이지 캡처 완료: {filepath}")
+            return True
         
         # 스크롤하여 리뷰 섹션 확장
         driver.execute_script("arguments[0].scrollIntoView();", review_section)
