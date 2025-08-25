@@ -55,7 +55,7 @@ def setup_driver():
     """Firefox WebDriver 설정"""
     firefox_options = Options()
     firefox_options.add_argument("--width=1920")
-    firefox_options.add_argument("--height=1080")
+    firefox_options.add_argument("--height=1200")  # 높이를 늘려서 더 많은 내용 표시
     firefox_options.add_argument("--headless")  # 백그라운드 실행을 위한 헤드리스 모드
     firefox_options.set_preference("dom.webdriver.enabled", False)
     firefox_options.set_preference("useAutomationExtension", False)
@@ -64,6 +64,11 @@ def setup_driver():
     # 한국어 설정 추가
     firefox_options.set_preference("intl.accept_languages", "ko-KR,ko;q=0.9,en;q=0.8")
     firefox_options.set_preference("general.useragent.locale", "ko-KR")
+    
+    # 추가 설정으로 더 정확한 렌더링 보장
+    firefox_options.set_preference("layout.css.devPixelsPerPx", "1.0")  # 픽셀 밀도 설정
+    firefox_options.set_preference("browser.cache.disk.enable", False)  # 캐시 비활성화
+    firefox_options.set_preference("browser.cache.memory.enable", False)  # 메모리 캐시 비활성화
     
     return webdriver.Firefox(options=firefox_options)
 
@@ -100,6 +105,26 @@ def capture_game_review_firefox(driver, app_id, game_name, save_dir, logger):
             driver.get(korean_url)
             time.sleep(3)
         
+        # 화면 크기 최적화를 위한 동적 조정
+        logger.info("화면 크기 최적화 시작")
+        try:
+            # 현재 창 크기 확인
+            current_size = driver.get_window_size()
+            logger.info(f"현재 창 크기: {current_size['width']} x {current_size['height']}")
+            
+            # 페이지 내용에 맞게 창 크기 조정
+            driver.set_window_size(1920, 1200)
+            time.sleep(2)
+            
+            # 페이지가 완전히 로드될 때까지 대기
+            WebDriverWait(driver, 10).until(
+                lambda driver: driver.execute_script("return document.readyState") == "complete"
+            )
+            
+            logger.info("화면 크기 최적화 완료")
+        except Exception as e:
+            logger.warning(f"화면 크기 최적화 실패: {e}")
+        
         # "리뷰 모두 보기" 버튼을 클릭하지 않고 기본 리뷰 섹션만 캡처
         logger.info(f"기본 리뷰 섹션 캡처 시작: {game_name} (버튼 클릭 없음)")
         
@@ -133,32 +158,55 @@ def capture_game_review_firefox(driver, app_id, game_name, save_dir, logger):
             "//span[text()='리뷰 모두 보기']",
             "//div[contains(text(), '리뷰 모두 보기')]",
             "//button[contains(text(), '리뷰 모두 보기')]",
-            "//a[contains(text(), '리뷰 모두 보기')]"
+            "//a[contains(text(), '리뷰 모두 보기')]",
+            "//div[contains(text(), '새로운 기능')]",
+            "//h3[contains(text(), '새로운 기능')]",
+            "//div[contains(text(), '부적절한 앱으로 신고')]",
+            "//a[contains(text(), '부적절한 앱으로 신고')]"
         ]
         
         for i, selector in enumerate(end_element_selectors):
             try:
                 end_element = driver.find_element(By.XPATH, selector)
-                logger.info(f"끝 요소 찾기 성공: '리뷰 모두 보기' (선택자 {i+1}: {selector})")
+                logger.info(f"끝 요소 찾기 성공: (선택자 {i+1}: {selector})")
                 break
             except Exception as e:
                 logger.debug(f"끝 요소 선택자 {i+1} 실패: {selector} - {e}")
                 continue
         
         if end_element is None:
-            logger.error(f"끝 요소를 찾을 수 없습니다: '리뷰 모두 보기'")
-            return False
+            logger.warning(f"끝 요소를 찾을 수 없습니다. 기본 높이로 캡처합니다.")
+            # 끝 요소를 찾지 못한 경우, 시작 요소에서 2000px 아래로 캡처
+            end_location = {'y': start_location['y'] + 2000}
+            end_size = {'height': 0}
+        else:
+            end_location = end_element.location
+            end_size = end_element.size
         
         # 시작 요소로 스크롤
         logger.info(f"시작 요소로 스크롤: {game_name}")
         driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'start'});", start_element)
         time.sleep(3)  # 스크롤 완료 대기
         
-        # 전체 페이지 높이 설정
+        # 전체 페이지 높이 설정 (전체 화면 캡처)
         logger.info("전체 페이지 높이 설정")
         total_height = driver.execute_script("return document.body.scrollHeight")
+        logger.info(f"전체 페이지 높이: {total_height}px")
+        
+        # 전체 화면 크기로 설정
         driver.set_window_size(1920, total_height)
+        time.sleep(3)  # 크기 변경 후 안정화 대기
+        
+        # 페이지가 완전히 렌더링될 때까지 대기
+        WebDriverWait(driver, 10).until(
+            lambda driver: driver.execute_script("return document.readyState") == "complete"
+        )
+        
+        # 추가로 스크롤하여 모든 콘텐츠가 로드되도록 함
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
+        driver.execute_script("window.scrollTo(0, 0);")
+        time.sleep(1)
         
         # 스크린샷 촬영
         logger.info(f"전체 페이지 스크린샷 촬영: {game_name}")
@@ -178,11 +226,19 @@ def capture_game_review_firefox(driver, app_id, game_name, save_dir, logger):
         logger.info(f"끝 요소 위치: x={end_location['x']}, y={end_location['y']}")
         logger.info(f"끝 요소 크기: width={end_size['width']}, height={end_size['height']}")
         
-        # 캡처 영역 계산 (시작 요소부터 끝 요소까지, 너비 1200px로 고정)
-        crop_left = max(0, start_location['x'])
-        crop_top = max(0, start_location['y'] - 20)  # 시작 요소 위쪽 20px 여유
-        crop_right = min(img.width, start_location['x'] + 1200)  # 너비를 1200px로 고정
-        crop_bottom = min(img.height, end_location['y'] + end_size['height'] + 30)  # 끝 요소 아래쪽 30px 여유
+        # 캡처 영역 계산 (고정 크기: 1000 x 1800 - 우측 사이드바 제외)
+        crop_width = 1000  # 너비를 1000px로 설정 (우측 사이드바 제외)
+        crop_left = max(0, start_location['x'] - 100)  # 시작 요소에서 왼쪽으로 100px 여백
+        crop_top = max(0, start_location['y'] - 100)  # 시작 요소 위쪽 100px 여유
+        crop_right = min(img.width, crop_left + crop_width)  # 조정된 너비 적용
+        
+        # 고정 높이 1800px로 설정
+        crop_bottom = min(img.height, crop_top + 1800)  # 시작점에서 1800px 아래까지
+        
+        # 최소 캡처 높이 보장 (최소 1800px)
+        min_height = 1800
+        if crop_bottom - crop_top < min_height:
+            crop_bottom = min(img.height, crop_top + min_height)
         
         logger.info(f"최종 크롭 영역: left={crop_left}, top={crop_top}, right={crop_right}, bottom={crop_bottom}")
         
@@ -220,9 +276,20 @@ def update_html_with_new_images(save_dir, logger):
         # 새로 캡처된 파일들의 매핑 생성
         filename_mapping = {}
         for app_id, game_name in GAMES.items():
-            old_filename = f"{game_name.lower()}_reviews_{today}_*.png"  # 기존 형식
-            new_filename = f"{game_name}_{today}.png"  # 새로운 형식
-            filename_mapping[old_filename] = new_filename
+            # 실제 생성되는 파일명 형식으로 수정
+            new_filename = f"{game_name}_{today}.png"
+            
+            # HTML에서 찾을 수 있는 다양한 패턴들
+            old_patterns = [
+                f"{game_name.lower()}_reviews_{today}_*.png",
+                f"{game_name.lower()}_{today}_*.png", 
+                f"{game_name}_{today}_*.png",
+                f"{game_name.lower()}_reviews_*.png",
+                f"{game_name}_reviews_*.png"
+            ]
+            
+            for old_pattern in old_patterns:
+                filename_mapping[old_pattern] = new_filename
         
         # HTML 파일 읽기
         with open(html_file, 'r', encoding='utf-8') as f:
@@ -244,6 +311,55 @@ def update_html_with_new_images(save_dir, logger):
                 content = new_content
                 changes_made += count
                 logger.info(f"변경됨: {old_pattern} -> {new_filename} ({count}회)")
+        
+        # JavaScript 템플릿 변수도 업데이트 (currentDate)
+        js_pattern = r'(\$\{currentDate\})'
+        js_replacement = today
+        new_content, count = re.subn(js_pattern, js_replacement, content)
+        if count > 0:
+            content = new_content
+            changes_made += count
+            logger.info(f"JavaScript 변수 업데이트: ${{currentDate}} -> {today} ({count}회)")
+        
+        # JavaScript 템플릿 변수도 업데이트 (prevDate)
+        prev_date = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y%m%d')
+        js_prev_pattern = r'(\$\{prevDate\})'
+        js_prev_replacement = prev_date
+        new_content, count = re.subn(js_prev_pattern, js_prev_replacement, content)
+        if count > 0:
+            content = new_content
+            changes_made += count
+            logger.info(f"JavaScript 변수 업데이트: ${{prevDate}} -> {prev_date} ({count}회)")
+        
+        # availableDates 배열 업데이트
+        available_dates_pattern = r"const availableDates = \[([^\]]*)\];"
+        available_dates_match = re.search(available_dates_pattern, content)
+        if available_dates_match:
+            current_dates = available_dates_match.group(1).split(',')
+            current_dates = [date.strip().strip("'") for date in current_dates if date.strip()]
+            
+            # 오늘 날짜가 없으면 추가
+            if today not in current_dates:
+                current_dates.insert(0, today)  # 최신 날짜를 맨 앞에 추가
+                new_available_dates = "['" + "', '".join(current_dates) + "']"
+                content = re.sub(available_dates_pattern, f"const availableDates = [{new_available_dates}];", content)
+                changes_made += 1
+                logger.info(f"availableDates 배열 업데이트: {today} 추가됨")
+        
+        # 날짜 선택 드롭다운 업데이트
+        date_select_pattern = r'<select id="dateSelect" class="date-select" onchange="handleDateChange\(\)">(.*?)</select>'
+        date_select_match = re.search(date_select_pattern, content, re.DOTALL)
+        if date_select_match:
+            current_options = date_select_match.group(1)
+            
+            # 오늘 날짜 옵션이 없으면 추가
+            today_option = f'<option value="{today}">{today[:4]}-{today[4:6]}-{today[6:8]}</option>'
+            if today_option not in current_options:
+                # 첫 번째 옵션으로 추가
+                new_options = today_option + '\n                                 ' + current_options
+                content = re.sub(date_select_pattern, f'<select id="dateSelect" class="date-select" onchange="handleDateChange()">\n                                 {new_options}\n                             </select>', content, flags=re.DOTALL)
+                changes_made += 1
+                logger.info(f"날짜 선택 드롭다운 업데이트: {today} 옵션 추가됨")
         
         # 변경사항이 있으면 파일에 저장
         if changes_made > 0:
