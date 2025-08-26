@@ -369,7 +369,7 @@
         <div class="container">
             <div class="header">
                 <h1><img src="앱아이콘/aion.webp" alt="AION 아이콘" class="header-icon">고객지원팀 AOS리뷰 대시보드</h1>
-                <p>매주 자동으로 캡처되는 게임 리뷰 현황 (현재는 테스트로 일일 단위로 데이터 확인됩니다.)</p>
+                <p>매주 수요일 오후 1시 자동으로 캡처되는 게임 리뷰 현황</p>
             </div>
 
             <div class="main-content">
@@ -377,14 +377,17 @@
                     <div class="filter-section">
                         <div class="filter-group date-group">
                             <label class="filter-label">📅 날짜 선택</label>
-                                                         <select id="dateSelect" class="date-select" onchange="handleDateChange()">
-                                 <option value="20250825">2025-08-25</option>
-                                 <option value="20250824">2025-08-24</option>
-                                 <option value="20250823">2025-08-23</option>
-                                 <option value="20250822">2025-08-22</option>
-                                 <option value="20250821">2025-08-21</option>
-                                 <option value="20250813">2025-08-13</option>
-                             </select>
+                            <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                                <option value="20250826" selected>2025-08-26</option>
+
+                                <option value="20250825">2025-08-25</option>
+                                <option value="20250824">2025-08-24</option>
+                                <option value="20250823">2025-08-23</option>
+                                <option value="20250822">2025-08-22</option>
+                                <option value="20250821">2025-08-21</option>
+                                <option value="20250813">2025-08-13</option>
+
+                            </select>
                         </div>
                         <div class="filter-group business-group">
                             <label class="filter-label">🏢 사업실 선택</label>
@@ -433,7 +436,7 @@
             ];
 
             // 사용 가능한 날짜들
-            const availableDates = ['20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+            const availableDates = ['20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
             function formatDate(dateStr) {
                 const year = dateStr.substring(0, 4);
@@ -617,7 +620,7 @@
 
             // 페이지 로드 시 기본 날짜 표시
             document.addEventListener('DOMContentLoaded', function () {
-                showDateContent('20250825');
+                showDateContent('20250826');
                 updateGameOptions('all');
                 filterGames('all');
             });

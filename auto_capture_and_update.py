@@ -312,24 +312,28 @@ def update_html_with_new_images(save_dir, logger):
                 changes_made += count
                 logger.info(f"변경됨: {old_pattern} -> {new_filename} ({count}회)")
         
-        # JavaScript 템플릿 변수도 업데이트 (currentDate)
-        js_pattern = r'(\$\{currentDate\})'
-        js_replacement = today
-        new_content, count = re.subn(js_pattern, js_replacement, content)
-        if count > 0:
-            content = new_content
-            changes_made += count
-            logger.info(f"JavaScript 변수 업데이트: ${{currentDate}} -> {today} ({count}회)")
+        # 페이지 로드 시 기본 날짜 업데이트
+        default_date_pattern = r"showDateContent\('([^']+)'\);"
+        default_date_match = re.search(default_date_pattern, content)
+        if default_date_match:
+            current_default = default_date_match.group(1)
+            if current_default != today:
+                content = re.sub(default_date_pattern, f"showDateContent('{today}');", content)
+                changes_made += 1
+                logger.info(f"기본 날짜 업데이트: {current_default} -> {today}")
         
-        # JavaScript 템플릿 변수도 업데이트 (prevDate)
-        prev_date = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y%m%d')
-        js_prev_pattern = r'(\$\{prevDate\})'
-        js_prev_replacement = prev_date
-        new_content, count = re.subn(js_prev_pattern, js_prev_replacement, content)
-        if count > 0:
-            content = new_content
-            changes_made += count
-            logger.info(f"JavaScript 변수 업데이트: ${{prevDate}} -> {prev_date} ({count}회)")
+        # 날짜 선택 드롭다운의 기본 선택값 업데이트
+        date_select_selected_pattern = r'<option value="([^"]+)" selected>'
+        date_select_match = re.search(date_select_selected_pattern, content)
+        if date_select_match:
+            current_selected = date_select_match.group(1)
+            if current_selected != today:
+                # 기존 selected 제거
+                content = re.sub(r'<option value="([^"]+)" selected>', r'<option value="\1">', content)
+                # 새로운 날짜에 selected 추가
+                content = re.sub(f'<option value="{today}">', f'<option value="{today}" selected>', content)
+                changes_made += 1
+                logger.info(f"드롭다운 기본 선택값 업데이트: {current_selected} -> {today}")
         
         # availableDates 배열 업데이트
         available_dates_pattern = r"const availableDates = \[([^\]]*)\];"
