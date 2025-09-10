@@ -299,7 +299,9 @@
                     <div class="filter-group date-group">
                         <label class="filter-label">📅 날짜 선택</label>
                         <select id="dateSelect" class="date-select" onchange="handleDateChange()">
-                            <option value="20250903" selected>2025-09-03</option>
+                            <option value="20250910">2025-09-10</option>
+
+                            <option value="20250903">2025-09-03</option>
                             <option value="20250827">2025-08-27</option>
                             <option value="20250826">2025-08-26</option>
                             <option value="20250825">2025-08-25</option>
@@ -308,6 +310,7 @@
                             <option value="20250822">2025-08-22</option>
                             <option value="20250821">2025-08-21</option>
                             <option value="20250813">2025-08-13</option>
+
                         </select>
                     </div>
                     <div class="filter-group business-group">
@@ -357,7 +360,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = ['20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+        const availableDates = ['20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -378,7 +381,10 @@
             const prevWeekHtml = prevDate ? `
                 <div class="image-section">
                     <h5 class="prev-week">전주 (${formatDate(prevDate)})</h5>
-                    <img src="${prevDate}/${game.name}_${prevDate}.png" alt="${game.displayName} 전주 리뷰" class="capture-image">
+                    <img src="./${prevDate}/${game.name}_${prevDate}.png" alt="${game.displayName} 전주 리뷰" class="capture-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div style="display:none; padding: 50px; background: #f8f9fa; border-radius: 8px; color: #666; text-align: center;">
+                        이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png
+                    </div>
                 </div>
             ` : `
                 <div class="image-section">
@@ -398,7 +404,10 @@
                         ${prevWeekHtml}
                         <div class="image-section">
                             <h5 class="current-week">금주 (${formatDate(currentDate)})</h5>
-                            <img src="${currentDate}/${game.name}_${currentDate}.png" alt="${game.displayName} 금주 리뷰" class="capture-image">
+                            <img src="./${currentDate}/${game.name}_${currentDate}.png" alt="${game.displayName} 금주 리뷰" class="capture-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div style="display:none; padding: 50px; background: #f8f9fa; border-radius: 8px; color: #666; text-align: center;">
+                                이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -541,7 +550,7 @@
 
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
-            showDateContent('20250903');
+            showDateContent('20250910');
             updateGameOptions('all');
             filterGames('all');
         });
