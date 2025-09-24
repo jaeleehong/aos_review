@@ -328,6 +328,8 @@
                     <div class="filter-group date-group">
                         <label class="filter-label">📅 날짜 선택</label>
                         <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                            <option value="20250924">2025-09-24</option>
+
                             <option value="20250917">2025-09-17</option>
                             <option value="20250910">2025-09-10</option>
                             <option value="20250903">2025-09-03</option>
@@ -339,6 +341,7 @@
                             <option value="20250822">2025-08-22</option>
                             <option value="20250821">2025-08-21</option>
                             <option value="20250813">2025-08-13</option>
+
                         </select>
                     </div>
                     <div class="filter-group business-group">
@@ -388,7 +391,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = ['20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+        const availableDates = ['20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -590,7 +593,7 @@
 
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
-            showDateContent('20250917');
+            showDateContent('20250924');
             updateGameOptions('all');
             filterGames('all');
         });
