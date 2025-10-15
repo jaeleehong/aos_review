@@ -328,6 +328,8 @@
                     <div class="filter-group date-group">
                         <label class="filter-label">📅 날짜 선택</label>
                         <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                            <option value="20251015">2025-10-15</option>
+
                             <option value="20251008">2025-10-08</option>
 
                             <option value="20251001">2025-10-01</option>
@@ -345,6 +347,7 @@
                             <option value="20250822">2025-08-22</option>
                             <option value="20250821">2025-08-21</option>
                             <option value="20250813">2025-08-13</option>
+
 
 
 
@@ -397,7 +400,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = ['20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+        const availableDates = ['20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -408,7 +411,7 @@
 
         function getPreviousWeekDate(currentDate) {
             const dateIndex = availableDates.indexOf(currentDate);
-            if (dateIndex < availableDates.length - 1) {
+            if (dateIndex !== -1 && dateIndex < availableDates.length - 1) {
                 return availableDates[dateIndex + 1];
             }
             return null;
@@ -422,8 +425,8 @@
                         <img src="./${prevDate}/${game.name}_${prevDate}.png" 
                              alt="${game.displayName} 전주 리뷰" 
                              class="capture-image" 
-                             onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                             onload="this.style.display='block'; this.nextElementSibling.style.display='none'; console.log('이미지 로드 성공:', this.src);"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; this.nextElementSibling.innerHTML='이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png'; console.log('이미지 로드 실패:', this.src);">
                         <div class="image-error" style="display:none;">
                             이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png
                         </div>
@@ -451,8 +454,8 @@
                                 <img src="./${currentDate}/${game.name}_${currentDate}.png" 
                                      alt="${game.displayName} 금주 리뷰" 
                                      class="capture-image" 
-                                     onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
-                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                     onload="this.style.display='block'; this.nextElementSibling.style.display='none'; console.log('이미지 로드 성공:', this.src);"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; this.nextElementSibling.innerHTML='이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png'; console.log('이미지 로드 실패:', this.src);">
                                 <div class="image-error" style="display:none;">
                                     이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png
                                 </div>
@@ -483,6 +486,11 @@
         function showDateContent(selectedDate, selectedBusiness = 'all') {
             const contentArea = document.querySelector('.content-area');
             const prevDate = getPreviousWeekDate(selectedDate);
+
+            // 디버깅을 위한 콘솔 로그
+            console.log('Selected Date:', selectedDate);
+            console.log('Previous Date:', prevDate);
+            console.log('Available Dates:', availableDates);
 
             // 비즈니스별로 게임 그룹화
             const redGames = games.filter(game => game.business === 'red');
@@ -599,7 +607,7 @@
 
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
-            showDateContent('20251008');
+            showDateContent('20251015');
             updateGameOptions('all');
             filterGames('all');
         });
