@@ -312,6 +312,118 @@
                 border-bottom: 1px solid #e0e0e0;
             }
         }
+
+        /* 이미지 확대 모달 스타일 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            max-width: 95%;
+            max-height: 95%;
+            position: relative;
+            animation: zoomIn 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-image {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            object-fit: contain;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .modal-close:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-info {
+            position: absolute;
+            bottom: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 15px;
+            border-radius: 6px;
+            white-space: nowrap;
+            max-width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* 이미지에 호버 효과 추가 */
+        .capture-image {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .capture-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -328,6 +440,8 @@
                     <div class="filter-group date-group">
                         <label class="filter-label">📅 날짜 선택</label>
                         <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                            <option value="20251022">2025-10-22</option>
+
                             <option value="20251015">2025-10-15</option>
 
                             <option value="20251008">2025-10-08</option>
@@ -347,6 +461,7 @@
                             <option value="20250822">2025-08-22</option>
                             <option value="20250821">2025-08-21</option>
                             <option value="20250813">2025-08-13</option>
+
 
 
 
@@ -385,6 +500,15 @@
         </div>
     </div>
 
+    <!-- 이미지 확대 모달 -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div class="modal-info" id="modalInfo"></div>
+        </div>
+    </div>
+
     <script>
         // 게임 데이터 정의
         const games = [
@@ -400,7 +524,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = ['20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+        const availableDates = ['20251022', '20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -417,6 +541,27 @@
             return null;
         }
 
+        // 이미지 로딩 성공 처리
+        function handleImageLoad(img) {
+            img.style.display = 'block';
+            const errorDiv = img.nextElementSibling;
+            if (errorDiv) {
+                errorDiv.style.display = 'none';
+            }
+            console.log('이미지 로드 성공:', img.src);
+        }
+
+        // 이미지 로딩 실패 처리
+        function handleImageError(img, imagePath) {
+            img.style.display = 'none';
+            const errorDiv = img.nextElementSibling;
+            if (errorDiv) {
+                errorDiv.style.display = 'flex';
+                errorDiv.innerHTML = `이미지를 불러올 수 없습니다.<br>${imagePath}`;
+            }
+            console.log('이미지 로드 실패:', img.src);
+        }
+
         function createGameCard(game, currentDate, prevDate) {
             const prevWeekHtml = prevDate ? `
                 <div class="image-section">
@@ -425,8 +570,9 @@
                         <img src="./${prevDate}/${game.name}_${prevDate}.png" 
                              alt="${game.displayName} 전주 리뷰" 
                              class="capture-image" 
-                             onload="this.style.display='block'; this.nextElementSibling.style.display='none'; console.log('이미지 로드 성공:', this.src);"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; this.nextElementSibling.innerHTML='이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png'; console.log('이미지 로드 실패:', this.src);">
+                             onclick="openModal(this.src, '${game.displayName} - 전주 (${formatDate(prevDate)})')"
+                             onload="handleImageLoad(this)"
+                             onerror="handleImageError(this, '${prevDate}/${game.name}_${prevDate}.png')">
                         <div class="image-error" style="display:none;">
                             이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png
                         </div>
@@ -454,8 +600,9 @@
                                 <img src="./${currentDate}/${game.name}_${currentDate}.png" 
                                      alt="${game.displayName} 금주 리뷰" 
                                      class="capture-image" 
-                                     onload="this.style.display='block'; this.nextElementSibling.style.display='none'; console.log('이미지 로드 성공:', this.src);"
-                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; this.nextElementSibling.innerHTML='이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png'; console.log('이미지 로드 실패:', this.src);">
+                                     onclick="openModal(this.src, '${game.displayName} - 금주 (${formatDate(currentDate)})')"
+                                     onload="handleImageLoad(this)"
+                                     onerror="handleImageError(this, '${currentDate}/${game.name}_${currentDate}.png')">
                                 <div class="image-error" style="display:none;">
                                     이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png
                                 </div>
@@ -491,6 +638,7 @@
             console.log('Selected Date:', selectedDate);
             console.log('Previous Date:', prevDate);
             console.log('Available Dates:', availableDates);
+            console.log('Current Date Index:', availableDates.indexOf(selectedDate));
 
             // 비즈니스별로 게임 그룹화
             const redGames = games.filter(game => game.business === 'red');
@@ -605,9 +753,45 @@
             updateGameOptions(selectedBusiness);
         }
 
+        // 모달 관련 함수들
+        function openModal(imageSrc, imageInfo) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalInfo = document.getElementById('modalInfo');
+
+            modalImage.src = imageSrc;
+            modalInfo.textContent = imageInfo;
+            modal.classList.add('show');
+
+            // ESC 키로 모달 닫기
+            document.addEventListener('keydown', handleEscapeKey);
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('show');
+
+            // ESC 키 이벤트 리스너 제거
+            document.removeEventListener('keydown', handleEscapeKey);
+        }
+
+        function handleEscapeKey(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        }
+
+        // 모달 배경 클릭 시 닫기
+        document.addEventListener('click', function (event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
-            showDateContent('20251015');
+            showDateContent('20251022');
             updateGameOptions('all');
             filterGames('all');
         });
