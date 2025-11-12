@@ -273,24 +273,7 @@ def update_html_with_new_images(save_dir, logger):
         
         # 오늘 날짜
         today = datetime.datetime.now().strftime('%Y%m%d')
-        
-        # 새로 캡처된 파일들의 매핑 생성
-        filename_mapping = {}
-        for app_id, game_name in GAMES.items():
-            # 실제 생성되는 파일명 형식으로 수정
-            new_filename = f"{game_name}_{today}.png"
-            
-            # HTML에서 찾을 수 있는 다양한 패턴들
-            old_patterns = [
-                f"{game_name.lower()}_reviews_{today}_*.png",
-                f"{game_name.lower()}_{today}_*.png", 
-                f"{game_name}_{today}_*.png",
-                f"{game_name.lower()}_reviews_*.png",
-                f"{game_name}_reviews_*.png"
-            ]
-            
-            for old_pattern in old_patterns:
-                filename_mapping[old_pattern] = new_filename
+        today_formatted = f"{today[:4]}-{today[4:6]}-{today[6:8]}"
         
         # HTML 파일 읽기
         with open(html_file, 'r', encoding='utf-8') as f:
@@ -298,87 +281,224 @@ def update_html_with_new_images(save_dir, logger):
         
         logger.info(f"HTML 파일을 읽었습니다: {html_file}")
         
-        # 변경된 내용 추적
+        # BeautifulSoup으로 HTML 파싱
+        soup = BeautifulSoup(content, 'html.parser')
         changes_made = 0
         
-        # 각 매핑에 대해 치환 수행
-        for old_pattern, new_filename in filename_mapping.items():
-            # 정규식을 사용하여 경로 내의 파일명만 치환
-            pattern = r'(["\'])([^"\']*' + re.escape(old_pattern.replace('*', '.*')) + r')(["\'])'
-            replacement = r'\1' + new_filename + r'\3'
+        # 1. 날짜 선택 드롭다운 업데이트
+        date_select = soup.find('select', {'id': 'dateSelect'})
+        if date_select:
+            # 기존 옵션들에서 날짜 값 추출
+            existing_dates = []
+            for option in date_select.find_all('option'):
+                value = option.get('value', '')
+                if value and value not in existing_dates:
+                    existing_dates.append(value)
             
-            new_content, count = re.subn(pattern, replacement, content)
-            if count > 0:
-                content = new_content
-                changes_made += count
-                logger.info(f"변경됨: {old_pattern} -> {new_filename} ({count}회)")
-        
-        # 페이지 로드 시 기본 날짜 업데이트
-        default_date_pattern = r"showDateContent\('([^']+)'\);"
-        default_date_match = re.search(default_date_pattern, content)
-        if default_date_match:
-            current_default = default_date_match.group(1)
-            if current_default != today:
-                content = re.sub(default_date_pattern, f"showDateContent('{today}');", content)
+            # 오늘 날짜가 없으면 첫 번째 옵션으로 추가
+            if today not in existing_dates:
+                new_option = soup.new_tag('option', value=today)
+                new_option.string = today_formatted
+                date_select.insert(0, new_option)
                 changes_made += 1
-                logger.info(f"기본 날짜 업데이트: {current_default} -> {today}")
-        
-        # 날짜 선택 드롭다운의 기본 선택값 업데이트
-        date_select_selected_pattern = r'<option value="([^"]+)" selected>'
-        date_select_match = re.search(date_select_selected_pattern, content)
-        if date_select_match:
-            current_selected = date_select_match.group(1)
-            if current_selected != today:
-                # 기존 selected 제거
-                content = re.sub(r'<option value="([^"]+)" selected>', r'<option value="\1">', content)
-                # 새로운 날짜에 selected 추가
-                content = re.sub(f'<option value="{today}">', f'<option value="{today}" selected>', content)
-                changes_made += 1
-                logger.info(f"드롭다운 기본 선택값 업데이트: {current_selected} -> {today}")
-        
-        # availableDates 배열 업데이트
-        available_dates_pattern = r"const availableDates = \[([^\]]*)\];"
-        available_dates_match = re.search(available_dates_pattern, content)
-        if available_dates_match:
-            current_dates = available_dates_match.group(1).split(',')
-            current_dates = [date.strip().strip("'") for date in current_dates if date.strip()]
+                logger.info(f"날짜 선택 드롭다운에 새 날짜 추가: {today} ({today_formatted})")
             
-            # 오늘 날짜가 없으면 추가
-            if today not in current_dates:
-                current_dates.insert(0, today)  # 최신 날짜를 맨 앞에 추가
-                new_available_dates = "['" + "', '".join(current_dates) + "']"
-                content = re.sub(available_dates_pattern, f"const availableDates = [{new_available_dates}];", content)
-                changes_made += 1
-                logger.info(f"availableDates 배열 업데이트: {today} 추가됨")
-        
-        # 날짜 선택 드롭다운 업데이트
-        date_select_pattern = r'<select id="dateSelect" class="date-select" onchange="handleDateChange\(\)">(.*?)</select>'
-        date_select_match = re.search(date_select_pattern, content, re.DOTALL)
-        if date_select_match:
-            current_options = date_select_match.group(1)
+            # 기존 selected 속성 제거
+            for option in date_select.find_all('option', selected=True):
+                del option['selected']
             
-            # 오늘 날짜 옵션이 없으면 추가
-            today_option = f'<option value="{today}">{today[:4]}-{today[4:6]}-{today[6:8]}</option>'
-            if today_option not in current_options:
-                # 첫 번째 옵션으로 추가
-                new_options = today_option + '\n                                 ' + current_options
-                content = re.sub(date_select_pattern, f'<select id="dateSelect" class="date-select" onchange="handleDateChange()">\n                                 {new_options}\n                             </select>', content, flags=re.DOTALL)
+            # 오늘 날짜 옵션에 selected 추가
+            today_option = date_select.find('option', {'value': today})
+            if today_option:
+                today_option['selected'] = 'selected'
                 changes_made += 1
-                logger.info(f"날짜 선택 드롭다운 업데이트: {today} 옵션 추가됨")
+                logger.info(f"기본 선택 날짜를 {today}로 설정")
+        
+        # 2. availableDates 배열 업데이트
+        script_tags = soup.find_all('script')
+        for script in script_tags:
+            if script.string and 'availableDates' in script.string:
+                # availableDates 배열 찾기 및 업데이트
+                # 패턴: const availableDates = [['20251112', ...]];
+                pattern = r"const availableDates = \[(\[[^\]]+\])\];"
+                match = re.search(pattern, script.string)
+                
+                if match:
+                    # 중첩 배열에서 날짜 추출
+                    inner_array = match.group(1)
+                    dates_match = re.search(r"\[([^\]]+)\]", inner_array)
+                    if dates_match:
+                        dates_str = dates_match.group(1)
+                        # 날짜 추출 (따옴표 제거)
+                        dates = [d.strip().strip("'\"") for d in dates_str.split(',') if d.strip()]
+                        
+                        # 오늘 날짜가 없으면 추가
+                        if today not in dates:
+                            dates.insert(0, today)
+                            # 평면 배열로 수정 (중첩 배열 제거)
+                            new_dates_str = "['" + "', '".join(dates) + "']"
+                            new_script_content = re.sub(
+                                pattern,
+                                f"const availableDates = [{new_dates_str}];",
+                                script.string
+                            )
+                            script.string = new_script_content
+                            changes_made += 1
+                            logger.info(f"availableDates 배열 업데이트: {today} 추가됨 (총 {len(dates)}개 날짜)")
+                else:
+                    # 평면 배열 패턴도 시도
+                    pattern_flat = r"const availableDates = \[([^\]]+)\];"
+                    match_flat = re.search(pattern_flat, script.string)
+                    if match_flat:
+                        dates_str = match_flat.group(1)
+                        dates = [d.strip().strip("'\"") for d in dates_str.split(',') if d.strip()]
+                        
+                        if today not in dates:
+                            dates.insert(0, today)
+                            new_dates_str = "['" + "', '".join(dates) + "']"
+                            new_script_content = re.sub(
+                                pattern_flat,
+                                f"const availableDates = [{new_dates_str}];",
+                                script.string
+                            )
+                            script.string = new_script_content
+                            changes_made += 1
+                            logger.info(f"availableDates 배열 업데이트: {today} 추가됨 (총 {len(dates)}개 날짜)")
+                
+                # 페이지 로드 시 기본 날짜 업데이트
+                default_date_pattern = r"showDateContent\('([^']+)'\);"
+                default_date_match = re.search(default_date_pattern, script.string)
+                if default_date_match:
+                    current_default = default_date_match.group(1)
+                    if current_default != today:
+                        new_script_content = re.sub(
+                            default_date_pattern,
+                            f"showDateContent('{today}');",
+                            script.string
+                        )
+                        script.string = new_script_content
+                        changes_made += 1
+                        logger.info(f"기본 날짜 업데이트: {current_default} -> {today}")
+                break
         
         # 변경사항이 있으면 파일에 저장
         if changes_made > 0:
             with open(html_file, 'w', encoding='utf-8') as f:
-                f.write(content)
-            logger.info(f"총 {changes_made}개의 이미지 경로가 업데이트되었습니다.")
+                f.write(str(soup))
+            logger.info(f"총 {changes_made}개의 변경사항이 HTML 파일에 반영되었습니다.")
             logger.info(f"파일이 저장되었습니다: {html_file}")
             return True
         else:
-            logger.info("변경할 이미지 경로가 없습니다.")
+            logger.info("변경할 내용이 없습니다. 모든 항목이 이미 최신 상태입니다.")
             return True
             
     except Exception as e:
         logger.error(f"HTML 업데이트 중 오류 발생: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        return False
+
+def git_commit_and_push(logger, git_dir=None):
+    """Git commit 및 push 자동화"""
+    try:
+        logger.info("=" * 50)
+        logger.info("Git 작업 시작")
+        
+        # Git 작업 디렉토리 설정 (기본값: D:\aos_review)
+        if git_dir is None:
+            git_dir = r'D:\aos_review'
+        
+        # 디렉토리 존재 확인
+        if not os.path.exists(git_dir):
+            logger.warning(f"Git 작업 디렉토리가 존재하지 않습니다: {git_dir}")
+            return False
+        
+        logger.info(f"Git 작업 디렉토리: {git_dir}")
+        
+        # Git이 설치되어 있는지 확인
+        try:
+            subprocess.run(['git', '--version'], 
+                         capture_output=True, 
+                         check=True, 
+                         encoding='utf-8')
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            logger.warning("Git이 설치되어 있지 않거나 PATH에 없습니다. Git 작업을 건너뜁니다.")
+            return False
+        
+        # 지정된 디렉토리가 Git 저장소인지 확인
+        try:
+            subprocess.run(['git', 'status'], 
+                         capture_output=True, 
+                         check=True, 
+                         cwd=git_dir,
+                         encoding='utf-8')
+        except subprocess.CalledProcessError:
+            logger.warning(f"디렉토리가 Git 저장소가 아닙니다: {git_dir}")
+            return False
+        
+        # 변경사항이 있는지 확인
+        status_result = subprocess.run(['git', 'status', '--porcelain'], 
+                                      capture_output=True, 
+                                      check=True, 
+                                      cwd=git_dir,
+                                      encoding='utf-8')
+        
+        if not status_result.stdout.strip():
+            logger.info("커밋할 변경사항이 없습니다.")
+            return True
+        
+        logger.info("변경된 파일:")
+        logger.info(status_result.stdout)
+        
+        # git add .
+        logger.info("git add . 실행 중...")
+        add_result = subprocess.run(['git', 'add', '.'], 
+                                   capture_output=True, 
+                                   check=True, 
+                                   cwd=git_dir,
+                                   encoding='utf-8')
+        logger.info("git add 완료")
+        
+        # git commit
+        commit_message = "Update and add new log files and scripts"
+        logger.info(f"git commit 실행 중... (메시지: {commit_message})")
+        commit_result = subprocess.run(['git', 'commit', '-m', commit_message], 
+                                      capture_output=True, 
+                                      check=True, 
+                                      cwd=git_dir,
+                                      encoding='utf-8')
+        logger.info("git commit 완료")
+        if commit_result.stdout:
+            logger.info(commit_result.stdout)
+        
+        # git push origin master
+        logger.info("git push origin master 실행 중...")
+        push_result = subprocess.run(['git', 'push', 'origin', 'master'], 
+                                    capture_output=True, 
+                                    check=True, 
+                                    cwd=git_dir,
+                                    encoding='utf-8')
+        logger.info("git push 완료")
+        if push_result.stdout:
+            logger.info(push_result.stdout)
+        
+        logger.info("Git 작업 성공!")
+        logger.info("=" * 50)
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Git 작업 실패: {e}")
+        if e.stdout:
+            logger.error(f"stdout: {e.stdout}")
+        if e.stderr:
+            logger.error(f"stderr: {e.stderr}")
+        logger.info("=" * 50)
+        return False
+    except Exception as e:
+        logger.error(f"Git 작업 중 예상치 못한 오류 발생: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        logger.info("=" * 50)
         return False
 
 def main():
@@ -426,18 +546,28 @@ def main():
         
         # HTML 파일 업데이트
         logger.info("HTML 파일 업데이트 시작")
-        if update_html_with_new_images(save_dir, logger):
+        html_updated = update_html_with_new_images(save_dir, logger)
+        if html_updated:
             logger.info("HTML 파일 업데이트 성공!")
         else:
             logger.error("HTML 파일 업데이트 실패")
         
         logger.info("=" * 50)
+        
+        # Git commit 및 push (성공 여부와 관계없이 시도)
+        # D:\aos_review 디렉토리에서 Git 작업 실행
+        git_success = git_commit_and_push(logger, git_dir=r'D:\aos_review')
+        
         if success_count == len(GAMES):
             logger.info("모든 게임 캡처 및 HTML 업데이트 성공!")
+            if git_success:
+                logger.info("Git 작업도 성공적으로 완료되었습니다!")
             logger.info("=" * 50)
             return True
         elif success_count > 0:
             logger.info(f"{success_count}/{len(GAMES)} 게임 캡처 성공!")
+            if git_success:
+                logger.info("Git 작업도 성공적으로 완료되었습니다!")
             logger.info("=" * 50)
             return True
         else:
