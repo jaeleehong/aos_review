@@ -1,9 +1,10 @@
 ﻿<!DOCTYPE html>
+
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>AION실 고객지원팀 AOS리뷰 대시보드</title>
     <style>
         body {
@@ -430,32 +431,24 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1><img src="앱아이콘/aion.webp" alt="AION 아이콘" class="header-icon">고객지원팀 AOS리뷰 대시보드</h1>
+            <h1><img alt="AION 아이콘" class="header-icon" src="./앱아이콘/aion.webp" />고객지원팀 AOS리뷰 대시보드</h1>
             <p>매주 수요일 오후 1시 자동으로 캡처되는 게임 리뷰 현황 (2025-08-27 이후 부터 주단위로 확인 가능)</p>
         </div>
-
         <div class="main-content">
             <div class="sidebar">
                 <div class="filter-section">
                     <div class="filter-group date-group">
                         <label class="filter-label">📅 날짜 선택</label>
-                        <select id="dateSelect" class="date-select" onchange="handleDateChange()">
+                        <select class="date-select" id="dateSelect" onchange="handleDateChange()">
+                            <option selected="selected" value="20251119">2025-11-19</option>
                             <option value="20251112">2025-11-12</option>
-
                             <option value="20251105">2025-11-05</option>
-
                             <option value="20251029">2025-10-29</option>
-
                             <option value="20251022">2025-10-22</option>
-
                             <option value="20251015">2025-10-15</option>
-
                             <option value="20251008">2025-10-08</option>
-
                             <option value="20251001">2025-10-01</option>
-
                             <option value="20250924">2025-09-24</option>
-
                             <option value="20250917">2025-09-17</option>
                             <option value="20250910">2025-09-10</option>
                             <option value="20250903">2025-09-03</option>
@@ -467,19 +460,11 @@
                             <option value="20250822">2025-08-22</option>
                             <option value="20250821">2025-08-21</option>
                             <option value="20250813">2025-08-13</option>
-
-
-
-
-
-
-
-
                         </select>
                     </div>
                     <div class="filter-group business-group">
                         <label class="filter-label">🏢 사업실 선택</label>
-                        <select id="businessSelect" class="business-select" onchange="handleBusinessChange()">
+                        <select class="business-select" id="businessSelect" onchange="handleBusinessChange()">
                             <option value="all">전체 사업실</option>
                             <option value="red">🎴 레드사업실</option>
                             <option value="blue">🃏 블루사업실</option>
@@ -490,34 +475,30 @@
                         <label class="filter-label">🎮 게임 필터</label>
                         <div class="game-options">
                             <label class="filter-option">
-                                <input type="radio" name="gameFilter" value="all" checked
-                                    onchange="filterGames(this.value)">
+                                <input checked="" name="gameFilter" onchange="filterGames(this.value)" type="radio"
+                                    value="all" />
                                 <span class="filter-label">전체</span>
                             </label>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="content-area">
                 <!-- 동적으로 생성되는 콘텐츠가 여기에 표시됩니다 -->
             </div>
         </div>
-
         <div class="footer">
             <p>© 2025 AION실 - Google Play 리뷰 자동 캡처 시스템</p>
         </div>
     </div>
-
     <!-- 이미지 확대 모달 -->
-    <div id="imageModal" class="modal">
+    <div class="modal" id="imageModal">
         <div class="modal-content">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
-            <img id="modalImage" class="modal-image" src="" alt="">
+            <span class="modal-close" onclick="closeModal()">×</span>
+            <img alt="" class="modal-image" id="modalImage" src="" />
             <div class="modal-info" id="modalInfo"></div>
         </div>
     </div>
-
     <script>
         // 게임 데이터 정의
         const games = [
@@ -533,7 +514,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = ['20251112', '20251105', '20251029', '20251022', '20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
+        const availableDates = ['20251119', '20251112', '20251105', '20251029', '20251022', '20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -581,9 +562,9 @@
                              class="capture-image" 
                              onclick="openModal(this.src, '${game.displayName} - 전주 (${formatDate(prevDate)})')"
                              onload="handleImageLoad(this)"
-                             onerror="handleImageError(this, '${prevDate}/${game.name}_${prevDate}.png')">
+                             onerror="handleImageError(this, './${prevDate}/${game.name}_${prevDate}.png')">
                         <div class="image-error" style="display:none;">
-                            이미지를 불러올 수 없습니다.<br>${prevDate}/${game.name}_${prevDate}.png
+                            이미지를 불러올 수 없습니다.<br>./${prevDate}/${game.name}_${prevDate}.png
                         </div>
                     </div>
                 </div>
@@ -599,7 +580,7 @@
             return `
                 <div class="app-card" data-game="${game.name}">
                     <div class="app-header">
-                        <h4><img src="앱아이콘/${game.icon}" alt="${game.displayName} 아이콘" class="app-icon"> ${game.displayName}</h4>
+                        <h4><img src="./앱아이콘/${game.icon}" alt="${game.displayName} 아이콘" class="app-icon"> ${game.displayName}</h4>
                     </div>
                     <div class="image-comparison">
                         ${prevWeekHtml}
@@ -611,9 +592,9 @@
                                      class="capture-image" 
                                      onclick="openModal(this.src, '${game.displayName} - 금주 (${formatDate(currentDate)})')"
                                      onload="handleImageLoad(this)"
-                                     onerror="handleImageError(this, '${currentDate}/${game.name}_${currentDate}.png')">
+                                     onerror="handleImageError(this, './${currentDate}/${game.name}_${currentDate}.png')">
                                 <div class="image-error" style="display:none;">
-                                    이미지를 불러올 수 없습니다.<br>${currentDate}/${game.name}_${currentDate}.png
+                                    이미지를 불러올 수 없습니다.<br>./${currentDate}/${game.name}_${currentDate}.png
                                 </div>
                             </div>
                         </div>
@@ -800,7 +781,7 @@
 
         // 페이지 로드 시 기본 날짜 표시
         document.addEventListener('DOMContentLoaded', function () {
-            showDateContent('20251112');
+            showDateContent('20251119');
             updateGameOptions('all');
             filterGames('all');
         });
