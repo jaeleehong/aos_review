@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
 
 <html lang="ko">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>AION실 고객지원팀 AOS리뷰 대시보드</title>
-<style>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>AION실 고객지원팀 AOS리뷰 대시보드</title>
+    <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -426,78 +427,81 @@
         }
     </style>
 </head>
+
 <body>
-<div class="container">
-<div class="header">
-<h1><img alt="AION 아이콘" class="header-icon" src="./앱아이콘/aion.webp"/>고객지원팀 AOS리뷰 대시보드</h1>
-<p>매주 수요일 오후 1시 자동으로 캡처되는 게임 리뷰 현황 (2025-08-27 이후 부터 주단위로 확인 가능)</p>
-</div>
-<div class="main-content">
-<div class="sidebar">
-<div class="filter-section">
-<div class="filter-group date-group">
-<label class="filter-label">📅 날짜 선택</label>
-<select class="date-select" id="dateSelect" onchange="handleDateChange()"><option selected="selected" value="20251203">2025-12-03</option>
-<option value="20251126">2025-11-26</option>
-<option value="20251119">2025-11-19</option>
-<option value="20251112">2025-11-12</option>
-<option value="20251105">2025-11-05</option>
-<option value="20251029">2025-10-29</option>
-<option value="20251022">2025-10-22</option>
-<option value="20251015">2025-10-15</option>
-<option value="20251008">2025-10-08</option>
-<option value="20251001">2025-10-01</option>
-<option value="20250924">2025-09-24</option>
-<option value="20250917">2025-09-17</option>
-<option value="20250910">2025-09-10</option>
-<option value="20250903">2025-09-03</option>
-<option value="20250827">2025-08-27</option>
-<option value="20250826">2025-08-26</option>
-<option value="20250825">2025-08-25</option>
-<option value="20250824">2025-08-24</option>
-<option value="20250823">2025-08-23</option>
-<option value="20250822">2025-08-22</option>
-<option value="20250821">2025-08-21</option>
-<option value="20250813">2025-08-13</option>
-</select>
-</div>
-<div class="filter-group business-group">
-<label class="filter-label">🏢 사업실 선택</label>
-<select class="business-select" id="businessSelect" onchange="handleBusinessChange()">
-<option value="all">전체 사업실</option>
-<option value="red">🎴 레드사업실</option>
-<option value="blue">🃏 블루사업실</option>
-<option value="brown">🎰 브라운사업실</option>
-</select>
-</div>
-<div class="filter-group">
-<label class="filter-label">🎮 게임 필터</label>
-<div class="game-options">
-<label class="filter-option">
-<input checked="" name="gameFilter" onchange="filterGames(this.value)" type="radio" value="all"/>
-<span class="filter-label">전체</span>
-</label>
-</div>
-</div>
-</div>
-</div>
-<div class="content-area">
-<!-- 동적으로 생성되는 콘텐츠가 여기에 표시됩니다 -->
-</div>
-</div>
-<div class="footer">
-<p>© 2025 AION실 - Google Play 리뷰 자동 캡처 시스템</p>
-</div>
-</div>
-<!-- 이미지 확대 모달 -->
-<div class="modal" id="imageModal">
-<div class="modal-content">
-<span class="modal-close" onclick="closeModal()">×</span>
-<img alt="" class="modal-image" id="modalImage" src=""/>
-<div class="modal-info" id="modalInfo"></div>
-</div>
-</div>
-<script>
+    <div class="container">
+        <div class="header">
+            <h1><img alt="AION 아이콘" class="header-icon" src="./앱아이콘/aion.webp" />고객지원팀 AOS리뷰 대시보드</h1>
+            <p>매주 수요일 오후 1시 자동으로 캡처되는 게임 리뷰 현황 (2025-08-27 이후 부터 주단위로 확인 가능)</p>
+        </div>
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="filter-section">
+                    <div class="filter-group date-group">
+                        <label class="filter-label">📅 날짜 선택</label>
+                        <select class="date-select" id="dateSelect" onchange="handleDateChange()">
+                            <option selected="selected" value="20251203">2025-12-03</option>
+                            <option value="20251126">2025-11-26</option>
+                            <option value="20251119">2025-11-19</option>
+                            <option value="20251112">2025-11-12</option>
+                            <option value="20251105">2025-11-05</option>
+                            <option value="20251029">2025-10-29</option>
+                            <option value="20251022">2025-10-22</option>
+                            <option value="20251015">2025-10-15</option>
+                            <option value="20251008">2025-10-08</option>
+                            <option value="20251001">2025-10-01</option>
+                            <option value="20250924">2025-09-24</option>
+                            <option value="20250917">2025-09-17</option>
+                            <option value="20250910">2025-09-10</option>
+                            <option value="20250903">2025-09-03</option>
+                            <option value="20250827">2025-08-27</option>
+                            <option value="20250826">2025-08-26</option>
+                            <option value="20250825">2025-08-25</option>
+                            <option value="20250824">2025-08-24</option>
+                            <option value="20250823">2025-08-23</option>
+                            <option value="20250822">2025-08-22</option>
+                            <option value="20250821">2025-08-21</option>
+                            <option value="20250813">2025-08-13</option>
+                        </select>
+                    </div>
+                    <div class="filter-group business-group">
+                        <label class="filter-label">🏢 사업실 선택</label>
+                        <select class="business-select" id="businessSelect" onchange="handleBusinessChange()">
+                            <option value="all">전체 사업실</option>
+                            <option value="red">🎴 레드사업실</option>
+                            <option value="blue">🃏 블루사업실</option>
+                            <option value="brown">🎰 브라운사업실</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">🎮 게임 필터</label>
+                        <div class="game-options">
+                            <label class="filter-option">
+                                <input checked="" name="gameFilter" onchange="filterGames(this.value)" type="radio"
+                                    value="all" />
+                                <span class="filter-label">전체</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-area">
+                <!-- 동적으로 생성되는 콘텐츠가 여기에 표시됩니다 -->
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2025 AION실 - Google Play 리뷰 자동 캡처 시스템</p>
+        </div>
+    </div>
+    <!-- 이미지 확대 모달 -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">×</span>
+            <img alt="" class="modal-image" id="modalImage" src="" />
+            <div class="modal-info" id="modalInfo"></div>
+        </div>
+    </div>
+    <script>
         // 게임 데이터 정의
         const games = [
             { name: 'NewMatgo', displayName: '뉴맞고', icon: '뉴맞고.webp', business: 'red' },
@@ -512,7 +516,7 @@
         ];
 
         // 사용 가능한 날짜들
-        const availableDates = [['20251203', '20251126', '20251119', '20251112', '20251105', '20251029', '20251022', '20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813']];
+        const availableDates = ['20251203', '20251126', '20251119', '20251112', '20251105', '20251029', '20251022', '20251015', '20251008', '20251001', '20250924', '20250917', '20250910', '20250903', '20250827', '20250826', '20250825', '20250824', '20250823', '20250822', '20250821', '20250813'];
 
         function formatDate(dateStr) {
             const year = dateStr.substring(0, 4);
@@ -532,31 +536,57 @@
         // 이미지 로딩 성공 처리
         function handleImageLoad(img) {
             img.style.display = 'block';
+            img.style.visibility = 'visible';
             const errorDiv = img.nextElementSibling;
-            if (errorDiv) {
+            if (errorDiv && errorDiv.classList.contains('image-error')) {
                 errorDiv.style.display = 'none';
             }
             console.log('이미지 로드 성공:', img.src);
         }
 
-        // 이미지 로딩 실패 처리
+        // 이미지 로딩 실패 처리 - 여러 형식 시도
         function handleImageError(img, imagePath) {
+            const retryAttempted = img.dataset.retryAttempted || '0';
+            const retryCount = parseInt(retryAttempted);
+
             // .png 파일이 실패하면 .webp 파일을 시도
-            if (imagePath.endsWith('.png')) {
+            if (retryCount === 0 && imagePath.endsWith('.png')) {
                 const webpPath = imagePath.replace('.png', '.webp');
                 img.src = webpPath;
-                img.dataset.retryAttempted = 'true';
+                img.dataset.retryAttempted = '1';
                 return;
             }
 
-            // .webp도 실패하거나 이미 재시도한 경우 에러 표시
+            // .webp 파일이 실패하면 .png 파일을 시도
+            if (retryCount === 0 && imagePath.endsWith('.webp')) {
+                const pngPath = imagePath.replace('.webp', '.png');
+                img.src = pngPath;
+                img.dataset.retryAttempted = '1';
+                return;
+            }
+
+            // .jpg 파일도 시도
+            if (retryCount === 1) {
+                let jpgPath = imagePath;
+                if (imagePath.endsWith('.png')) {
+                    jpgPath = imagePath.replace('.png', '.jpg');
+                } else if (imagePath.endsWith('.webp')) {
+                    jpgPath = imagePath.replace('.webp', '.jpg');
+                }
+                img.src = jpgPath;
+                img.dataset.retryAttempted = '2';
+                return;
+            }
+
+            // 모든 시도 실패 시 에러 표시
             img.style.display = 'none';
+            img.style.visibility = 'hidden';
             const errorDiv = img.nextElementSibling;
-            if (errorDiv) {
+            if (errorDiv && errorDiv.classList.contains('image-error')) {
                 errorDiv.style.display = 'flex';
                 errorDiv.innerHTML = `이미지를 불러올 수 없습니다.<br>${imagePath}`;
             }
-            console.log('이미지 로드 실패:', img.src);
+            console.log('이미지 로드 실패 (모든 시도 완료):', imagePath);
         }
 
         function createGameCard(game, currentDate, prevDate) {
@@ -567,6 +597,7 @@
                         <img src="./${prevDate}/${game.name}_${prevDate}.png" 
                              alt="${game.displayName} 전주 리뷰" 
                              class="capture-image" 
+                             style="display: block; visibility: visible;"
                              onclick="openModal(this.src, '${game.displayName} - 전주 (${formatDate(prevDate)})')"
                              onload="handleImageLoad(this)"
                              onerror="handleImageError(this, './${prevDate}/${game.name}_${prevDate}.png')">
@@ -587,7 +618,7 @@
             return `
                 <div class="app-card" data-game="${game.name}">
                     <div class="app-header">
-                        <h4><img src="./앱아이콘/${game.icon}" alt="${game.displayName} 아이콘" class="app-icon"> ${game.displayName}</h4>
+                        <h4><img src="./앱아이콘/${game.icon}" alt="${game.displayName} 아이콘" class="app-icon" onerror="this.style.display='none'"> ${game.displayName}</h4>
                     </div>
                     <div class="image-comparison">
                         ${prevWeekHtml}
@@ -597,6 +628,7 @@
                                 <img src="./${currentDate}/${game.name}_${currentDate}.png" 
                                      alt="${game.displayName} 금주 리뷰" 
                                      class="capture-image" 
+                                     style="display: block; visibility: visible;"
                                      onclick="openModal(this.src, '${game.displayName} - 금주 (${formatDate(currentDate)})')"
                                      onload="handleImageLoad(this)"
                                      onerror="handleImageError(this, './${currentDate}/${game.name}_${currentDate}.png')">
@@ -794,4 +826,5 @@
         });
     </script>
 </body>
+
 </html>
